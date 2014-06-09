@@ -8,6 +8,7 @@
 
 #import "APPlaceViewController.h"
 #import "APPlaceTableViewCell.h"
+#import "APMapViewPlacesViewController.h"
 @interface APPlaceViewController ()
 
 @end
@@ -28,6 +29,7 @@
     [super viewDidLoad];
     [self.tableViewPlace setEditing:NO];
     [self.tableViewPlace setAllowsSelection:NO];
+    [self callAPIGetDetailEvent:100];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -88,7 +90,22 @@
 -(float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 150;
 }
+
+-(void)callAPIGetDetailEvent:(int) tag{
+    NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] init];
+    [dictionary setValue:@"json" forKey:@"format"];
+    [dictionary setValue:[NSString stringWithFormat:@"%d",tag] forKey:@"tag"];
+    [dictionary setValue:@"5d7299e5d3ea2698b9ef43527eae374e1ce439da" forKey:@"esapikey"];
+    [APCallAPI getPlaces:^(NSArray *listPlaces, NSObject *error) {
+        mapDataList = [NSMutableArray arrayWithArray:listPlaces];
+       // [self.tableStadium reloadData];
+    } parameters:dictionary didFail:^(NSObject *error) {
+    }];
+    
+}
 - (void)eat{
+    [self showMap];
+    
     
 }
 - (void)do_do{
@@ -105,5 +122,11 @@
 }
 -(void)shopping{
     
+}
+-(void)showMap{
+    APMapViewPlacesViewController *mapView = [[APMapViewPlacesViewController alloc] initWithNibName:@"APMapViewPlacesViewController" bundle:nil];
+    mapView.view.frame = self.view.frame;
+    mapView.mapData = mapDataList;
+    [self.view addSubview:mapView.view];
 }
 @end
