@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0168DCDC-F43E-496C-8565-EFFAA3210131</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AlePlace</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>85E1785A-9E97-49C4-9B04-AB908884D102</key>
+		<string>ssh://github.com/nguyen-tinh-mulodo/AlePlace.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AlePlace.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>85E1785A-9E97-49C4-9B04-AB908884D102</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/nguyen-tinh-mulodo/AlePlace.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>85E1785A-9E97-49C4-9B04-AB908884D102</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>85E1785A-9E97-49C4-9B04-AB908884D102</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AlePlace</string>
+		</dict>
+	</array>
+</dict>
+</plist>
