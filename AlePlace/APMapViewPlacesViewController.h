@@ -10,13 +10,14 @@
 #import <GoogleMaps/GoogleMaps.h>
 #import "FMConstants.h"
 #import "APCity.h"
-#import <MapKit/MapKit.h>
 #import "MapAnnotation.h"
 #import "APMyAnnotation.h"
-@interface APMapViewPlacesViewController : UIViewController
+@interface APMapViewPlacesViewController : UIViewController<CLLocationManagerDelegate,GMSMapViewDelegate>
 {
-     MKMapView * mapView ;
-   // @property (nonatomic, retain) MKMapView *map;
+    
+     GMSMapView * mapView ;
+    UIImage * markerImg;
+   // id<GMSMarker> myMarker;
 
     
 }

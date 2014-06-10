@@ -9,12 +9,13 @@
 #import "APMapViewPlacesViewController.h"
 #import "APCallAPI.h"
 #import "APStadium.h"
+#import "FMUtils.h"
 
 
 @interface APMapViewPlacesViewController (){
-    NSMutableArray *listStadiums;
     NSInteger page;
     NSMutableDictionary *dictionary;
+    
 }
 @end
 
@@ -32,60 +33,88 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //[self showMultiAnonation:mapData];
-//    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:51.5
-//                                                            longitude:-0.127
-//                                                                 zoom:10];
-//    mapView_ = [GMSMapView mapWithFrame:self.view.frame camera:camera];
-//    mapView_.myLocationEnabled = YES;
-//    self.view = mapView_;
-//    CLLocationCoordinate2D position = CLLocationCoordinate2DMake(51.5, -0.127);
-//    GMSMarker *london = [GMSMarker markerWithPosition:position];
-//    london.title = @"London";
-//    london.icon = [UIImage imageNamed:@"default_marker"];
-//    london.map = mapView_;
-    
-  
+    mapData =[[NSMutableArray alloc] init];
+    [self callAPIGetStadium];
 
+
+    markerImg=[FMUtils imageWithImage:[UIImage imageNamed:@"Eat&-drink"] scaledToSize:CGSizeMake(40, 40)];
     // Do any additional setup after loading the view from its nib.
 }
 -(void)callAPIGetStadium{
     dictionary = [[NSMutableDictionary alloc] init];
     [dictionary setValue:@"json" forKey:@"format"];
-    [dictionary setValue:[NSString stringWithFormat:@"%d",page] forKey:@"page"];
+    [dictionary setValue:[NSString stringWithFormat:@"%d",5] forKey:@"page"];
     [dictionary setValue:@"5d7299e5d3ea2698b9ef43527eae374e1ce439da" forKey:@"esapikey"];
     [APCallAPI getStadiums:^(NSArray *listEvent, NSObject *error) {
-        listStadiums = [NSMutableArray arrayWithArray:listEvent];
-        [self showMultiAnonation:listStadiums];
+        mapData = [NSMutableArray arrayWithArray:listEvent];
+        [self showMultiAnonation:mapData];
+        
     } parameters:dictionary didFail:^(NSObject *error) {
     }];
     
 }
 -(void) showMultiAnonation:(NSMutableArray*) listData{
-    APStadium * stadium;
+    APStadium * stadium=[[APStadium alloc] init];
+    stadium =[listData objectAtIndex:2];
+
+    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:0
+                                                            longitude:0
+                                                                 zoom:6];
+    mapView = [GMSMapView mapWithFrame:CGRectZero camera:camera];
+    mapView.delegate = self;
+
+    mapView.myLocationEnabled = YES;
+
+    mapView.settings.compassButton = YES;
+    mapView.settings.myLocationButton = YES;
+    self.view=mapView;
+
+    GMSCoordinateBounds *bounds = [[GMSCoordinateBounds alloc] init];
+
     for ( int i=0; i<[listData count]; i++)
     {
         stadium =[listData objectAtIndex:i];
       
-        CLLocationCoordinate2D coord;
         
-        coord.latitude=stadium.latitude;
-        coord.longitude=stadium.longitude;
-        MKCoordinateRegion region1;
-        region1.center=coord;
-        region1.span.longitudeDelta=20 ;
-        region1.span.latitudeDelta=20;
-        [mapView setRegion:region1 animated:YES];
-        
-        NSString *titleStr =stadium.nameStadium ;
-        // NSLog(@"title is:%@",titleStr);
-        
-        MyAnnotation*  annotObj =[[MyAnnotation alloc]initWithCoordinate:coord title:titleStr];
-        [mapView addAnnotation:annotObj];
-      
+         CLLocationCoordinate2D position = CLLocationCoordinate2DMake(stadium.latitude,stadium.longitude);
+         CLLocationDegrees degrees = 0;
+        GMSMarker *gmarker = [GMSMarker markerWithPosition:position];
+        gmarker.appearAnimation=kGMSMarkerAnimationPop;
+         gmarker.groundAnchor = CGPointMake(0.5, 0.5);
+        gmarker.title=stadium.nameStadium;
+        gmarker.snippet = stadium.city;
+        bounds = [bounds includingCoordinate:gmarker.position];
+        gmarker.icon=markerImg;
+        gmarker.rotation = degrees;
+         gmarker.map = mapView;
 
         
     }
+    [mapView animateWithCameraUpdate:[GMSCameraUpdate fitBounds:bounds withPadding:30.0f]];
+    UIButton * btn=[[UIButton alloc] initWithFrame:CGRectMake(100, 100, 50, 50)];
+    btn.backgroundColor=[UIColor greenColor];
+    [mapView addSubview:btn];
+    [btn addTarget:self action:@selector(tapOnBtn) forControlEvents:UIControlEventTouchDown];
+ 
+}
+-(void)mapView:(GMSMapView *)mapView
+didTapInfoWindowOfMarker:(GMSMarker*)marker
+{
+    NSLog(@"MARKER..... %@",marker);
+
+    
+}
+-(void) tapOnBtn
+{
+    NSLog(@"aaa");
+}
+
+
+- (BOOL) mapView:	(GMSMapView *) 	mapView didTapMarker:(GMSMarker *) 	marker
+{
+    NSLog(@"MARKER..... %@",marker);
+    return TRUE;
+
 }
 
 - (void)didReceiveMemoryWarning

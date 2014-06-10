@@ -62,7 +62,7 @@
     }];
     
 }
-+ (void)getPlaces:(void (^)(NSArray *ListProduct, NSObject *error))block parameters:(NSDictionary *)parameters didFail:(void (^)(NSObject *))blockFail{
++ (void)getStadiumData:(void (^)(NSArray *ListProduct, NSObject *error))block parameters:(NSDictionary *)parameters didFail:(void (^)(NSObject *))blockFail{
     [[APAlePlaceNetWork sharedClient] getPath:@"places/getDataBy" parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
         
         NSMutableArray *dictionary = [NSJSONSerialization JSONObjectWithData:responseObject  options: NSJSONReadingMutableContainers error:nil];

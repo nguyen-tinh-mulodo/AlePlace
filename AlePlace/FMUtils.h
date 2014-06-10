@@ -15,4 +15,5 @@
 + (UIView *)getMainView;
 + (UIBarButtonItem *)backArrowButtonWithTarget:(id)target action:(SEL)action;
 + (UIBarButtonItem *)moreArrowButtonWithTarget:(id)target action:(SEL)action;
++ (UIImage *)imageWithImage:(UIImage *)image scaledToSize:(CGSize)newSize;
 @end
