@@ -30,7 +30,7 @@
     [button setImage:buttonImage forState:UIControlStateNormal];
     //set the frame of the button to the size of the image (see note below)
     [button setContentMode:UIViewContentModeScaleAspectFit];
-    button.frame = CGRectMake(0, 0,60,40);
+    button.frame = CGRectMake(0, 0,0,0);
     [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
     
     //create a UIBarButtonItem with the button as a custom view

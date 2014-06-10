@@ -74,8 +74,8 @@
     scrollDetailEvent.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     
     [self callAPIGetDetailEvent];
-     self.navigationItem.leftBarButtonItem = [FMUtils backArrowButtonWithTarget:self action:@selector(popViewControllerAnimated)];
-     self.navigationItem.rightBarButtonItem = [FMUtils moreArrowButtonWithTarget:self action:@selector(showMoreView)];
+    self.navigationItem.leftBarButtonItem = [FMUtils backArrowButtonWithTarget:self action:@selector(popViewControllerAnimated)];
+    // self.navigationItem.rightBarButtonItem = [FMUtils moreArrowButtonWithTarget:self action:@selector(showMoreView)];
     // Do any additional setup after loading the view from its nib.
     tabBarAle.delegate = self;
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)

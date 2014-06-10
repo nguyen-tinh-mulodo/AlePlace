@@ -24,7 +24,7 @@
                 <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H3C-mK-0OE">
                     <rect key="frame" x="93" y="290" width="150" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="progressTintColor" red="0.14659114200964918" green="0.18033788982041088" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="progressTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </progressView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="tag.png" translatesAutoresizingMaskIntoConstraints="NO" id="J9K-Kj-Acw">
                     <rect key="frame" x="110" y="110" width="105" height="128"/>

@@ -127,6 +127,7 @@
 		18BEF9FF1946F4C00009C1CF /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9FC1946F4C00009C1CF /* ball.png */; };
 		18BEFA001946F4C00009C1CF /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9FD1946F4C00009C1CF /* shadow.png */; };
 		18BEFA011946F4C00009C1CF /* tag.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9FE1946F4C00009C1CF /* tag.png */; };
+		18BEFA031947095B0009C1CF /* testView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEFA021947095B0009C1CF /* testView.xib */; };
 		CE6C09681945B80600455A5B /* APMapViewPlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C09661945B80600455A5B /* APMapViewPlacesViewController.m */; };
 		CE6C09691945B80600455A5B /* APMapViewPlacesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6C09671945B80600455A5B /* APMapViewPlacesViewController.xib */; };
 		CE6C096C1946051400455A5B /* APCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C096B1946051400455A5B /* APCountry.m */; };
@@ -306,6 +307,7 @@
 		18BEF9FC1946F4C00009C1CF /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 		18BEF9FD1946F4C00009C1CF /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow.png; sourceTree = "<group>"; };
 		18BEF9FE1946F4C00009C1CF /* tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag.png; sourceTree = "<group>"; };
+		18BEFA021947095B0009C1CF /* testView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testView.xib; sourceTree = "<group>"; };
 		CE6C09651945B80600455A5B /* APMapViewPlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMapViewPlacesViewController.h; sourceTree = "<group>"; };
 		CE6C09661945B80600455A5B /* APMapViewPlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APMapViewPlacesViewController.m; sourceTree = "<group>"; };
 		CE6C09671945B80600455A5B /* APMapViewPlacesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APMapViewPlacesViewController.xib; sourceTree = "<group>"; };
@@ -544,6 +546,7 @@
 				18BEF84F1942C1920009C1CF /* APPlaceTableViewCell.h */,
 				18BEF8501942C1920009C1CF /* APPlaceTableViewCell.m */,
 				18BEF8511942C1920009C1CF /* APPlaceTableViewCell.xib */,
+				18BEFA021947095B0009C1CF /* testView.xib */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -984,6 +987,7 @@
 				18BEF87A19430A2C0009C1CF /* Back-button.png in Resources */,
 				18BEF8411942B7AF0009C1CF /* maps.png in Resources */,
 				18BEF8641942C28D0009C1CF /* Places-icon.png in Resources */,
+				18BEFA031947095B0009C1CF /* testView.xib in Resources */,
 				18BEF8371942B48B0009C1CF /* APTakecareViewController.xib in Resources */,
 				18BEF81119418F630009C1CF /* APDetailEventViewController.xib in Resources */,
 				18BEF8431942B7AF0009C1CF /* take-care_icon.png in Resources */,
