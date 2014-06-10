@@ -18,4 +18,5 @@
 @property (strong,nonatomic) UINavigationController *navigation;
 + (APAppDelegate *)appDelegate;
 -(void)setTitleLabel;
+- (IBAction)backBtnClick:(id)sender;
 @end

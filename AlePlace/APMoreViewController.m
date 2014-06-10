@@ -7,13 +7,14 @@
 //
 
 #import "APMoreViewController.h"
-
+#import "FMConstants.h"
+#import "FMUtils.h"
+#import "TTTAttributedLabel.h"
 @interface APMoreViewController ()
-
 @end
 
 @implementation APMoreViewController
-
+@synthesize lable;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -26,9 +27,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(popView) name:kRevovemore object:nil];
     // Do any additional setup after loading the view from its nib.
+    self.navigationItem.leftBarButtonItem = [FMUtils backArrowButtonWithTarget:self action:@selector(popViewControllerAnimated)];
 }
-
+-(void)popViewControllerAnimated{
+    
+}
+-(void)popView{
+    [self.navigationController popViewControllerAnimated:NO];
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
