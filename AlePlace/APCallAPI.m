@@ -78,6 +78,38 @@
     }];
     
 }
++ (void)getCountries:(void (^)(NSArray *ListProduct, NSObject *error))block parameters:(NSDictionary *)parameters didFail:(void (^)(NSObject *))blockFail{
+    [[APAlePlaceNetWork sharedClient] getPath:@"countries/getData" parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        
+        NSMutableArray *dictionary = [NSJSONSerialization JSONObjectWithData:responseObject  options: NSJSONReadingMutableContainers error:nil];
+        NSMutableArray *mutableProducts =[[NSMutableArray alloc] initWithArray:[APParserData parseJSONtoArrayOfCountries:dictionary]];
+        
+        if (block) {
+            block([NSArray arrayWithArray:mutableProducts], nil);
+        }
+        
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"error:%@",error);
+    }];
+    
+}
++ (void)getCities:(void (^)(NSArray *ListProduct, NSObject *error))block parameters:(NSDictionary *)parameters didFail:(void (^)(NSObject *))blockFail{
+    [[APAlePlaceNetWork sharedClient] getPath:@"cities/getDataByCountryId" parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
+        
+        NSMutableArray *dictionary = [NSJSONSerialization JSONObjectWithData:responseObject  options: NSJSONReadingMutableContainers error:nil];
+        NSMutableArray *mutableProducts =[[NSMutableArray alloc] initWithArray:[APParserData parseJSONtoArrayOfCity:dictionary]];
+        
+        if (block) {
+            block([NSArray arrayWithArray:mutableProducts], nil);
+        }
+        
+        
+    } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+        NSLog(@"error:%@",error);
+    }];
+    
+}
 
 //places/getDataBy
 @end

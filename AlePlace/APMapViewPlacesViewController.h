@@ -9,10 +9,15 @@
 #import <UIKit/UIKit.h>
 #import <GoogleMaps/GoogleMaps.h>
 #import "FMConstants.h"
-
+#import "APCity.h"
+#import <MapKit/MapKit.h>
+#import "MapAnnotation.h"
+#import "APMyAnnotation.h"
 @interface APMapViewPlacesViewController : UIViewController
 {
-    GMSMapView *mapView_ ;
+     MKMapView * mapView ;
+   // @property (nonatomic, retain) MKMapView *map;
+
     
 }
 @property(nonatomic,retain) NSMutableArray *mapData;

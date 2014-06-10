@@ -9,6 +9,8 @@
 #import "APParserData.h"
 #import "APEvent.h"
 #import "APStadium.h"
+#import "APCity.h"
+#import "APCountry.h"
 @implementation APParserData
 + (NSArray *)parseJSONtoArrayOfProduct:(id)responseObject {
     //NSArray *postsFromResponse =[[responseObject objectForKey:@"xml"] objectForKey:@"item"];
@@ -33,6 +35,22 @@
     NSMutableArray *mutableProducts = [[NSMutableArray alloc] init];
         APEvent *event = [[APEvent alloc] initWithAttributes:responseObject];
         [mutableProducts addObject:event];
+    return mutableProducts;
+} 
++ (NSArray *)parseJSONtoArrayOfCountries:(id)responseObject { // chua parse nha
+    //NSArray *postsFromResponse =[[responseObject objectForKey:@"xml"] objectForKey:@"item"];
+ NSMutableArray *mutableProducts = [[NSMutableArray alloc] init];
+ APEvent *event = [[APEvent alloc] initWithAttributes:responseObject];
+ [mutableProducts addObject:event];
+    return mutableProducts;
+}
++ (NSArray *)parseJSONtoArrayOfCity:(id)responseObject {
+    //NSArray *postsFromResponse =[[responseObject objectForKey:@"xml"] objectForKey:@"item"];
+    NSMutableArray *mutableProducts = [NSMutableArray arrayWithCapacity:[responseObject count]];
+    for (NSDictionary *attributes in responseObject) {
+        APCity *city = [[APCity alloc] initWithAttributes:attributes];
+    [mutableProducts addObject:city];
+    }
     return mutableProducts;
 }
 @end
