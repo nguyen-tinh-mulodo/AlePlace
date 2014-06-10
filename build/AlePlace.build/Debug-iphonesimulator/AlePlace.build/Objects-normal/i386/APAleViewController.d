@@ -51,4 +51,7 @@ dependencies: \
   /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFImageRequestOperation.h \
   /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPRequestOperation.h \
   /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFURLConnectionOperation.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/FMConstants.h
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/FMConstants.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APTeamViewController.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APEcheduleViewController.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APResultViewController.h

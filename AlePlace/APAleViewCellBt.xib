@@ -34,7 +34,7 @@
                             <action selector="teamBt:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="RQ2-xK-Zq8"/>
                         </connections>
                     </button>
-                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Pe-JP-uFO">
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Pe-JP-uFO">
                         <rect key="frame" x="161" y="0.0" width="2" height="108"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -44,12 +44,14 @@
                     <constraint firstAttribute="centerX" secondItem="4Pe-JP-uFO" secondAttribute="centerX" id="97w-Ah-93i"/>
                     <constraint firstAttribute="trailing" secondItem="Brh-tt-32o" secondAttribute="trailing" constant="10" id="B9N-u2-9im"/>
                     <constraint firstItem="6f4-YH-rjt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="ER3-W2-mud"/>
+                    <constraint firstItem="4Pe-JP-uFO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="161" id="FM1-TR-v8x"/>
                     <constraint firstItem="6f4-YH-rjt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="NMI-aa-CL9"/>
                     <constraint firstAttribute="centerY" secondItem="4Pe-JP-uFO" secondAttribute="centerY" id="OmQ-h5-Jrq"/>
                     <constraint firstItem="4Pe-JP-uFO" firstAttribute="leading" secondItem="6f4-YH-rjt" secondAttribute="trailing" constant="5" id="cOW-5n-scv"/>
                     <constraint firstItem="Brh-tt-32o" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="fs4-Mw-dQK"/>
                     <constraint firstAttribute="bottom" secondItem="Brh-tt-32o" secondAttribute="bottom" constant="10" id="nnC-uv-cE8"/>
                     <constraint firstItem="Brh-tt-32o" firstAttribute="leading" secondItem="4Pe-JP-uFO" secondAttribute="trailing" constant="10" id="olu-aF-abk"/>
+                    <constraint firstItem="4Pe-JP-uFO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yK0-ES-nPT"/>
                     <constraint firstAttribute="bottom" secondItem="6f4-YH-rjt" secondAttribute="bottom" constant="10" id="ydG-uq-uEz"/>
                 </constraints>
             </tableViewCellContentView>

@@ -65,10 +65,10 @@
     
     
     NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"testView" owner:self options:nil];
-    UIView *view = [[UIView alloc] init]; // or if it exists, MCQView *view = [[MCQView alloc] init];
-    view = (UIView *)[nib objectAtIndex:0]; // or if it exists, (MCQView *)[nib objectAtIndex:0];
-    //navigationItem.titleView = view;
-    [self.navigationController.navigationBar addSubview:view];
+    
+     UIView *view = [[UIView alloc] init]; // or if it exists, MCQView *view = [[MCQView alloc] init];
+     view = (UIView *)[nib objectAtIndex:0]; // or if it exists, (MCQView *)[nib objectAtIndex:0];
+     [self.navigationController.navigationBar addSubview:view];
 }
 -(void)callAPIGetEvents{
     NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] init];

@@ -15,6 +15,7 @@
 
 @implementation APPlaceViewController
 @synthesize tableViewPlace;
+APMapViewPlacesViewController *mapView;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -29,7 +30,7 @@
     [super viewDidLoad];
     [self.tableViewPlace setEditing:NO];
     [self.tableViewPlace setAllowsSelection:NO];
-    [self callAPIGet];
+
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -87,7 +88,7 @@
     
     
 }
--(float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 150;
 }
 
@@ -103,6 +104,8 @@
     }];
     
 }
+
+
 - (void)eat{
     [self showMap];
     
@@ -123,10 +126,10 @@
 -(void)shopping{
     
 }
+
 -(void)showMap{
     APMapViewPlacesViewController *mapView = [[APMapViewPlacesViewController alloc] initWithNibName:@"APMapViewPlacesViewController" bundle:nil];
     mapView.view.frame = self.view.frame;
-    mapView.mapData = mapDataList;
     [self.view addSubview:mapView.view];
 }
 @end
