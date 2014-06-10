@@ -8,14 +8,15 @@
 
 #import "APPlaceViewController.h"
 #import "APPlaceTableViewCell.h"
-#import "APMapViewPlacesViewController.h"
+#import "APPlaceMapViewController.h"
+#import "APPlaceDataListTableViewController.h"
 @interface APPlaceViewController ()
 
 @end
 
 @implementation APPlaceViewController
 @synthesize tableViewPlace;
-APMapViewPlacesViewController *mapView;
+APPlaceMapViewController *mapView;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -128,8 +129,14 @@ APMapViewPlacesViewController *mapView;
 }
 
 -(void)showMap{
-    APMapViewPlacesViewController *mapView = [[APMapViewPlacesViewController alloc] initWithNibName:@"APMapViewPlacesViewController" bundle:nil];
+    /*
+    APPlaceMapViewController *mapView = [[APPlaceMapViewController alloc] init];
     mapView.view.frame = self.view.frame;
     [self.view addSubview:mapView.view];
+     */
+    APPlaceDataListTableViewController *dataView = [[APPlaceDataListTableViewController alloc] initWithNibName:@"APPlaceDataListTableViewController" bundle:nil];
+    dataView.view.frame = self.view.frame;
+    [self.view addSubview:dataView.view];
+    
 }
 @end

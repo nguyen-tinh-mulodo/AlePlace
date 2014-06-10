@@ -1,8 +1,8 @@
 //
-//  APMapViewPlacesViewController.h
+//  APPlaceMapViewController.h
 //  AlePlace
 //
-//  Created by VinhPhuc on 6/9/14.
+//  Created by VinhPhuc on 6/10/14.
 //
 //
 
@@ -12,14 +12,14 @@
 #import "APCity.h"
 #import "MapAnnotation.h"
 #import "APMyAnnotation.h"
-@interface APMapViewPlacesViewController : UIViewController<CLLocationManagerDelegate,GMSMapViewDelegate>
+@interface APPlaceMapViewController : UIViewController<GMSMapViewDelegate>
 {
     
-     GMSMapView * mapView ;
+    GMSMapView * mapView ;
     UIImage * markerImg;
-   // id<GMSMarker> myMarker;
+    // id<GMSMarker> myMarker;
 
-    
 }
 @property(nonatomic,retain) NSMutableArray *mapData;
 @end
+

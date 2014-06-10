@@ -22,9 +22,9 @@
     return mutableProducts;
 }
 + (NSArray *)parseJSONtoArrayOfStadiums:(id)responseObject {
-    //NSArray *postsFromResponse =[[responseObject objectForKey:@"xml"] objectForKey:@"item"];
+
     NSMutableArray *mutableProducts = [NSMutableArray arrayWithCapacity:[responseObject count]];
-    for (NSDictionary *attributes in responseObject) {
+    for (NSDictionary *attributes in [responseObject objectForKey:@"data"]) {
         APStadium *stadium = [[APStadium alloc] initWithAttributes:attributes];
         [mutableProducts addObject:stadium];
     }

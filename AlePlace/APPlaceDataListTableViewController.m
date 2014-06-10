@@ -86,7 +86,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *CellIdentifier = @"APAleViewCellBt";
+    static NSString *CellIdentifier = @"cell";
     APStadiumTableViewCell *cell = nil;
     cell = (APStadiumTableViewCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     cell.tag = indexPath.row;

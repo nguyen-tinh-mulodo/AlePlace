@@ -58,62 +58,35 @@
     
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)
     {
-        navigationController.navigationBar.barTintColor = UIColorFromRGB(kMetroColorGreenSea);
+        navigationController.navigationBar.barTintColor = UIColorFromRGB(kMetroColorGreen);
     }else{
         navigationController.navigationController.navigationBar.tintColor = UIColorFromRGB(kMetroColorGreen);
     }
     
-     if ([viewController isKindOfClass:[APHomeViewController class]]) {
-    
-     UIImageView *imageview = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Title.png"]];
-          [imageview setContentMode:UIViewContentModeScaleAspectFit];
-         imageview.frame = CGRectMake(0, 0, 200, 44);
-     UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 44)];
-         [imageview addSubview:label];
+    if ([viewController isKindOfClass:[APHomeViewController class]]) {
+        //[navigationController.navigationBar setTranslucent:NO];
+        UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 44)];
+        
         label.text = @"ALEPLACE";
-   
-    label.backgroundColor = [UIColor clearColor];
-    label.font = [UIFont fontWithName:@"Roboto-Regular" size:17];
-    //label.shadowColor = [UIColor colorWithWhite:0.0 alpha:0.5];
-    label.textAlignment = NSTextAlignmentCenter;
-    label.textColor = [UIColor whiteColor];
-    navigationItem.titleView = imageview;
-     }else{
-         
-         NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"testView" owner:self options:nil];
-         
-         UIView *view = [[UIView alloc] init]; // or if it exists, MCQView *view = [[MCQView alloc] init];
-         
-         view = (UIView *)[nib objectAtIndex:0]; // or if it exists, (MCQView *)[nib objectAtIndex:0];
-         
-          navigationItem.titleView = view;
-         /*UIView *view = [[UIView alloc] initWithFrame:CGRectMake(-20, 0,self.window.frame.size.width,45)];
-         
-         
-         UIImageView *imageview = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Title.png"]];
-         [imageview setContentMode:UIViewContentModeScaleAspectFit];
-         UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(0, 2, 200, 40)];
-         [imageview addSubview:label];
-         label.text = @"SPORT EVENT";
-         
-         label.backgroundColor = [UIColor clearColor];
-         label.font = [UIFont fontWithName:@"Roboto-Regular" size:17];
-         //label.shadowColor = [UIColor colorWithWhite:0.0 alpha:0.5];
-         label.textAlignment = NSTextAlignmentCenter;
-         label.textColor = [UIColor whiteColor];
-         
-         
-         UIButton *back = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 60, 45)];
-          [back.imageView setContentMode:UIViewContentModeScaleAspectFit];
-          imageview.frame = CGRectMake(CGRectGetMaxX(back.frame), 6,view.frame.size.width-144, 34);
-         UIButton *more = [[UIButton alloc] initWithFrame:CGRectMake(CGRectGetMaxX(imageview.frame),0, 60, 45)];
-          [more.imageView setContentMode:UIViewContentModeScaleAspectFit];
-         [more setImage:[UIImage imageNamed:@"More.png"] forState:UIControlStateNormal];
-         [back setImage:[UIImage imageNamed:@"Back-button-.png"] forState:UIControlStateNormal];
-         [view addSubview:back];
-         [view addSubview:imageview];
-         [view addSubview:more];*/
-     }
+        
+        label.backgroundColor = [UIColor clearColor];
+        label.font = [UIFont fontWithName:@"Roboto-Regular" size:17];
+        //label.shadowColor = [UIColor colorWithWhite:0.0 alpha:0.5];
+        label.textAlignment = NSTextAlignmentCenter;
+        label.textColor = [UIColor whiteColor];
+        navigationItem.titleView = label;
+    }else{
+        UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 44)];
+        
+        label.text = @"SPORT EVENT";
+        
+        label.backgroundColor = [UIColor clearColor];
+        label.font = [UIFont fontWithName:@"Roboto-Regular" size:17];
+        //label.shadowColor = [UIColor colorWithWhite:0.0 alpha:0.5];
+        label.textAlignment = NSTextAlignmentCenter;
+        label.textColor = [UIColor whiteColor];
+        navigationItem.titleView = label;
+    }
 }
 -(void)setTitleLabel{
     UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 44)];
@@ -136,7 +109,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
+    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
 }
 
