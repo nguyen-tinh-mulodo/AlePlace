@@ -13,5 +13,8 @@
 + (void)getDetailEvent:(void (^)(NSArray *ListProduct, NSObject *error))block parameters:(NSDictionary *)parameters didFail:(void (^)(NSObject *))blockFail;
 + (void)getStadiums:(void (^)(NSArray *ListProduct, NSObject *error))block parameters:(NSDictionary *)parameters didFail:(void (^)(NSObject *))blockFail;
 + (void)getPlaces:(void (^)(NSArray *ListProduct, NSObject *error))block parameters:(NSDictionary *)parameters didFail:(void (^)(NSObject *))blockFail;
++ (void)getCountries:(void (^)(NSArray *ListProduct, NSObject *error))block parameters:(NSDictionary *)parameters didFail:(void (^)(NSObject *))blockFail;
++ (void)getCities:(void (^)(NSArray *ListProduct, NSObject *error))block parameters:(NSDictionary *)parameters didFail:(void (^)(NSObject *))blockFail;
+
 
 @end

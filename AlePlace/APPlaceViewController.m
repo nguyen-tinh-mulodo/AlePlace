@@ -29,7 +29,7 @@
     [super viewDidLoad];
     [self.tableViewPlace setEditing:NO];
     [self.tableViewPlace setAllowsSelection:NO];
-    [self callAPIGetDetailEvent:100];
+    [self callAPIGet];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -91,12 +91,12 @@
     return 150;
 }
 
--(void)callAPIGetDetailEvent:(int) tag{
+-(void)callAPIGet{
     NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] init];
     [dictionary setValue:@"json" forKey:@"format"];
-    [dictionary setValue:[NSString stringWithFormat:@"%d",tag] forKey:@"tag"];
+    [dictionary setValue:@"33" forKey:@"countryId"];
     [dictionary setValue:@"5d7299e5d3ea2698b9ef43527eae374e1ce439da" forKey:@"esapikey"];
-    [APCallAPI getPlaces:^(NSArray *listPlaces, NSObject *error) {
+    [APCallAPI getCities:^(NSArray *listPlaces, NSObject *error) {
         mapDataList = [NSMutableArray arrayWithArray:listPlaces];
        // [self.tableStadium reloadData];
     } parameters:dictionary didFail:^(NSObject *error) {

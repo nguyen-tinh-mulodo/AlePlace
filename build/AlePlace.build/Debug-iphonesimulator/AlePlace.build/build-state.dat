@@ -6,6 +6,7 @@ cProcessPCH /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.Developer
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/AFURLConnectionOperation.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFURLConnectionOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APEventTableViewCell.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APEventTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APStadiumTableViewCell.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APStadiumTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCountry.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCountry.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/UIImageView+AFNetworking.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/UIImageView+AFNetworking.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/main.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APShowFullMapViewController.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APShowFullMapViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
@@ -15,6 +16,7 @@ cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-norm
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APAlePlaceNetWork.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APAlePlaceNetWork.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APStadium.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APStadium.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailStadiumViewController.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APDetailStadiumViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMyAnnotation.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APMyAnnotation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APLaunchImageViewController.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APLaunchImageViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/AFXMLRequestOperation.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFXMLRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APAleViewController.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/APAleViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
@@ -29,11 +31,14 @@ cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-norm
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/AFImageRequestOperation.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFImageRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/AFHTTPClient.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPClient.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APPlaceViewController.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APPlaceViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCity.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCity.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailEventViewController.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APDetailEventViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMapViewPlacesViewController.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCallAPI.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/AFJSONRequestOperation.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFJSONRequestOperation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APAleViewCell.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APAleViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APAppDelegate.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/MapAnnotation.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/MapAnnotation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/AlePlace normal i386
 cCpResource AlePlace/Image/Top-Bottom_Menu/Home-but.png build/Debug-iphonesimulator/AlePlace.app/Home-but.png
 cCompileXIB /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APAleViewCell.xib
@@ -55,8 +60,8 @@ cCpResource AlePlace/Image/Place/casa-da-vila-700x391.png build/Debug-iphonesimu
 cCompileXIB /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APEventTableViewCell.xib
 cCompileXIB /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APLaunchImageViewController.xib
 cCpResource AlePlace/Image/Place/shopping.jpg build/Debug-iphonesimulator/AlePlace.app/shopping.jpg
-cCpResource AlePlace/Image/Top-Bottom_Menu/Back-button-.png build/Debug-iphonesimulator/AlePlace.app/Back-button-.png
 cCpResource AlePlace/Image/Back-button-.png build/Debug-iphonesimulator/AlePlace.app/Back-button-.png
+cCpResource AlePlace/Image/Top-Bottom_Menu/Back-button-.png build/Debug-iphonesimulator/AlePlace.app/Back-button-.png
 cCpResource AlePlace/Image/Top-Bottom_Menu/Takecare-but.png build/Debug-iphonesimulator/AlePlace.app/Takecare-but.png
 cCompileXIB /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APDetailStadiumViewController.xib
 cCpResource AlePlace/Image/Top-Bottom_Menu/Ale-button.png build/Debug-iphonesimulator/AlePlace.app/Ale-button.png
@@ -83,6 +88,7 @@ cCompileXIB /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APTakecare
 cCompileXIB /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APDetailEventViewController.xib
 cCpResource AlePlace/Image/take\ care/take-care_icon.png build/Debug-iphonesimulator/AlePlace.app/take-care_icon.png
 cCpResource AlePlace/Image/take\ care/hospital.png build/Debug-iphonesimulator/AlePlace.app/hospital.png
+cCompileXIB /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.xib
 cCpResource AlePlace/Image/Top-Bottom_Menu/Places-but.png build/Debug-iphonesimulator/AlePlace.app/Places-but.png
 cCompileAssetCatalog /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Images.xcassets
 cProcessInfoPlistFile /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/Info.plist /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AlePlace-Info.plist
@@ -109,15 +115,40 @@ c00000000534B40C60000000000484210
 t1397440710
 s4735504
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+c00000000534B40C60000000000098030
+t1397440710
+s622640
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000534B40C60000000000059340
+t1397440710
+s365376
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c00000000534B40C7000000000058E0E0
+t1397440711
+s5824736
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreData.framework/CoreData
 c00000000534B40C800000000006CED60
 t1397440712
 s7138656
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c00000000534B40C700000000005B82F0
+t1397440711
+s5997296
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
 c00000000534B40C70000000000446820
 t1397440711
 s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+c00000000534B40C700000000003599D0
+t1397440711
+s3512784
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
 c00000000534B40C700000000000F1A80
@@ -128,6 +159,11 @@ N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 c00000000534B40C800000000002FC3B0
 t1397440712
 s3130288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000534B40C8000000000004B000
+t1397440712
+s307200
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
 c00000000534B40C9000000000088D8C0
@@ -144,6 +180,11 @@ c00000000534B40CC000000000067F940
 t1397440716
 s6814016
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c00000000534B40CC00000000002E6B60
+t1397440716
+s3042144
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
 c00000000534B40CD0000000000037680
 t1397440717
@@ -153,6 +194,11 @@ N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 c00000000534B40CE000000000048F720
 t1397440718
 s4781856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+c00000000534B40CF000000000013FD70
+t1397440719
+s1310064
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
 c00000000534B40D000000000001081C0
@@ -164,25 +210,170 @@ c00000000534B40D40000000001F1DE10
 t1397440724
 s32628240
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+c00000000534B40FE00000000002BC360
+t1397440766
+s2868064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+c00000000534B410C0000000000002338
+t1397440780
+s9016
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+c00000000534B410D000000000008D370
+t1397440781
+s578416
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libc++.dylib
 c00000000534B410D00000000001730B0
 t1397440781
 s1519792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libc++abi.dylib
+c00000000534B410D00000000000681A0
+t1397440781
+s426400
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libicucore.dylib
 c00000000534B410D00000000004F47E0
 t1397440781
 s5195744
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+c00000000534B410D0000000000392E20
+t1397440781
+s3747360
+
 N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libz.dylib
 c00000000534B410D000000000002B700
 t1397440781
 s177920
 
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+c000000005316E5F800000000000141F0
+t1394009592
+s82416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+c00000000534B410D0000000000014A80
+t1397440781
+s84608
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+c00000000534B410D0000000000033BA0
+t1397440781
+s211872
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+c00000000534B410D000000000001CFB0
+t1397440781
+s118704
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+c00000000534B410D000000000001B2B0
+t1397440781
+s111280
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+c00000000534B410D00000000000C9570
+t1397440781
+s824688
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+c00000000534B410D0000000000063280
+t1397440781
+s406144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+c00000000534B410D0000000000008880
+t1397440781
+s34944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+c00000000534B410D0000000000015080
+t1397440781
+s86144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+c00000000534B410D00000000000230F0
+t1397440781
+s143600
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+c00000000534B410D000000000000E380
+t1397440781
+s58240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+c00000000534B410D0000000000089380
+t1397440781
+s562048
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+c00000000534B410D0000000000017320
+t1397440781
+s95008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+c00000000534B410D0000000000039CD0
+t1397440781
+s236752
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+c00000000534B410D000000000000B0B0
+t1397440781
+s45232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+c00000000534B410E0000000000167E80
+t1397440782
+s1474176
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+c00000000534B410D00000000000106A0
+t1397440781
+s67232
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+c00000000534B410D000000000001CE40
+t1397440781
+s118336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+c00000000534B410D00000000000740C0
+t1397440781
+s475328
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+c00000000534B410D000000000006CA60
+t1397440781
+s445024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+c00000000534B410D000000000001BAD0
+t1397440781
+s113360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+c00000000534B410D0000000000084A20
+t1397440781
+s543264
+
 N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
 c00000000534B41560000000000000ADC
 t1397440854
 s2780
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+c00000000534B4156000000000000514C
+t1397440854
+s20812
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/APAleViewController.h
+c0000000053956B5E00000000000002F6
+t1402301278
+s758
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/APAleViewController.m
 c0000000053956B5E0000000000002783
@@ -194,55 +385,110 @@ c0000000053956B5E0000000000000B89
 t1402301278
 s2953
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPClient.h
+c0000000053956B5E000000000000952F
+t1402301278
+s38191
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPClient.m
 c0000000053956B5E000000000000D1D3
 t1402301278
 s53715
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPRequestOperation.h
+c0000000053956B5E0000000000001907
+t1402301278
+s6407
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPRequestOperation.m
 c0000000053956B5E000000000000340D
 t1402301278
 s13325
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFImageRequestOperation.h
+c0000000053956B5E00000000000017D7
+t1402301278
+s6103
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFImageRequestOperation.m
 c0000000053956B5E00000000000031DA
 t1402301278
 s12762
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFJSONRequestOperation.h
+c0000000053956B5E0000000000000E83
+t1402301278
+s3715
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFJSONRequestOperation.m
 c0000000053956B5E00000000000018AE
 t1402301278
 s6318
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFNetworkActivityIndicatorManager.h
+c0000000053956B5E0000000000000EB8
+t1402301278
+s3768
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFNetworkActivityIndicatorManager.m
 c0000000053956B5E0000000000001654
 t1402301278
 s5716
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFPropertyListRequestOperation.h
+c0000000053956B5E0000000000000DCB
+t1402301278
+s3531
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFPropertyListRequestOperation.m
 c0000000053956B5E000000000000164A
 t1402301278
 s5706
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFURLConnectionOperation.h
+c0000000053956B5E0000000000004A28
+t1402301278
+s18984
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFURLConnectionOperation.m
 c0000000053956B5E0000000000007BA6
 t1402301278
 s31654
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFXMLRequestOperation.h
+c0000000053956B5E00000000000013E0
+t1402301278
+s5088
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFXMLRequestOperation.m
 c0000000053956B5E0000000000001944
 t1402301278
 s6468
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/UIImageView+AFNetworking.h
+c0000000053956B5E000000000000152E
+t1402301278
+s5422
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/UIImageView+AFNetworking.m
 c0000000053956B5E00000000000019C5
 t1402301278
 s6597
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APAlePlaceNetWork.h
+c0000000053956B5E00000000000000DA
+t1402301278
+s218
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APAlePlaceNetWork.m
 c0000000053956B5E00000000000001EA
 t1402301278
 s490
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APAleViewCell.h
+c0000000053956B5E00000000000000CE
+t1402301278
+s206
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APAleViewCell.m
 c0000000053956B5E000000000000017B
@@ -254,6 +500,11 @@ c0000000053956B5E0000000000000AE9
 t1402301278
 s2793
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APAleViewCellBt.h
+c0000000053956B5E0000000000000212
+t1402301278
+s530
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APAleViewCellBt.m
 c0000000053956B5E0000000000000348
 t1402301278
@@ -264,15 +515,50 @@ c0000000053956B5E0000000000001532
 t1402301278
 s5426
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APAppDelegate.h
+c0000000053956B5E0000000000000279
+t1402301278
+s633
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APAppDelegate.m
 c0000000053956B5E000000000000170E
 t1402301278
 s5902
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.h
+c000000005395D3D8000000000000042D
+t1402328024
+s1069
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.m
-c0000000053956B5E0000000000000AAA
+c000000005395D3D80000000000001494
+t1402328024
+s5268
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCity.h
+c000000005395DF71000000000000015C
+t1402330993
+s348
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCity.m
+c000000005395DF71000000000000024E
+t1402330993
+s590
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCountry.h
+c000000005395CD940000000000000096
+t1402326420
+s150
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCountry.m
+c000000005395D3D800000000000000ED
+t1402328024
+s237
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APDetailEventViewController.h
+c0000000053956B5E00000000000005D9
 t1402301278
-s2730
+s1497
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APDetailEventViewController.m
 c0000000053956B5E0000000000005291
@@ -284,6 +570,11 @@ c0000000053956B5E00000000000043E5
 t1402301278
 s17381
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APDetailStadiumViewController.h
+c0000000053956B5E00000000000003DE
+t1402301278
+s990
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APDetailStadiumViewController.m
 c0000000053956B5E0000000000001954
 t1402301278
@@ -294,10 +585,20 @@ c0000000053956B5E00000000000026B4
 t1402301278
 s9908
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APEvent.h
+c0000000053956B5E00000000000003C4
+t1402301278
+s964
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APEvent.m
 c0000000053956B5E0000000000000468
 t1402301278
 s1128
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APEventTableViewCell.h
+c0000000053956B5E000000000000014C
+t1402301278
+s332
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APEventTableViewCell.m
 c0000000053956B5E00000000000004E8
@@ -309,6 +610,11 @@ c0000000053956B5E0000000000001917
 t1402301278
 s6423
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APHomeViewController.h
+c0000000053956B5E00000000000000E6
+t1402301278
+s230
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APHomeViewController.m
 c0000000053956B5E00000000000018F5
 t1402301278
@@ -318,6 +624,11 @@ N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APHomeViewController.xi
 c0000000053956B5E00000000000013C3
 t1402301278
 s5059
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APLaunchImageViewController.h
+c0000000053956B5E000000000000012F
+t1402301278
+s303
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APLaunchImageViewController.m
 c0000000053956B5E00000000000005BB
@@ -329,10 +640,45 @@ c0000000053956B5E0000000000000B78
 t1402301278
 s2936
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.h
+c000000005395E05E00000000000001E4
+t1402331230
+s484
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.m
+c00000000539664C600000000000008A4
+t1402365126
+s2212
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.xib
+c00000000539580850000000000000558
+t1402306693
+s1368
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMyAnnotation.h
+c000000005395DF7100000000000002CE
+t1402330993
+s718
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMyAnnotation.m
+c000000005395DEC20000000000000288
+t1402330818
+s648
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APParserData.h
+c000000005395D3D800000000000001C3
+t1402328024
+s451
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APParserData.m
-c0000000053956B5E00000000000005CE
+c000000005395D62C0000000000000933
+t1402328620
+s2355
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APPlaceTableViewCell.h
+c0000000053956B5E000000000000022A
 t1402301278
-s1486
+s554
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APPlaceTableViewCell.m
 c0000000053956B5E0000000000000408
@@ -344,15 +690,25 @@ c0000000053956B5E000000000000152C
 t1402301278
 s5420
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APPlaceViewController.h
+c0000000053958B2F0000000000000163
+t1402309423
+s355
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APPlaceViewController.m
-c0000000053956B5E0000000000000C9B
-t1402301278
-s3227
+c000000005395D4000000000000001027
+t1402328064
+s4135
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APPlaceViewController.xib
 c0000000053956B5E0000000000000B90
 t1402301278
 s2960
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APShowFullMapViewController.h
+c0000000053956B5E00000000000000F9
+t1402301278
+s249
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APShowFullMapViewController.m
 c0000000053956B5E0000000000000718
@@ -364,10 +720,20 @@ c0000000053956B5E0000000000000556
 t1402301278
 s1366
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APStadium.h
+c0000000053956B5E000000000000037E
+t1402301278
+s894
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APStadium.m
 c0000000053956B5E0000000000000578
 t1402301278
 s1400
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APStadiumTableViewCell.h
+c0000000053956B5E00000000000002EC
+t1402301278
+s748
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APStadiumTableViewCell.m
 c0000000053956B5E00000000000002AE
@@ -379,6 +745,11 @@ c0000000053956B5E00000000000037F1
 t1402301278
 s14321
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APStadiumViewController.h
+c0000000053956B5E000000000000012B
+t1402301278
+s299
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APStadiumViewController.m
 c0000000053956B5E00000000000014DE
 t1402301278
@@ -388,6 +759,11 @@ N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APStadiumViewController
 c0000000053956B5E0000000000000B90
 t1402301278
 s2960
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APTakecareViewController.h
+c0000000053956B5E0000000000000122
+t1402301278
+s290
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APTakecareViewController.m
 c0000000053956B5E000000000000162A
@@ -408,6 +784,16 @@ N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AlePlace-Prefix.pch
 c0000000053956B5E0000000000000158
 t1402301278
 s344
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/FMConstants.h
+c0000000053956B5E0000000000001D75
+t1402301278
+s7541
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/FMUtils.h
+c0000000053956B5E000000000000019D
+t1402301278
+s413
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/FMUtils.m
 c0000000053956B5E0000000000000595
@@ -589,10 +975,205 @@ c0000000053956B6500000000032F87FC
 t1402301285
 s53446652
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSAddress.h
+c0000000053956B65000000000000070A
+t1402301285
+s1802
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCALayer.h
+c0000000053956B6500000000000001FB
+t1402301285
+s507
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCameraPosition.h
+c0000000053956B6500000000000011DA
+t1402301285
+s4570
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCameraUpdate.h
+c0000000053956B650000000000000CC7
+t1402301285
+s3271
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCircle.h
+c0000000053956B650000000000000587
+t1402301285
+s1415
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCoordinateBounds.h
+c0000000053956B650000000000000B6B
+t1402301285
+s2923
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSGeocoder.h
+c0000000053956B6500000000000006A0
+t1402301285
+s1696
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSGeometryUtils.h
+c0000000053956B650000000000002158
+t1402301285
+s8536
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSGroundOverlay.h
+c0000000053956B650000000000000994
+t1402301285
+s2452
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSIndoorBuilding.h
+c0000000053956B650000000000000336
+t1402301285
+s822
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSIndoorDisplay.h
+c0000000053956B650000000000000753
+t1402301285
+s1875
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSIndoorLevel.h
+c0000000053956B6500000000000002CC
+t1402301285
+s716
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapLayer.h
+c0000000053956B650000000000000E53
+t1402301285
+s3667
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapView+Animation.h
+c0000000053956B650000000000000735
+t1402301285
+s1845
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapView.h
+c0000000053956B6500000000000030D5
+t1402301285
+s12501
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMarker.h
+c0000000053956B650000000000001466
+t1402301285
+s5222
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMarkerLayer.h
+c0000000053956B650000000000000514
+t1402301285
+s1300
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMutablePath.h
+c0000000053956B6500000000000006F9
+t1402301285
+s1785
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSOrientation.h
+c0000000053956B6500000000000003FC
+t1402301285
+s1020
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSOverlay.h
+c0000000053956B650000000000000748
+t1402301285
+s1864
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanorama.h
+c0000000053956B650000000000000374
+t1402301285
+s884
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaCamera.h
+c0000000053956B6500000000000009A2
+t1402301285
+s2466
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h
+c0000000053956B65000000000000032E
+t1402301285
+s814
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaLayer.h
+c0000000053956B6500000000000004B9
+t1402301285
+s1209
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaLink.h
+c0000000053956B650000000000000260
+t1402301285
+s608
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaService.h
+c0000000053956B6500000000000006C9
+t1402301285
+s1737
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaView.h
+c0000000053956B6500000000000021C7
+t1402301285
+s8647
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPath.h
+c0000000053956B650000000000000DFC
+t1402301285
+s3580
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPolygon.h
+c0000000053956B650000000000000519
+t1402301285
+s1305
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPolyline.h
+c0000000053956B650000000000000BFC
+t1402301285
+s3068
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSProjection.h
+c0000000053956B650000000000000A6D
+t1402301285
+s2669
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSServices.h
+c0000000053956B65000000000000070E
+t1402301285
+s1806
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSSyncTileLayer.h
+c0000000053956B65000000000000034C
+t1402301285
+s844
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSTileLayer.h
+c0000000053956B650000000000000DFB
+t1402301285
+s3579
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSUISettings.h
+c0000000053956B650000000000000CDC
+t1402301285
+s3292
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSURLTileLayer.h
+c0000000053956B650000000000000611
+t1402301285
+s1553
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GoogleMaps.h
+c0000000053956B65000000000000068D
+t1402301285
+s1677
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle
 c0000000053956B6600000000000002EC
 t1402301286
 s748
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/MapAnnotation.h
+c0000000050870B0F0000000000000B0C
+t1351027471
+s2828
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/MapAnnotation.m
+c000000005395DF810000000000000CE1
+t1402331009
+s3297
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/en.lproj/InfoPlist.strings
 c0000000053956B66000000000000002D
@@ -657,12 +1238,20 @@ t1402304257
 s85408
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCallAPI.o
-t1402304257
-s20752
+t1402328065
+s33596
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCity.o
+t1402330996
+s12092
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCountry.o
+t1402328065
+s3352
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailEventViewController.o
-t1402304257
-s191260
+t1402328065
+s191292
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailStadiumViewController.o
 t1402304256
@@ -677,24 +1266,32 @@ t1402304255
 s48296
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APHomeViewController.o
-t1402304256
+t1402328028
 s69020
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APLaunchImageViewController.o
 t1402304256
 s47372
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMapViewPlacesViewController.o
+t1402365126
+s49464
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMyAnnotation.o
+t1402330996
+s12712
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APParserData.o
-t1402304256
-s11664
+t1402330996
+s14776
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APPlaceTableViewCell.o
 t1402304256
 s52444
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APPlaceViewController.o
-t1402304256
-s62580
+t1402331232
+s73796
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APShowFullMapViewController.o
 t1402304256
@@ -709,7 +1306,7 @@ t1402304255
 s58676
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APStadiumViewController.o
-t1402304256
+t1402328028
 s81424
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APTakecareViewController.o
@@ -717,13 +1314,17 @@ t1402304255
 s65496
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/AlePlace.LinkFileList
-c00000000539576FA00000000000011D4
-t1402304250
-s4564
+c000000005395DF71000000000000149B
+t1402330993
+s5275
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/FMUtils.o
 t1402304256
 s48972
+
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/MapAnnotation.o
+t1402331009
+s15912
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/UIImageView+AFNetworking.o
 t1402304255
@@ -742,12 +1343,12 @@ t1402304293
 s585
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app
-t1402304293
-s1870
+t1402365128
+s1904
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app.dSYM
-t2
-s0
+t1402331377
+s102
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/APAleViewCell.nib
 t1402304288
@@ -781,6 +1382,10 @@ N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AleP
 t1402304284
 s136
 
+N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/APMapViewPlacesViewController.nib
+t1402325445
+s136
+
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/APPlaceTableViewCell.nib
 t1402304284
 s136
@@ -810,8 +1415,8 @@ t1402304286
 s10172
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/AlePlace
-t1402304260
-s5696292
+t1402365127
+s5729884
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/Ale_01_11.png
 t1402304289
@@ -830,7 +1435,7 @@ t1402304286
 s31854
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/Back-button-.png
-t1402304284
+t1402365128
 s5097
 
 N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/Back-button.png
@@ -953,6 +1558,136 @@ N/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AleP
 t1402304260
 s63650
 
+N/usr/lib/libSystem.B.dylib
+c000000005271C7DF000000000000E6D0
+t1383188447
+s59088
+
+N/usr/lib/system/libcache.dylib
+c000000005271C7F50000000000012A00
+t1383188469
+s76288
+
+N/usr/lib/system/libcommonCrypto.dylib
+c000000005271C7C8000000000002E320
+t1383188424
+s189216
+
+N/usr/lib/system/libcompiler_rt.dylib
+c000000005271C7DF0000000000021860
+t1383188447
+s137312
+
+N/usr/lib/system/libcopyfile.dylib
+c000000005271C7F3000000000001B620
+t1383188467
+s112160
+
+N/usr/lib/system/libcorecrypto.dylib
+c000000005271C7F300000000000BD920
+t1383188467
+s776480
+
+N/usr/lib/system/libkeymgr.dylib
+c000000005271C7F5000000000000A120
+t1383188469
+s41248
+
+N/usr/lib/system/liblaunch.dylib
+c000000005316E5F8000000000001D550
+t1394009592
+s120144
+
+N/usr/lib/system/libmacho.dylib
+c000000005271C7F30000000000014EE0
+t1383188467
+s85728
+
+N/usr/lib/system/libquarantine.dylib
+c000000005271C7F80000000000010380
+t1383188472
+s66432
+
+N/usr/lib/system/libremovefile.dylib
+c000000005271C7F8000000000000C4C0
+t1383188472
+s50368
+
+N/usr/lib/system/libsystem_asl.dylib
+c000000005271C7F500000000000357A0
+t1383188469
+s219040
+
+N/usr/lib/system/libsystem_blocks.dylib
+c000000005271C7F5000000000000C070
+t1383188469
+s49264
+
+N/usr/lib/system/libsystem_c.dylib
+c000000005316E5CF0000000000168D00
+t1394009551
+s1477888
+
+N/usr/lib/system/libsystem_configuration.dylib
+c000000005316E5F30000000000010630
+t1394009587
+s67120
+
+N/usr/lib/system/libsystem_dnssd.dylib
+c000000005316E5F9000000000001DF10
+t1394009593
+s122640
+
+N/usr/lib/system/libsystem_info.dylib
+c000000005271C7DF0000000000075B00
+t1383188447
+s482048
+
+N/usr/lib/system/libsystem_kernel.dylib
+c0000000053572BE1000000000007CC70
+t1398221793
+s511088
+
+N/usr/lib/system/libsystem_m.dylib
+c000000005271C7DF00000000000766C0
+t1383188447
+s485056
+
+N/usr/lib/system/libsystem_malloc.dylib
+c000000005316E5F80000000000044DC0
+t1394009592
+s282048
+
+N/usr/lib/system/libsystem_notify.dylib
+c000000005271C7DF0000000000021FA0
+t1383188447
+s139168
+
+N/usr/lib/system/libsystem_platform.dylib
+c000000005316E5F8000000000002D920
+t1394009592
+s186656
+
+N/usr/lib/system/libsystem_pthread.dylib
+c000000005271C7F6000000000001E570
+t1383188470
+s124272
+
+N/usr/lib/system/libsystem_sandbox.dylib
+c000000005316E5E5000000000000CC70
+t1394009573
+s52336
+
+N/usr/lib/system/libunc.dylib
+c000000005271C7ED000000000000C3F0
+t1383188461
+s50160
+
+N/usr/lib/system/libunwind.dylib
+c000000005271C7F600000000000199F0
+t1383188470
+s104944
+
 N/var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch.pch
 t1402304252
 s121908
@@ -1002,6 +1737,12 @@ r0
 CBuild AST from /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.m
 r0
 
+CBuild AST from /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCity.m
+r0
+
+CBuild AST from /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCountry.m
+r0
+
 CBuild AST from /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APDetailEventViewController.m
 r0
 
@@ -1018,6 +1759,12 @@ CBuild AST from /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APHome
 r0
 
 CBuild AST from /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APLaunchImageViewController.m
+r0
+
+CBuild AST from /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.m
+r0
+
+CBuild AST from /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APMyAnnotation.m
 r0
 
 CBuild AST from /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APParserData.m
@@ -1047,12 +1794,15 @@ r0
 CBuild AST from /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/FMUtils.m
 r0
 
+CBuild AST from /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/MapAnnotation.m
+r0
+
 CBuild AST from /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/main.m
 r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies97c5287aae45b941^3fc9657aae45b941^-154"Warning: Multiple build commands for output file /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/Back-button-.png1(21%IDEActivityLogMessage2@153"Warning: Multiple build commands for output file /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/Back-button-.png-423997050#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#1#--18"Check dependencies36"CF62FA47-1340-47D6-9D83-F711C6E8B3C3-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesbf6318469c46b941^b56b1a469c46b941^-154"Warning: Multiple build commands for output file /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/Back-button-.png1(21%IDEActivityLogMessage2@153"Warning: Multiple build commands for output file /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/Back-button-.png-424057926#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#1#--18"Check dependencies36"BE85BB43-D906-4144-8BE3-CC4F373F4A18-
 
 CCompileAssetCatalog /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Images.xcassets
 s423997093.344632
@@ -1404,8 +2154,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile
 b1EF080CA-6EA0-4298-80FA-73BA873EDC66
 
 CCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCallAPI.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423997056.948712
-e423997057.073485
+s424020864.974747
+e424020865.153164
 r1
 xCompileC
 xbuild/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCallAPI.o
@@ -1431,12 +2181,44 @@ o/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPClie
 o#pragma message("MobileCoreServices framework not found in project, or not included in precompiled header. Automatic MIME type detection when uploading files in multipart requests will not be available.")
 o        ^
 o2 warnings generated.
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.m187"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCallAPI.o AlePlace/APCallAPI.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6501f380ae45b941^a7cf1281ae45b941^-1186"In file included from /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.m:10:In file included from /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APAlePlaceNetWork.h:10:/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPClient.h:84:9: warning: SystemConfiguration framework not found in project, or not included in precompiled header. Network reachability functionality will not be available. [-W#pragma-messages]#pragma message("SystemConfiguration framework not found in project, or not included in precompiled header. Network reachability functionality will not be available.")        ^/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPClient.h:89:9: warning: MobileCoreServices framework not found in project, or not included in precompiled header. Automatic MIME type detection when uploading files in multipart requests will not be available. [-W#pragma-messages]#pragma message("MobileCoreServices framework not found in project, or not included in precompiled header. Automatic MIME type detection when uploading files in multipart requests will not be available.")        ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@148"SystemConfiguration framework not found in project, or not included in precompiled header. Network reachability functionality will not be available.-423997057#18446744073709551615#0#2(2@93"In file included from /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.m:10:-423997057#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@78"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APCallAPI.m0000000000000000^9#8#9#8#104#0#21"Apple LLVM 5.1 Notice--2@101"In file included from /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APAlePlaceNetWork.h:10:-423997057#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@86"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APAlePlaceNetWork.h0000000000000000^9#8#9#8#114#0#21"Apple LLVM 5.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@94"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPClient.h0000000000000000^83#8#83#8#4897#0#25"#pragma message Directive--2@185"MobileCoreServices framework not found in project, or not included in precompiled header. Automatic MIME type detection when uploading files in multipart requests will not be available.-423997057#18446744073709551615#0#2(2@93"In file included from /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.m:10:-423997057#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@78"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APCallAPI.m0000000000000000^9#8#9#8#104#0#21"Apple LLVM 5.1 Notice--2@101"In file included from /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APAlePlaceNetWork.h:10:-423997057#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@86"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APAlePlaceNetWork.h0000000000000000^9#8#9#8#114#0#21"Apple LLVM 5.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@94"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPClient.h0000000000000000^88#8#88#8#5129#0#25"#pragma message Directive--0#0#1#-19%DVTDocumentLocation4@78"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APCallAPI.m0000000000000000^3869"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCallAPI.o AlePlace/APCallAPI.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCallAPI.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCallAPI.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCallAPI.o36"E32A2BDD-EBF1-4FA7-BA0F-E099C445E98A-
-b1EF080CA-6EA0-4298-80FA-73BA873EDC66
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.m187"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCallAPI.o AlePlace/APCallAPI.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerbff1f9800b46b941^645829810b46b941^-1186"In file included from /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.m:10:In file included from /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APAlePlaceNetWork.h:10:/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPClient.h:84:9: warning: SystemConfiguration framework not found in project, or not included in precompiled header. Network reachability functionality will not be available. [-W#pragma-messages]#pragma message("SystemConfiguration framework not found in project, or not included in precompiled header. Network reachability functionality will not be available.")        ^/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPClient.h:89:9: warning: MobileCoreServices framework not found in project, or not included in precompiled header. Automatic MIME type detection when uploading files in multipart requests will not be available. [-W#pragma-messages]#pragma message("MobileCoreServices framework not found in project, or not included in precompiled header. Automatic MIME type detection when uploading files in multipart requests will not be available.")        ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@148"SystemConfiguration framework not found in project, or not included in precompiled header. Network reachability functionality will not be available.-424020865#18446744073709551615#0#2(2@93"In file included from /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.m:10:-424020865#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@78"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APCallAPI.m0000000000000000^9#8#9#8#104#0#21"Apple LLVM 5.1 Notice--2@101"In file included from /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APAlePlaceNetWork.h:10:-424020865#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@86"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APAlePlaceNetWork.h0000000000000000^9#8#9#8#114#0#21"Apple LLVM 5.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@94"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPClient.h0000000000000000^83#8#83#8#4897#0#25"#pragma message Directive--2@185"MobileCoreServices framework not found in project, or not included in precompiled header. Automatic MIME type detection when uploading files in multipart requests will not be available.-424020865#18446744073709551615#0#2(2@93"In file included from /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.m:10:-424020865#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@78"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APCallAPI.m0000000000000000^9#8#9#8#104#0#21"Apple LLVM 5.1 Notice--2@101"In file included from /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APAlePlaceNetWork.h:10:-424020865#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@86"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APAlePlaceNetWork.h0000000000000000^9#8#9#8#114#0#21"Apple LLVM 5.1 Notice--1#27"com.apple.dt.IDE.diagnostic3@94"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPClient.h0000000000000000^88#8#88#8#5129#0#25"#pragma message Directive--0#0#1#-19%DVTDocumentLocation4@78"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APCallAPI.m0000000000000000^3869"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCallAPI.o AlePlace/APCallAPI.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCallAPI.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCallAPI.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCallAPI.o36"E8E50C85-886D-4EEE-A6BB-B29FD5C27599-
+bB0C7AD7E-2D9F-48ED-ACA0-AF47CC65E0E1
+
+CCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCity.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCity.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424023793.484306
+e424023796.298299
+r1
+xCompileC
+xbuild/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCity.o
+x/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCity.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCity.m
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCity.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCity.m181"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCity.o AlePlace/APCity.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler662e7cf11646b941^02b94cf41646b941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APCity.m0000000000000000^3851"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCity.o AlePlace/APCity.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCity.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCity.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCity.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCity.o36"6A0A18F8-6AFF-45F8-BA3B-058D6E7A7327-
+b915189AB-2813-49B5-8233-15880DF1F68A
+
+CCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCountry.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCountry.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424020864.980567
+e424020865.053179
+r1
+xCompileC
+xbuild/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCountry.o
+x/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCountry.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCountry.m
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCountry.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCountry.m187"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCountry.o AlePlace/APCountry.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler772bfb800b46b941^40bf1f810b46b941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APCountry.m0000000000000000^3869"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCountry.o AlePlace/APCountry.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCountry.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCountry.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCountry.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCountry.o36"F7DEC1E1-4AC3-443D-8742-AD7198F74B97-
+bB0C7AD7E-2D9F-48ED-ACA0-AF47CC65E0E1
 
 CCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailEventViewController.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APDetailEventViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423997056.811546
-e423997057.073808
+s424020864.972691
+e424020865.409500
 r1
 xCompileC
 xbuild/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailEventViewController.o
@@ -1502,8 +2284,8 @@ d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/FMConstants.h
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APStadiumViewController.h
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APStadiumTableViewCell.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APDetailEventViewController.m223"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailEventViewController.o AlePlace/APDetailEventViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0ddecf80ae45b941^6cec1281ae45b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APDetailEventViewController.m0000000000000000^3977"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailEventViewController.o AlePlace/APDetailEventViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailEventViewController.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailEventViewController.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APDetailEventViewController.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailEventViewController.o36"4433E84D-6176-4543-8455-0D1E65D68D9B-
-b1EF080CA-6EA0-4298-80FA-73BA873EDC66
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APDetailEventViewController.m223"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailEventViewController.o AlePlace/APDetailEventViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6360f9800b46b941^73db6a810b46b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APDetailEventViewController.m0000000000000000^3977"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailEventViewController.o AlePlace/APDetailEventViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailEventViewController.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailEventViewController.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APDetailEventViewController.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailEventViewController.o36"31FD0FB0-ABCF-43D1-B6C6-7C14FBC8B36E-
+bB0C7AD7E-2D9F-48ED-ACA0-AF47CC65E0E1
 
 CCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailStadiumViewController.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APDetailStadiumViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s423997056.105438
@@ -1599,8 +2381,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile
 b1EF080CA-6EA0-4298-80FA-73BA873EDC66
 
 CCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APHomeViewController.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APHomeViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423997056.598548
-e423997056.810929
+s424020824.922728
+e424020829.173623
 r1
 xCompileC
 xbuild/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APHomeViewController.o
@@ -1620,8 +2402,8 @@ d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFImageReq
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPRequestOperation.h
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFURLConnectionOperation.h
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APDetailEventViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APHomeViewController.m209"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APHomeViewController.o AlePlace/APHomeViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler18e99980ae45b941^7099cf80ae45b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APHomeViewController.m0000000000000000^3935"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APHomeViewController.o AlePlace/APHomeViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APHomeViewController.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APHomeViewController.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APHomeViewController.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APHomeViewController.o36"DBCC5F94-DD77-4D7A-A686-18D832118245-
-b1EF080CA-6EA0-4298-80FA-73BA873EDC66
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APHomeViewController.m209"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APHomeViewController.o AlePlace/APHomeViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7764ec580b46b941^43742c5d0b46b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APHomeViewController.m0000000000000000^3935"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APHomeViewController.o AlePlace/APHomeViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APHomeViewController.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APHomeViewController.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APHomeViewController.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APHomeViewController.o36"77490718-9588-4D73-BA1B-13B2666DE008-
+b6C22DEAA-7F74-402F-B815-66CC8B28F142
 
 CCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APLaunchImageViewController.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APLaunchImageViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s423997056.125099
@@ -1639,9 +2421,91 @@ d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APLaunchImageViewContro
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APLaunchImageViewController.m223"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APLaunchImageViewController.o AlePlace/APLaunchImageViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler931c2080ae45b941^31454980ae45b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APLaunchImageViewController.m0000000000000000^3977"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APLaunchImageViewController.o AlePlace/APLaunchImageViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APLaunchImageViewController.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APLaunchImageViewController.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APLaunchImageViewController.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APLaunchImageViewController.o36"F6ADC2ED-64C5-4AD0-87CF-EC16D49D39CB-
 b1EF080CA-6EA0-4298-80FA-73BA873EDC66
 
+CCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMapViewPlacesViewController.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424057926.104538
+e424057926.702997
+r1
+xCompileC
+xbuild/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMapViewPlacesViewController.o
+x/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.m
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GoogleMaps.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSAddress.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapView.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapLayer.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCALayer.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSUISettings.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCameraPosition.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCameraUpdate.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCircle.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSOverlay.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCoordinateBounds.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSProjection.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSGeocoder.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSGeometryUtils.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPath.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSGroundOverlay.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSIndoorBuilding.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSIndoorDisplay.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSIndoorLevel.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapView+Animation.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMarker.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMarkerLayer.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMutablePath.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSOrientation.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanorama.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaCamera.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaLayer.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaLink.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaService.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaView.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPolygon.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPolyline.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSServices.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSSyncTileLayer.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSTileLayer.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSURLTileLayer.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/FMConstants.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCity.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/MapAnnotation.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMyAnnotation.h
+o/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.m:69:32: warning: sending 'MyAnnotation *__strong' to parameter of incompatible type 'id<MKAnnotation>'
+o        [mapView addAnnotation:annotObj];
+o                               ^~~~~~~~
+oIn module 'MapKit' imported from /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.h:13:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKMapView.h:118:42: note: passing argument to parameter 'annotation' here
+o- (void)addAnnotation:(id <MKAnnotation>)annotation;
+o                                         ^
+o1 warning generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.m227"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMapViewPlacesViewController.o AlePlace/APMapViewPlacesViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf4fb1a469c46b941^16fbb3469c46b941^-755"/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.m:69:32: warning: sending 'MyAnnotation *__strong' to parameter of incompatible type 'id<MKAnnotation>'        [mapView addAnnotation:annotObj];                               ^~~~~~~~In module 'MapKit' imported from /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.h:13:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKMapView.h:118:42: note: passing argument to parameter 'annotation' here- (void)addAnnotation:(id <MKAnnotation>)annotation;                                         ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@85"Sending 'MyAnnotation *__strong' to parameter of incompatible type 'id<MKAnnotation>'-424057926#18446744073709551615#0#1(2@47"Passing argument to parameter 'annotation' here-424057926#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@185"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKMapView.h0000000000000000^117#41#117#41#5262#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@98"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.m0000000000000000^68#31#68#31#2041#0#14"Semantic Issue1(3@98"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.m0000000000000000^68#31#68#39#2041#0#-0#0#1#-19%DVTDocumentLocation4@98"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.m0000000000000000^3989"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMapViewPlacesViewController.o AlePlace/APMapViewPlacesViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMapViewPlacesViewController.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMapViewPlacesViewController.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMapViewPlacesViewController.o36"7BCE08A0-CDF3-4FB1-86B9-60539289C112-
+b976E3CD5-3E33-43A8-9F84-11C4E25A7782
+
+CCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMyAnnotation.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APMyAnnotation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424023796.298598
+e424023796.738831
+r1
+xCompileC
+xbuild/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMyAnnotation.o
+x/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMyAnnotation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMyAnnotation.m
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMyAnnotation.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/MapAnnotation.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMyAnnotation.m197"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMyAnnotation.o AlePlace/APMyAnnotation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf2954cf41646b941^9a25bdf41646b941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APMyAnnotation.m0000000000000000^3899"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMyAnnotation.o AlePlace/APMyAnnotation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMyAnnotation.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMyAnnotation.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APMyAnnotation.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMyAnnotation.o36"839990CB-BC17-45DB-91BE-D7C3C77A8B41-
+b915189AB-2813-49B5-8233-15880DF1F68A
+
 CCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APParserData.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APParserData.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423997056.382611
-e423997056.557002
+s424023793.481017
+e424023796.295387
 r1
 xCompileC
 xbuild/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APParserData.o
@@ -1654,8 +2518,10 @@ d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APParserData.m
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APParserData.h
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APEvent.h
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APStadium.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APParserData.m193"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APParserData.o AlePlace/APParserData.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler33156280ae45b941^81769380ae45b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APParserData.m0000000000000000^3887"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APParserData.o AlePlace/APParserData.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APParserData.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APParserData.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APParserData.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APParserData.o36"2ADE5DF7-5A1E-4434-9DA0-4E52575895EF-
-b1EF080CA-6EA0-4298-80FA-73BA873EDC66
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCity.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCountry.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APParserData.m193"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APParserData.o AlePlace/APParserData.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercd3e7bf11646b941^acff4bf41646b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APParserData.m0000000000000000^3887"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APParserData.o AlePlace/APParserData.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APParserData.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APParserData.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APParserData.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APParserData.o36"3856B60B-780B-44F1-9403-0ADADC38F047-
+b915189AB-2813-49B5-8233-15880DF1F68A
 
 CCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APPlaceTableViewCell.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APPlaceTableViewCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s423997056.493366
@@ -1674,8 +2540,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile
 b1EF080CA-6EA0-4298-80FA-73BA873EDC66
 
 CCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APPlaceViewController.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APPlaceViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423997056.811162
-e423997056.947456
+s424024030.951566
+e424024032.428161
 r1
 xCompileC
 xbuild/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APPlaceViewController.o
@@ -1687,8 +2553,51 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APPlaceViewController.m
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APPlaceViewController.h
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APPlaceTableViewCell.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APPlaceViewController.m211"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APPlaceViewController.o AlePlace/APPlaceViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5dc4cf80ae45b941^2d96f280ae45b941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APPlaceViewController.m0000000000000000^3941"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APPlaceViewController.o AlePlace/APPlaceViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APPlaceViewController.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APPlaceViewController.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APPlaceViewController.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APPlaceViewController.o36"68B12803-D675-4D14-87B0-874551B7EEC8-
-b1EF080CA-6EA0-4298-80FA-73BA873EDC66
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GoogleMaps.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSAddress.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapView.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapLayer.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCALayer.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSUISettings.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCameraPosition.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCameraUpdate.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCircle.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSOverlay.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCoordinateBounds.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSProjection.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSGeocoder.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSGeometryUtils.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPath.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSGroundOverlay.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSIndoorBuilding.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSIndoorDisplay.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSIndoorLevel.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapView+Animation.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMarker.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMarkerLayer.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMutablePath.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSOrientation.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanorama.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaCamera.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaLayer.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaLink.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaService.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaView.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPolygon.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPolyline.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSServices.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSSyncTileLayer.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSTileLayer.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSURLTileLayer.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/FMConstants.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APCity.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/MapAnnotation.h
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMyAnnotation.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APPlaceViewController.m211"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APPlaceViewController.o AlePlace/APPlaceViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7ac5f3de1746b941^569d6de01746b941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APPlaceViewController.m0000000000000000^3941"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APPlaceViewController.o AlePlace/APPlaceViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APPlaceViewController.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APPlaceViewController.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APPlaceViewController.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APPlaceViewController.o36"82D8A780-B67E-4D94-B988-FA152AEFC744-
+b1D20E92C-8764-448C-81DB-4E215E8175ED
 
 CCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APShowFullMapViewController.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APShowFullMapViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s423997055.284467
@@ -1778,8 +2687,8 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile
 b1EF080CA-6EA0-4298-80FA-73BA873EDC66
 
 CCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APStadiumViewController.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APStadiumViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s423997056.380449
-e423997056.575639
+s424020824.920514
+e424020829.072483
 r1
 xCompileC
 xbuild/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APStadiumViewController.o
@@ -1839,8 +2748,8 @@ d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSTileLayer.h
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSURLTileLayer.h
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APShowFullMapViewController.h
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APStadiumViewController.m215"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APStadiumViewController.o AlePlace/APStadiumViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler93a66180ae45b941^ba82a580ae45b941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APStadiumViewController.m0000000000000000^3953"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APStadiumViewController.o AlePlace/APStadiumViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APStadiumViewController.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APStadiumViewController.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APStadiumViewController.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APStadiumViewController.o36"69E30109-7A03-4AB4-9FED-3EAABE595458-
-b1EF080CA-6EA0-4298-80FA-73BA873EDC66
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APStadiumViewController.m215"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APStadiumViewController.o AlePlace/APStadiumViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd5cbeb580b46b941^079b125d0b46b941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APStadiumViewController.m0000000000000000^3953"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APStadiumViewController.o AlePlace/APStadiumViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APStadiumViewController.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APStadiumViewController.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APStadiumViewController.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APStadiumViewController.o36"DB9AA3F9-660A-43EA-84D0-75801B41367E-
+b6C22DEAA-7F74-402F-B815-66CC8B28F142
 
 CCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APTakecareViewController.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APTakecareViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s423997055.418141
@@ -1915,6 +2824,22 @@ d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSURLTileLayer.h
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/FMUtils.m183"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/FMUtils.o AlePlace/FMUtils.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler37fb9380ae45b941^0f7dcf80ae45b941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/FMUtils.m0000000000000000^3857"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/FMUtils.o AlePlace/FMUtils.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/FMUtils.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/FMUtils.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/FMUtils.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/FMUtils.o36"8338CB5F-B558-4318-B08F-610AFFBDCFBB-
 b1EF080CA-6EA0-4298-80FA-73BA873EDC66
+
+CCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/MapAnnotation.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/MapAnnotation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s424023809.638048
+e424023809.706219
+r1
+xCompileC
+xbuild/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/MapAnnotation.o
+x/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/MapAnnotation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/MapAnnotation.m
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/MapAnnotation.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/MapAnnotation.m195"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/MapAnnotation.o AlePlace/MapAnnotation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler5d6fa3011746b941^e2cbb4011746b941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/MapAnnotation.m0000000000000000^3893"CompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/MapAnnotation.o AlePlace/MapAnnotation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Volumes/Macintosh\ HD\ 2/Xcode/Derived/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-generated-files.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-own-target-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-all-target-headers.hmap -iquote /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/AlePlace-project-headers.hmap -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources/i386 -I/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/DerivedSources -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -include /var/folders/cg/k553dcfn79s1stjm8vqlsjf00000gn/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/AlePlace-Prefix-ejqrzskcqqqbhkdfihiscdyvryfx/AlePlace-Prefix.pch -MMD -MT dependencies -MF /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/MapAnnotation.d --serialize-diagnostics /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/MapAnnotation.dia -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/MapAnnotation.m -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/MapAnnotation.o36"8A498DE4-C20F-4498-B61C-ED2CEED2669E-
+b58956986-008A-4B65-A1C9-AE63C5C14FEA
 
 CCompileC build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/UIImageView+AFNetworking.o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/UIImageView+AFNetworking.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s423997052.863034
@@ -2064,6 +2989,15 @@ x/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APLaunchImageViewContro
 lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compiling /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APLaunchImageViewController.xib51"CompileXIB AlePlace/APLaunchImageViewController.xib8f34a086ae45b941^6fd6589cae45b941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APLaunchImageViewController.xib0000000000000000^820"CompileXIB AlePlace/APLaunchImageViewController.xib    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.0 --output-format human-readable-text --compile /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/APLaunchImageViewController.nib /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APLaunchImageViewController.xib36"E8861EB0-A938-4704-AF4E-DC38C170057D-
 b1EF080CA-6EA0-4298-80FA-73BA873EDC66
 
+CCompileXIB /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.xib
+s424018211.013990
+e424018245.798655
+r1
+xCompileXIB
+x/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compiling /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.xib53"CompileXIB AlePlace/APMapViewPlacesViewController.xib6da903230146b941^0876cc450146b941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.xib0000000000000000^826"CompileXIB AlePlace/APMapViewPlacesViewController.xib    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.0 --output-format human-readable-text --compile /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/APMapViewPlacesViewController.nib /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.xib36"9FD13E00-0492-4260-8E6B-A28B6263B405-
+b27C5B123-70C1-4483-ACD1-F7FF1E415B23
+
 CCompileXIB /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APPlaceTableViewCell.xib
 s423997061.034009
 e423997084.485668
@@ -2129,14 +3063,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy Al
 b1EF080CA-6EA0-4298-80FA-73BA873EDC66
 
 CCpResource AlePlace/Image/Back-button-.png build/Debug-iphonesimulator/AlePlace.app/Back-button-.png
-s423997084.487773
-e423997084.555660
+s424057813.683203
+e424057813.684369
 r1
 xCpResource
 xAlePlace/Image/Back-button-.png
 xbuild/Debug-iphonesimulator/AlePlace.app/Back-button-.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/AlePlace.app/Back-button-.png100"CpResource AlePlace/Image/Back-button-.png build/Debug-iphonesimulator/AlePlace.app/Back-button-.pngaaf37c9cae45b941^57438e9cae45b941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/Back-button-.png0000000000000000^635"CpResource AlePlace/Image/Back-button-.png build/Debug-iphonesimulator/AlePlace.app/Back-button-.png    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Image/Back-button-.png /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app36"0A722786-B5CA-4F38-A681-38230A5466B7-
-b1EF080CA-6EA0-4298-80FA-73BA873EDC66
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/AlePlace.app/Back-button-.png100"CpResource AlePlace/Image/Back-button-.png build/Debug-iphonesimulator/AlePlace.app/Back-button-.png98f9aed59b46b941^e467afd59b46b941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/Back-button-.png0000000000000000^635"CpResource AlePlace/Image/Back-button-.png build/Debug-iphonesimulator/AlePlace.app/Back-button-.png    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Image/Back-button-.png /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app36"464C4D8D-4D54-4BE3-BEFF-A5FE6C522BA0-
+b3ABB095E-05A9-4519-AA10-E7C0563F4523
 
 CCpResource AlePlace/Image/Loading.psd build/Debug-iphonesimulator/AlePlace.app/Loading.psd
 s423997089.808049
@@ -2279,14 +3213,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy bu
 b1EF080CA-6EA0-4298-80FA-73BA873EDC66
 
 CCpResource AlePlace/Image/Top-Bottom_Menu/Back-button-.png build/Debug-iphonesimulator/AlePlace.app/Back-button-.png
-s423997084.486034
-e423997084.487575
+s424057928.379221
+e424057928.380361
 r1
 xCpResource
 xAlePlace/Image/Top-Bottom_Menu/Back-button-.png
 xbuild/Debug-iphonesimulator/AlePlace.app/Back-button-.png
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/AlePlace.app/Back-button-.png116"CpResource AlePlace/Image/Top-Bottom_Menu/Back-button-.png build/Debug-iphonesimulator/AlePlace.app/Back-button-.png45837c9cae45b941^e9d57c9cae45b941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/Back-button-.png003408bbdcffdf42^667"CpResource AlePlace/Image/Top-Bottom_Menu/Back-button-.png build/Debug-iphonesimulator/AlePlace.app/Back-button-.png    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Image/Top-Bottom_Menu/Back-button-.png /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app36"2269A8F4-2F29-4ED8-8B88-4125279BC4DB-
-b1EF080CA-6EA0-4298-80FA-73BA873EDC66
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphonesimulator/AlePlace.app/Back-button-.png116"CpResource AlePlace/Image/Top-Bottom_Menu/Back-button-.png build/Debug-iphonesimulator/AlePlace.app/Back-button-.pngfa2661489c46b941^176261489c46b941^---0#0#1#-19%DVTDocumentLocation2@115"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/Back-button-.png0000000000000000^667"CpResource AlePlace/Image/Top-Bottom_Menu/Back-button-.png build/Debug-iphonesimulator/AlePlace.app/Back-button-.png    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Image/Top-Bottom_Menu/Back-button-.png /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app36"A55EBD85-582D-4A81-A58B-F539347651D3-
+b976E3CD5-3E33-43A8-9F84-11C4E25A7782
 
 CCpResource AlePlace/Image/Top-Bottom_Menu/Back-button.png build/Debug-iphonesimulator/AlePlace.app/Back-button.png
 s423997092.352953
@@ -2469,18 +3403,18 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy bu
 b1EF080CA-6EA0-4298-80FA-73BA873EDC66
 
 CGenerateDSYMFile /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app.dSYM /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/AlePlace
-s423997093.579095
-e423997094.421937
+s424057928.384982
+e424057928.666375
 r1
 xGenerateDSYMFile
 x/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app.dSYM
 x/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/AlePlace
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Generate /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app.dSYM112"GenerateDSYMFile build/Debug-iphonesimulator/AlePlace.app.dSYM build/Debug-iphonesimulator/AlePlace.app/AlePlaceec4d94a5ae45b941^3e056ca6ae45b941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app.dSYM003408bbdcffdf42^661"GenerateDSYMFile build/Debug-iphonesimulator/AlePlace.app.dSYM build/Debug-iphonesimulator/AlePlace.app/AlePlace    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/AlePlace -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app.dSYM36"A0633C35-4265-49DB-9761-F4B976A4BB5C-
-b1EF080CA-6EA0-4298-80FA-73BA873EDC66
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Generate /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app.dSYM112"GenerateDSYMFile build/Debug-iphonesimulator/AlePlace.app.dSYM build/Debug-iphonesimulator/AlePlace.app/AlePlace01a462489c46b941^4d9eaa489c46b941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Volumes/Macintosh%20HD%202/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app.dSYM/0000000000000000^661"GenerateDSYMFile build/Debug-iphonesimulator/AlePlace.app.dSYM build/Debug-iphonesimulator/AlePlace.app/AlePlace    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/AlePlace -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app.dSYM36"59605EB8-4E36-47F1-BAE6-316AA91D109C-
+b976E3CD5-3E33-43A8-9F84-11C4E25A7782
 
 CLd /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/AlePlace normal i386
-s423997057.258090
-e423997060.635085
+s424057926.705495
+e424057928.375695
 r1
 xLd
 x/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/AlePlace
@@ -2491,6 +3425,7 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/AFURLConnectionOperation.o
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APEventTableViewCell.o
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APStadiumTableViewCell.o
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCountry.o
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/UIImageView+AFNetworking.o
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/main.o
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APShowFullMapViewController.o
@@ -2500,6 +3435,7 @@ d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphon
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APAlePlaceNetWork.o
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APStadium.o
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailStadiumViewController.o
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMyAnnotation.o
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APLaunchImageViewController.o
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/AFXMLRequestOperation.o
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APAleViewController.o
@@ -2514,11 +3450,15 @@ d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphon
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/AFImageRequestOperation.o
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/AFHTTPClient.o
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APPlaceViewController.o
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCity.o
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APDetailEventViewController.o
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APMapViewPlacesViewController.o
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APCallAPI.o
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/AFJSONRequestOperation.o
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APAleViewCell.o
 d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/APAppDelegate.o
+d/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/MapAnnotation.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
@@ -2538,13 +3478,15 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
 d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libc++abi.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
@@ -2567,13 +3509,12 @@ d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/D
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
 d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
 d/usr/lib/libSystem.B.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libc++abi.dylib
-d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
 d/usr/lib/system/libcache.dylib
 d/usr/lib/system/libcommonCrypto.dylib
 d/usr/lib/system/libcompiler_rt.dylib
 d/usr/lib/system/libcopyfile.dylib
 d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libdyld.dylib
 d/usr/lib/system/libkeymgr.dylib
 d/usr/lib/system/liblaunch.dylib
 d/usr/lib/system/libmacho.dylib
@@ -2594,9 +3535,10 @@ d/usr/lib/system/libsystem_pthread.dylib
 d/usr/lib/system/libsystem_sandbox.dylib
 d/usr/lib/system/libunc.dylib
 d/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
 old: warning: directory not found for option '-F/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos'
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Link /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/AlePlace64"Ld build/Debug-iphonesimulator/AlePlace.app/AlePlace normal i38613284281ae45b941^9e97a284ae45b941^-153"ld: warning: directory not found for option '-F/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos'1(21%IDEActivityLogMessage2@139"Directory not found for option '-F/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos'-423997057#0#153#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#1#--1839"Ld build/Debug-iphonesimulator/AlePlace.app/AlePlace normal i386    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -filelist /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/AlePlace.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework SystemConfiguration -framework QuartzCore -framework OpenGLES -lz -licucore -lc++ -framework ImageIO -framework GLKit -framework CoreText -framework CoreLocation -framework CoreData -framework AVFoundation -framework CoreGraphics -framework UIKit -framework GoogleMaps -framework Foundation -Xlinker -dependency_info -Xlinker /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/AlePlace_dependency_info.dat -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/AlePlace36"A02E4D8D-7212-4C33-AC2E-BFE748265F42-
-b1EF080CA-6EA0-4298-80FA-73BA873EDC66
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Link /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/AlePlace64"Ld build/Debug-iphonesimulator/AlePlace.app/AlePlace normal i386f7afb4469c46b941^2d3f60489c46b941^-153"ld: warning: directory not found for option '-F/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos'1(21%IDEActivityLogMessage2@139"Directory not found for option '-F/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos'-424057926#0#153#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#1#--1857"Ld build/Debug-iphonesimulator/AlePlace.app/AlePlace normal i386    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1 -F/Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMapsSDKDemos -filelist /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/AlePlace.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework MapKit -framework SystemConfiguration -framework QuartzCore -framework OpenGLES -lz -licucore -lc++ -framework ImageIO -framework GLKit -framework CoreText -framework CoreLocation -framework CoreData -framework AVFoundation -framework CoreGraphics -framework UIKit -framework GoogleMaps -framework Foundation -Xlinker -dependency_info -Xlinker /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/AlePlace.build/Debug-iphonesimulator/AlePlace.build/Objects-normal/i386/AlePlace_dependency_info.dat -o /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/AlePlace36"F86DF565-821B-459A-A8D7-5C43E951303C-
+b976E3CD5-3E33-43A8-9F84-11C4E25A7782
 
 CProcessInfoPlistFile /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app/Info.plist /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AlePlace-Info.plist
 s423997093.564955
@@ -2627,11 +3569,11 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Precomp
 b1EF080CA-6EA0-4298-80FA-73BA873EDC66
 
 CTouch /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app
-s423997094.424454
-e423997094.529781
+s424024035.266314
+e424024035.538260
 r1
 xTouch
 x/Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Touch /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app46"Touch build/Debug-iphonesimulator/AlePlace.app4eb76ca6ae45b941^c7a087a6ae45b941^---0#0#1#--410"Touch build/Debug-iphonesimulator/AlePlace.app    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app36"FA5FCBF7-910A-4E19-B60F-A5EACB29AC11-
-b1EF080CA-6EA0-4298-80FA-73BA873EDC66
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Touch /Volumes/Macintosh HD 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app46"Touch build/Debug-iphonesimulator/AlePlace.app2e3b44e31746b941^0ccd89e31746b941^---0#0#1#--410"Touch build/Debug-iphonesimulator/AlePlace.app    cd "/Volumes/Macintosh HD 2/Xcode/Project/AlePlace"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/build/Debug-iphonesimulator/AlePlace.app36"F8801B27-0C0F-422D-B901-DAF700BA902F-
+b1D20E92C-8764-448C-81DB-4E215E8175ED
 

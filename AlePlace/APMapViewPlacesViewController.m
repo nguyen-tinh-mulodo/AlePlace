@@ -8,6 +8,9 @@
 
 #import "APMapViewPlacesViewController.h"
 
+
+
+
 @interface APMapViewPlacesViewController ()
 @end
 
@@ -25,43 +28,47 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:51.5
-                                                            longitude:-0.127
-                                                                 zoom:10];
-    mapView_ = [GMSMapView mapWithFrame:self.view.frame camera:camera];
-    mapView_.myLocationEnabled = YES;
-    self.view = mapView_;
-    CLLocationCoordinate2D position = CLLocationCoordinate2DMake(51.5, -0.127);
-    GMSMarker *london = [GMSMarker markerWithPosition:position];
-    london.title = @"London";
-    london.icon = [UIImage imageNamed:@"default_marker"];
-    london.map = mapView_;
+    [self showMultiAnonation:mapData];
+//    GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:51.5
+//                                                            longitude:-0.127
+//                                                                 zoom:10];
+//    mapView_ = [GMSMapView mapWithFrame:self.view.frame camera:camera];
+//    mapView_.myLocationEnabled = YES;
+//    self.view = mapView_;
+//    CLLocationCoordinate2D position = CLLocationCoordinate2DMake(51.5, -0.127);
+//    GMSMarker *london = [GMSMarker markerWithPosition:position];
+//    london.title = @"London";
+//    london.icon = [UIImage imageNamed:@"default_marker"];
+//    london.map = mapView_;
     
   
 
     // Do any additional setup after loading the view from its nib.
 }
 
--(void) showMultiAnonation:(NSMutableArray*) yourLongitudeArray latitudeArr:(NSMutableArray*)yourLatitudeArray
-{
-    for ( int i=0; i<[yourLongitudeArray count]; i++)
+-(void) showMultiAnonation:(NSMutableArray*) listData{
+    APCity * cityOBJ;
+    for ( int i=0; i<[listData count]; i++)
     {
+        cityOBJ =[listData objectAtIndex:i];
+      
         CLLocationCoordinate2D coord;
         
-        coord.latitude=[[NSString stringWithFormat:@"%@",[yourLatitudeArray objectAtIndex:i]] floatValue];
-        coord.longitude=[[NSString stringWithFormat:@"%@",
-                          [yourLongitudeArray objectAtIndex:i]] floatValue];
-//        MKCoordinateRegion region1;
-//        region1.center=coord;
-//        region1.span.longitudeDelta=20 ;
-//        region1.span.latitudeDelta=20;
-//        [mapView_ setRegion:region1 animated:YES];
-//        
-//        NSString *titleStr =[namesArr objectAtIndex:i] ;
-//        // NSLog(@"title is:%@",titleStr);
-//        
-//        MyAnnotation*  annotObj =[[MyAnnotation alloc]initWithCoordinate:coord title:titleStr];
-//        [mapview addAnnotation:annotObj];
+        coord.latitude=cityOBJ.latitude;
+        coord.longitude=cityOBJ.longitude;
+        MKCoordinateRegion region1;
+        region1.center=coord;
+        region1.span.longitudeDelta=20 ;
+        region1.span.latitudeDelta=20;
+        [mapView setRegion:region1 animated:YES];
+        
+        NSString *titleStr =cityOBJ.cityName ;
+        // NSLog(@"title is:%@",titleStr);
+        
+        MyAnnotation*  annotObj =[[MyAnnotation alloc]initWithCoordinate:coord title:titleStr];
+        [mapView addAnnotation:annotObj];
+      
+
         
     }
 }

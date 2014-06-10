@@ -111,6 +111,11 @@
 		18BEF9D11944C7810009C1CF /* APShowFullMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9CF1944C7810009C1CF /* APShowFullMapViewController.xib */; };
 		CE6C09681945B80600455A5B /* APMapViewPlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C09661945B80600455A5B /* APMapViewPlacesViewController.m */; };
 		CE6C09691945B80600455A5B /* APMapViewPlacesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6C09671945B80600455A5B /* APMapViewPlacesViewController.xib */; };
+		CE6C096C1946051400455A5B /* APCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C096B1946051400455A5B /* APCountry.m */; };
+		CE6C096F194606D800455A5B /* APCity.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C096E194606D800455A5B /* APCity.m */; };
+		CE6C0971194612C200455A5B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6C0970194612C200455A5B /* MapKit.framework */; };
+		CE6C0974194613AC00455A5B /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C0973194613AC00455A5B /* MapAnnotation.m */; };
+		CE6C09771946159100455A5B /* APMyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C09761946159100455A5B /* APMyAnnotation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -264,6 +269,15 @@
 		CE6C09651945B80600455A5B /* APMapViewPlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMapViewPlacesViewController.h; sourceTree = "<group>"; };
 		CE6C09661945B80600455A5B /* APMapViewPlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APMapViewPlacesViewController.m; sourceTree = "<group>"; };
 		CE6C09671945B80600455A5B /* APMapViewPlacesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APMapViewPlacesViewController.xib; sourceTree = "<group>"; };
+		CE6C096A1946051400455A5B /* APCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCountry.h; sourceTree = "<group>"; };
+		CE6C096B1946051400455A5B /* APCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCountry.m; sourceTree = "<group>"; };
+		CE6C096D194606D800455A5B /* APCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCity.h; sourceTree = "<group>"; };
+		CE6C096E194606D800455A5B /* APCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCity.m; sourceTree = "<group>"; };
+		CE6C0970194612C200455A5B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		CE6C0972194613AC00455A5B /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		CE6C0973194613AC00455A5B /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
+		CE6C09751946159100455A5B /* APMyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMyAnnotation.h; sourceTree = "<group>"; };
+		CE6C09761946159100455A5B /* APMyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APMyAnnotation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -271,6 +285,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6C0971194612C200455A5B /* MapKit.framework in Frameworks */,
 				18BEF9CA194465F50009C1CF /* SystemConfiguration.framework in Frameworks */,
 				18BEF9C8194465E60009C1CF /* QuartzCore.framework in Frameworks */,
 				18BEF9C6194465DF0009C1CF /* OpenGLES.framework in Frameworks */,
@@ -325,6 +340,7 @@
 		18906BB219409CAF0072EC38 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE6C0970194612C200455A5B /* MapKit.framework */,
 				18BEF9C9194465F50009C1CF /* SystemConfiguration.framework */,
 				18BEF9C7194465E60009C1CF /* QuartzCore.framework */,
 				18BEF9C5194465DF0009C1CF /* OpenGLES.framework */,
@@ -357,6 +373,8 @@
 				18906BEF1940B4260072EC38 /* Models */,
 				18906BC219409CAF0072EC38 /* APAppDelegate.h */,
 				18906BC319409CAF0072EC38 /* APAppDelegate.m */,
+				CE6C0972194613AC00455A5B /* MapAnnotation.h */,
+				CE6C0973194613AC00455A5B /* MapAnnotation.m */,
 				18906BC519409CAF0072EC38 /* Images.xcassets */,
 				18906BBA19409CAF0072EC38 /* Supporting Files */,
 			);
@@ -415,6 +433,12 @@
 				18906BF11940B4770072EC38 /* APEvent.m */,
 				18BEF88B1943FE850009C1CF /* APStadium.h */,
 				18BEF88C1943FE850009C1CF /* APStadium.m */,
+				CE6C096A1946051400455A5B /* APCountry.h */,
+				CE6C096B1946051400455A5B /* APCountry.m */,
+				CE6C096D194606D800455A5B /* APCity.h */,
+				CE6C096E194606D800455A5B /* APCity.m */,
+				CE6C09751946159100455A5B /* APMyAnnotation.h */,
+				CE6C09761946159100455A5B /* APMyAnnotation.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -861,6 +885,7 @@
 				18906C2E1940B8CD0072EC38 /* AFURLConnectionOperation.m in Sources */,
 				18906C3C194167090072EC38 /* APEventTableViewCell.m in Sources */,
 				18BEF88419431CD80009C1CF /* APStadiumTableViewCell.m in Sources */,
+				CE6C096C1946051400455A5B /* APCountry.m in Sources */,
 				18906C301940B8CD0072EC38 /* UIImageView+AFNetworking.m in Sources */,
 				18906BC019409CAF0072EC38 /* main.m in Sources */,
 				18BEF9D01944C7810009C1CF /* APShowFullMapViewController.m in Sources */,
@@ -870,6 +895,7 @@
 				18906C131940B82E0072EC38 /* APAlePlaceNetWork.m in Sources */,
 				18BEF88D1943FE850009C1CF /* APStadium.m in Sources */,
 				18BEF89119445E4B0009C1CF /* APDetailStadiumViewController.m in Sources */,
+				CE6C09771946159100455A5B /* APMyAnnotation.m in Sources */,
 				18906BE519409FBB0072EC38 /* APLaunchImageViewController.m in Sources */,
 				18906C2F1940B8CD0072EC38 /* AFXMLRequestOperation.m in Sources */,
 				18BEF81C194228940009C1CF /* APAleViewController.m in Sources */,
@@ -884,12 +910,14 @@
 				18906C2A1940B8CD0072EC38 /* AFImageRequestOperation.m in Sources */,
 				18906C281940B8CD0072EC38 /* AFHTTPClient.m in Sources */,
 				18BEF84D1942C1440009C1CF /* APPlaceViewController.m in Sources */,
+				CE6C096F194606D800455A5B /* APCity.m in Sources */,
 				18BEF81019418F630009C1CF /* APDetailEventViewController.m in Sources */,
 				CE6C09681945B80600455A5B /* APMapViewPlacesViewController.m in Sources */,
 				18906C331940B9F00072EC38 /* APCallAPI.m in Sources */,
 				18906C2B1940B8CD0072EC38 /* AFJSONRequestOperation.m in Sources */,
 				18BEF82A1942A7E20009C1CF /* APAleViewCell.m in Sources */,
 				18906BC419409CAF0072EC38 /* APAppDelegate.m in Sources */,
+				CE6C0974194613AC00455A5B /* MapAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
