@@ -109,6 +109,14 @@
 		18BEF9CC194467DF0009C1CF /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9CB194467DF0009C1CF /* GoogleMaps.bundle */; };
 		18BEF9D01944C7810009C1CF /* APShowFullMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEF9CE1944C7810009C1CF /* APShowFullMapViewController.m */; };
 		18BEF9D11944C7810009C1CF /* APShowFullMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9CF1944C7810009C1CF /* APShowFullMapViewController.xib */; };
+		18BEF9D6194607930009C1CF /* APTeamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEF9D4194607930009C1CF /* APTeamViewController.m */; };
+		18BEF9D7194607930009C1CF /* APTeamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9D5194607930009C1CF /* APTeamViewController.xib */; };
+		18BEF9DC19460B120009C1CF /* APEcheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEF9DA19460B120009C1CF /* APEcheduleViewController.m */; };
+		18BEF9DD19460B120009C1CF /* APEcheduleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9DB19460B120009C1CF /* APEcheduleViewController.xib */; };
+		18BEF9E219460C4D0009C1CF /* APResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEF9E019460C4D0009C1CF /* APResultViewController.m */; };
+		18BEF9E319460C4D0009C1CF /* APResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9E119460C4D0009C1CF /* APResultViewController.xib */; };
+		18BEF9E819461E0D0009C1CF /* APMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEF9E619461E0D0009C1CF /* APMoreViewController.m */; };
+		18BEF9E919461E0D0009C1CF /* APMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9E719461E0D0009C1CF /* APMoreViewController.xib */; };
 		CE6C09681945B80600455A5B /* APMapViewPlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C09661945B80600455A5B /* APMapViewPlacesViewController.m */; };
 		CE6C09691945B80600455A5B /* APMapViewPlacesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6C09671945B80600455A5B /* APMapViewPlacesViewController.xib */; };
 /* End PBXBuildFile section */
@@ -261,6 +269,18 @@
 		18BEF9CD1944C7810009C1CF /* APShowFullMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APShowFullMapViewController.h; sourceTree = "<group>"; };
 		18BEF9CE1944C7810009C1CF /* APShowFullMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APShowFullMapViewController.m; sourceTree = "<group>"; };
 		18BEF9CF1944C7810009C1CF /* APShowFullMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APShowFullMapViewController.xib; sourceTree = "<group>"; };
+		18BEF9D3194607930009C1CF /* APTeamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTeamViewController.h; sourceTree = "<group>"; };
+		18BEF9D4194607930009C1CF /* APTeamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTeamViewController.m; sourceTree = "<group>"; };
+		18BEF9D5194607930009C1CF /* APTeamViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APTeamViewController.xib; sourceTree = "<group>"; };
+		18BEF9D919460B120009C1CF /* APEcheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APEcheduleViewController.h; sourceTree = "<group>"; };
+		18BEF9DA19460B120009C1CF /* APEcheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APEcheduleViewController.m; sourceTree = "<group>"; };
+		18BEF9DB19460B120009C1CF /* APEcheduleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APEcheduleViewController.xib; sourceTree = "<group>"; };
+		18BEF9DF19460C4D0009C1CF /* APResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APResultViewController.h; sourceTree = "<group>"; };
+		18BEF9E019460C4D0009C1CF /* APResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APResultViewController.m; sourceTree = "<group>"; };
+		18BEF9E119460C4D0009C1CF /* APResultViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APResultViewController.xib; sourceTree = "<group>"; };
+		18BEF9E519461E0D0009C1CF /* APMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMoreViewController.h; sourceTree = "<group>"; };
+		18BEF9E619461E0D0009C1CF /* APMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APMoreViewController.m; sourceTree = "<group>"; };
+		18BEF9E719461E0D0009C1CF /* APMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APMoreViewController.xib; sourceTree = "<group>"; };
 		CE6C09651945B80600455A5B /* APMapViewPlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMapViewPlacesViewController.h; sourceTree = "<group>"; };
 		CE6C09661945B80600455A5B /* APMapViewPlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APMapViewPlacesViewController.m; sourceTree = "<group>"; };
 		CE6C09671945B80600455A5B /* APMapViewPlacesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APMapViewPlacesViewController.xib; sourceTree = "<group>"; };
@@ -504,6 +524,10 @@
 		18BEF8311942B23C0009C1CF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				18BEF9E419461DF70009C1CF /* More */,
+				18BEF9DE19460C290009C1CF /* Result */,
+				18BEF9D819460AF60009C1CF /* Echedule */,
+				18BEF9D2194607730009C1CF /* Team */,
 				18BEF8691942D9AE0009C1CF /* Stadium */,
 				18BEF8491942C12C0009C1CF /* Places */,
 				18BEF8481942C10C0009C1CF /* DetailEvent */,
@@ -681,6 +705,46 @@
 			path = "GoogleMaps-iOS-1.8.1";
 			sourceTree = "<group>";
 		};
+		18BEF9D2194607730009C1CF /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				18BEF9D3194607930009C1CF /* APTeamViewController.h */,
+				18BEF9D4194607930009C1CF /* APTeamViewController.m */,
+				18BEF9D5194607930009C1CF /* APTeamViewController.xib */,
+			);
+			name = Team;
+			sourceTree = "<group>";
+		};
+		18BEF9D819460AF60009C1CF /* Echedule */ = {
+			isa = PBXGroup;
+			children = (
+				18BEF9D919460B120009C1CF /* APEcheduleViewController.h */,
+				18BEF9DA19460B120009C1CF /* APEcheduleViewController.m */,
+				18BEF9DB19460B120009C1CF /* APEcheduleViewController.xib */,
+			);
+			name = Echedule;
+			sourceTree = "<group>";
+		};
+		18BEF9DE19460C290009C1CF /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				18BEF9DF19460C4D0009C1CF /* APResultViewController.h */,
+				18BEF9E019460C4D0009C1CF /* APResultViewController.m */,
+				18BEF9E119460C4D0009C1CF /* APResultViewController.xib */,
+			);
+			name = Result;
+			sourceTree = "<group>";
+		};
+		18BEF9E419461DF70009C1CF /* More */ = {
+			isa = PBXGroup;
+			children = (
+				18BEF9E519461E0D0009C1CF /* APMoreViewController.h */,
+				18BEF9E619461E0D0009C1CF /* APMoreViewController.m */,
+				18BEF9E719461E0D0009C1CF /* APMoreViewController.xib */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -794,6 +858,8 @@
 				18BEF82419422A2E0009C1CF /* Ale_01_12.png in Resources */,
 				18BEF8631942C28D0009C1CF /* MyNY.jpg in Resources */,
 				18BEF8621942C28D0009C1CF /* esquina.jpg in Resources */,
+				18BEF9DD19460B120009C1CF /* APEcheduleViewController.xib in Resources */,
+				18BEF9E319460C4D0009C1CF /* APResultViewController.xib in Resources */,
 				18BEF82519422A2E0009C1CF /* Ale_01_14.png in Resources */,
 				18BEF8441942B7AF0009C1CF /* transport.png in Resources */,
 				18BEF8651942C28D0009C1CF /* restaurant.jpg in Resources */,
@@ -809,6 +875,7 @@
 				18906C3D194167090072EC38 /* APEventTableViewCell.xib in Resources */,
 				18906BE619409FBB0072EC38 /* APLaunchImageViewController.xib in Resources */,
 				18BEF8671942C28D0009C1CF /* shopping.jpg in Resources */,
+				18BEF9E919461E0D0009C1CF /* APMoreViewController.xib in Resources */,
 				18BEF87919430A2C0009C1CF /* Back-button-.png in Resources */,
 				18BEF87E19430A2C0009C1CF /* Takecare-but.png in Resources */,
 				18BEF89219445E4B0009C1CF /* APDetailStadiumViewController.xib in Resources */,
@@ -821,6 +888,7 @@
 				18BEF88519431CD80009C1CF /* APStadiumTableViewCell.xib in Resources */,
 				18BEF86E1942DACC0009C1CF /* APStadiumViewController.xib in Resources */,
 				18BEF8301942AA200009C1CF /* APAleViewCellBt.xib in Resources */,
+				18BEF9D7194607930009C1CF /* APTeamViewController.xib in Resources */,
 				18906BE91940A25C0072EC38 /* Loading.psd in Resources */,
 				18BEF8421942B7AF0009C1CF /* Police.png in Resources */,
 				18906BC619409CAF0072EC38 /* Images.xcassets in Resources */,
@@ -858,6 +926,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BEF9E819461E0D0009C1CF /* APMoreViewController.m in Sources */,
 				18906C2E1940B8CD0072EC38 /* AFURLConnectionOperation.m in Sources */,
 				18906C3C194167090072EC38 /* APEventTableViewCell.m in Sources */,
 				18BEF88419431CD80009C1CF /* APStadiumTableViewCell.m in Sources */,
@@ -885,8 +954,11 @@
 				18906C281940B8CD0072EC38 /* AFHTTPClient.m in Sources */,
 				18BEF84D1942C1440009C1CF /* APPlaceViewController.m in Sources */,
 				18BEF81019418F630009C1CF /* APDetailEventViewController.m in Sources */,
+				18BEF9D6194607930009C1CF /* APTeamViewController.m in Sources */,
 				CE6C09681945B80600455A5B /* APMapViewPlacesViewController.m in Sources */,
+				18BEF9E219460C4D0009C1CF /* APResultViewController.m in Sources */,
 				18906C331940B9F00072EC38 /* APCallAPI.m in Sources */,
+				18BEF9DC19460B120009C1CF /* APEcheduleViewController.m in Sources */,
 				18906C2B1940B8CD0072EC38 /* AFJSONRequestOperation.m in Sources */,
 				18BEF82A1942A7E20009C1CF /* APAleViewCell.m in Sources */,
 				18906BC419409CAF0072EC38 /* APAppDelegate.m in Sources */,

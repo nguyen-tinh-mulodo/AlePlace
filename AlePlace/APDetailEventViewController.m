@@ -75,6 +75,7 @@
     
     [self callAPIGetDetailEvent];
      self.navigationItem.leftBarButtonItem = [FMUtils backArrowButtonWithTarget:self action:@selector(popViewControllerAnimated)];
+     self.navigationItem.rightBarButtonItem = [FMUtils moreArrowButtonWithTarget:self action:@selector(showMoreView)];
     // Do any additional setup after loading the view from its nib.
     tabBarAle.delegate = self;
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)
@@ -119,6 +120,9 @@
     }];
     
 }
+-(void)showMoreView{
+    
+}
 -(void)popViewControllerAnimated{
     if ([flagClass isEqualToString:@"APAleViewController"]) {
         flagClass = @"";
@@ -140,6 +144,29 @@
         [[NSNotificationCenter defaultCenter]postNotificationName:kRemoveAPShowFullMapViewController object:self];
         return;
     }
+    if ([flagClass isEqualToString:@"APEcheduleViewController"]) {
+        flagClass = @"APDetailStadiumViewController";
+        [[NSNotificationCenter defaultCenter]postNotificationName:kRemoveAPEcheduleViewController object:self];
+        return;
+    }
+    if ([flagClass isEqualToString:@"APEcheduleViewController"]) {
+        flagClass = @"APDetailStadiumViewController";
+        [[NSNotificationCenter defaultCenter]postNotificationName:kRemoveAPShowFullMapViewController object:self];
+        return;
+    }
+
+
+    if ([flagClass isEqualToString:@"APTeamViewController"]) {
+        flagClass = @"APAleViewController";
+        [[NSNotificationCenter defaultCenter]postNotificationName:kRemoveAPTeamViewController object:self];
+        return;
+    }
+    if ([flagClass isEqualToString:@"APResultViewController"]) {
+        flagClass = @"APAleViewController";
+        [[NSNotificationCenter defaultCenter]postNotificationName:kRemoveAPResultViewController object:self];
+        return;
+    }
+    
     
     for (UIView *view in [self.view subviews]) {
         if (view == aleViewController.view) {

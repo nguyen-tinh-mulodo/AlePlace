@@ -14,4 +14,5 @@
 + (CGFloat)heightForCell:(NSString *)text size:(float)size font:(NSString *)font width:(float)width;
 + (UIView *)getMainView;
 + (UIBarButtonItem *)backArrowButtonWithTarget:(id)target action:(SEL)action;
++ (UIBarButtonItem *)moreArrowButtonWithTarget:(id)target action:(SEL)action;
 @end

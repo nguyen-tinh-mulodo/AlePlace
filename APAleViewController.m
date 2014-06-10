@@ -14,10 +14,16 @@
 #import "APAppDelegate.h"
 #import "UIImageView+AFNetworking.h"
 #import "FMConstants.h"
+#import "APTeamViewController.h"
+#import "APEcheduleViewController.h"
+#import "APResultViewController.h"
 
 @interface APAleViewController ()
 {
     APStadiumViewController *stadiumViewController;
+    APTeamViewController *teamViewController;
+    APEcheduleViewController *echeduleViewController;
+    APResultViewController  *resultViewController;
 }
 @end
 
@@ -222,19 +228,32 @@
 - (void)showStadium{
     stadiumViewController = [[APStadiumViewController alloc] initWithNibName:@"APStadiumViewController" bundle:nil];
     stadiumViewController.view.frame = CGRectMake(0, stadiumViewController.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height);
-    stadiumViewController.tableStadium.frame = CGRectMake(0, 0, 10, 300);
+    //stadiumViewController.tableStadium.frame = CGRectMake(0, 0, 10, 300);
     //[[APAppDelegate appDelegate].navigation pushViewController:stadiumViewController animated:NO];
     //[self addChildViewController:stadiumViewController];
     [self.view addSubview:stadiumViewController.view];
     
 }
 - (void)showTerm{
+    teamViewController = [[APTeamViewController alloc] initWithNibName:@"APTeamViewController" bundle:nil];
+    teamViewController.view.frame = CGRectMake(0, teamViewController.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height);
+    //[[APAppDelegate appDelegate].navigation pushViewController:stadiumViewController animated:NO];
+    //[self addChildViewController:stadiumViewController];
+    [self.view addSubview:teamViewController.view];
     
 }
 -(void)showSchedule{
+    echeduleViewController = [[APEcheduleViewController alloc] initWithNibName:@"APEcheduleViewController" bundle:nil];
+    echeduleViewController.view.frame = CGRectMake(0, echeduleViewController.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height);
+    
+    [self.view addSubview:echeduleViewController.view];
     
 }
 -(void)showResult{
+    resultViewController  = [[APResultViewController alloc] initWithNibName:@"APResultViewController" bundle:nil];
+    resultViewController.view.frame = CGRectMake(0, resultViewController.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height);
+    
+    [self.view addSubview:resultViewController.view];
     
 }
 @end

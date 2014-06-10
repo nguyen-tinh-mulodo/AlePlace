@@ -37,5 +37,20 @@
     UIBarButtonItem *customBarItem = [[UIBarButtonItem alloc] initWithCustomView:button];
     return customBarItem;
 }
++ (UIBarButtonItem *)moreArrowButtonWithTarget:(id)target action:(SEL)action
+{
+    UIImage *buttonImage = [UIImage imageNamed:@"More.png"];
+    //create the button and assign the image
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button setImage:buttonImage forState:UIControlStateNormal];
+    //set the frame of the button to the size of the image (see note below)
+    [button setContentMode:UIViewContentModeScaleAspectFit];
+    button.frame = CGRectMake(0, 0,60,30);
+    [button addTarget:target action:action forControlEvents:UIControlEventTouchUpInside];
+    
+    //create a UIBarButtonItem with the button as a custom view
+    UIBarButtonItem *customBarItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+    return customBarItem;
+}
 
 @end

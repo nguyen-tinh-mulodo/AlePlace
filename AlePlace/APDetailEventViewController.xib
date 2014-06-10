@@ -131,7 +131,7 @@
                     </connections>
                 </tabBar>
                 <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="World Cup 2014" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="z2C-k4-12D">
-                    <rect key="frame" x="10" y="22" width="301" height="25"/>
+                    <rect key="frame" x="10" y="15" width="301" height="30"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.17557934877246248" green="0.48558767380232737" blue="0.68380604619565211" alpha="1" colorSpace="calibratedRGB"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>

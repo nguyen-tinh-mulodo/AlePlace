@@ -90,7 +90,7 @@
     
     self.titleDetail.text = stadium.nameStadium;
     [self.imageDetail roundCornerShadowAndBorder];
-    [self.imageDetail setImageWithURL:[NSURL URLWithString:stadium.thumb_photoStadium] placeholderImage:nil];
+    [self.imageDetail setImageWithURL:[NSURL URLWithString:[stadium.thumb_photoStadium stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]] placeholderImage:nil];
     self.description.text = stadium.descriptionStadium;
     self.description.frame = CGRectMake(self.description.frame.origin.x,CGRectGetMaxY(self.map.frame)+ 20, self.description.frame.size.width, [FMUtils heightForCell:stadium.descriptionStadium size:17 font:@"Helvetica" width:self.description.frame.size.width]);
     self.address.text = stadium.address;

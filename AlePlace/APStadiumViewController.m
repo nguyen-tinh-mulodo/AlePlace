@@ -45,7 +45,7 @@
     self.navigationItem.leftBarButtonItem = [FMUtils backArrowButtonWithTarget:self action:@selector(popViewControllerAnimated)];
     [[NSNotificationCenter defaultCenter]postNotificationName:kAleViewController object:self userInfo:@{kNameView:@"APStadiumViewController"}];
     // Do any additional setup after loading the view from its nib.
-    [self callAPIGetDetailEvent];
+    [self callAPIGetStadium];
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(removeView) name:kRemoveStadiumViewController object:nil];
 }
 -(void)removeView{
@@ -54,7 +54,7 @@
 -(void)popViewControllerAnimated{
     [self.view removeFromSuperview];
 }
--(void)callAPIGetDetailEvent{
+-(void)callAPIGetStadium{
     dictionary = [[NSMutableDictionary alloc] init];
     [dictionary setValue:@"json" forKey:@"format"];
     [dictionary setValue:[NSString stringWithFormat:@"%d",page] forKey:@"page"];
@@ -101,9 +101,8 @@
     cell.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     APStadium *stadium = [listStadiums objectAtIndex:indexPath.row];
     cell.titileStadium.text = stadium.nameStadium;
-    
-    [cell.imageStadium setImageWithURL:[NSURL URLWithString:stadium.thumb_photoStadium]placeholderImage:nil];
-    [cell.imageStadium setContentMode:UIViewContentModeScaleAspectFit];
+    [cell.imageStadium setImageWithURL:[NSURL URLWithString: [stadium.thumb_photoStadium stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]placeholderImage:nil];
+   [cell.imageStadium setContentMode:UIViewContentModeScaleAspectFit];
     cell.country.text = stadium.country;
     cell.city.text = stadium.city;
     cell.add.text = stadium.address;
