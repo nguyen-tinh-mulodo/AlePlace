@@ -10,4 +10,5 @@
 
 @interface APHeader : UIView
 - (IBAction)backBtnClick:(id)sender;
+- (IBAction)more:(id)sender;
 @end

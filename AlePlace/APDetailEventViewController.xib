@@ -143,7 +143,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <size key="titleShadowOffset" width="2" height="2"/>
                     <state key="normal" backgroundImage="Ale-button.png"/>
-                    <state key="selected" backgroundImage="Places-icon-hover.png"/>
+                    <state key="selected" backgroundImage="Ale-button-hover.png"/>
                     <state key="highlighted" backgroundImage="Ale-button.png">
                         <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
@@ -191,6 +191,7 @@
         </view>
     </objects>
     <resources>
+        <image name="Ale-button-hover.png" width="469" height="229"/>
         <image name="Ale-button.png" width="469" height="229"/>
         <image name="Home-but-hover.png" width="469" height="229"/>
         <image name="Home-but.png" width="469" height="229"/>

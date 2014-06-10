@@ -104,9 +104,6 @@
 - (void)setFlagView:(NSNotification *)notification {
     
    flagClass = [notification.userInfo objectForKey:@"nameView"];
-    
-
-    
 }
 
 -(void)callAPIGetDetailEvent{

@@ -14,11 +14,15 @@
 #import "APEventTableViewCell.h"
 #import "UIImageView+AFNetworking.h"
 #import "APDetailEventViewController.h"
-
+#import "FMConstants.h"
+#import "APMoreViewController.h"
+#import "FMUtils.h"
+#import "APEventCellTableViewCell.h"
 
 @interface APHomeViewController ()
 {
     NSMutableArray *listEvents;
+    BOOL flagMore;
 }
 @end
 
@@ -37,9 +41,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    flagMore = FALSE;
     imageViewStart.hidden = YES;
     imageViewRound.hidden = YES;
-    self.title = @"ALEPLAGE";
     listEvents = [[NSMutableArray alloc] init];
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)
     {
@@ -55,6 +59,16 @@
     
     // Do any additional setup after loading the view from its nib.
     [self.tableViewEvent registerNib:[UINib nibWithNibName:@"APEventTableViewCell" bundle:nil] forCellReuseIdentifier:@"APEventTableViewCell"];
+    [self.tableViewEvent registerNib:[UINib nibWithNibName:@"APEventCellTableViewCell" bundle:nil] forCellReuseIdentifier:@"APEventCellTableViewCell"];
+    
+    self.tableViewEvent.scrollEnabled = NO;
+    
+    
+    NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"testView" owner:self options:nil];
+    UIView *view = [[UIView alloc] init]; // or if it exists, MCQView *view = [[MCQView alloc] init];
+    view = (UIView *)[nib objectAtIndex:0]; // or if it exists, (MCQView *)[nib objectAtIndex:0];
+    //navigationItem.titleView = view;
+    [self.navigationController.navigationBar addSubview:view];
 }
 -(void)callAPIGetEvents{
     NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] init];
@@ -99,17 +113,43 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    static NSString *CellIdentifier = @"APEventTableViewCell";
-   //    APEventTableViewCell *cell = nil;
-    APEventTableViewCell *cell = (APEventTableViewCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if(cell == nil)
-    {
-        cell = [[APEventTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-       
-        [[NSBundle mainBundle] loadNibNamed:@"APEventTableViewCell" owner:self options:nil];
+    if (indexPath.row == 0) {
+        static NSString *CellIdentifier = @"APEventTableViewCell";
+        //    APEventTableViewCell *cell = nil;
+        APEventTableViewCell *cell = (APEventTableViewCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        if(cell == nil)
+        {
+            cell = [[APEventTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+            
+            [[NSBundle mainBundle] loadNibNamed:@"APEventTableViewCell" owner:self options:nil];
+            
+        }
+        APEvent *event = [listEvents objectAtIndex:indexPath.row];
+        cell.nameEvent.text = event.nameEvent;
+        cell.dateEvent.text = [NSString stringWithFormat:@"%@-%@",event.start_dateEvent,event.end_dateEvent];
+        [cell.imageEvent setImageWithURL:[NSURL URLWithString:event.thumb_photoEvent] placeholderImage:nil];
         
+        return cell;
+    }else{
+        static NSString *CellIdentifier = @"APEventCellTableViewCell";
+        //    APEventTableViewCell *cell = nil;
+        APEventCellTableViewCell *cell = (APEventCellTableViewCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+        if(cell == nil)
+        {
+            cell = [[APEventCellTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+            
+            [[NSBundle mainBundle] loadNibNamed:@"APEventCellTableViewCell" owner:self options:nil];
+            
+        }
+        APEvent *event = [listEvents objectAtIndex:indexPath.row];
+        cell.nameEvent.text = event.nameEvent;
+        cell.dateEvent.text = [NSString stringWithFormat:@"%@-%@",event.start_dateEvent,event.end_dateEvent];
+        [cell.imageEvent setImageWithURL:[NSURL URLWithString:event.thumb_photoEvent] placeholderImage:nil];
+        
+        return cell;
+
     }
-//    if (cell == nil) {
+    //    if (cell == nil) {
 //       // cell = [[APEventTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
 //        NSArray *topLevelObjects = [[NSBundle mainBundle] loadNibNamed:@"APEventTableViewCell" owner:self options:nil];
 //        // Grab a pointer to the first object (presumably the custom cell, as that's all the XIB should contain).
@@ -125,13 +165,6 @@
 //       
 //        cell =temp;
 //    }
-    APEvent *event = [listEvents objectAtIndex:indexPath.row];
-    NSLog(@"dsaas:%@",event.descriptionEvent);
-    cell.nameEvent.text = event.nameEvent;
-    cell.dateEvent.text = [NSString stringWithFormat:@"%@-%@",event.start_dateEvent,event.end_dateEvent];
-    [cell.imageEvent setImageWithURL:[NSURL URLWithString:event.thumb_photoEvent] placeholderImage:nil];
-    
-    return cell;
 }
 
 
@@ -196,5 +229,19 @@
     [self.navigationController pushViewController:detailEventViewController animated:NO];
 }
 
-
+- (IBAction)backBtnClick:(id)sender {
+    if (flagMore) {
+        flagMore = FALSE;
+        [[NSNotificationCenter defaultCenter]postNotificationName:kRevovemore object:self];
+    }else{
+        [[NSNotificationCenter defaultCenter]postNotificationName:ktest object:self userInfo:@{kNameView:@"APStadiumViewController"}];
+    }
+}
+- (IBAction)more:(id)sender{
+    if (!flagMore) {
+        flagMore = TRUE;
+        APMoreViewController *moreView = [[APMoreViewController alloc] initWithNibName:@"APMoreViewController" bundle:nil];
+        [self.navigationController pushViewController:moreView animated:NO];
+    }
+}
 @end

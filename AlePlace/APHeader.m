@@ -33,4 +33,7 @@
 - (IBAction)backBtnClick:(id)sender {
     
 }
+
+- (IBAction)more:(id)sender {
+}
 @end

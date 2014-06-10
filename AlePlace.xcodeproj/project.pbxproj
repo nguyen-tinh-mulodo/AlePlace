@@ -129,6 +129,9 @@
 		18BEFA011946F4C00009C1CF /* tag.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9FE1946F4C00009C1CF /* tag.png */; };
 		18BEFA031947095B0009C1CF /* testView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEFA021947095B0009C1CF /* testView.xib */; };
 		18BEFA06194710420009C1CF /* APHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEFA05194710420009C1CF /* APHeader.m */; };
+		18BEFA0A194759D00009C1CF /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEFA09194759D00009C1CF /* TTTAttributedLabel.m */; };
+		18BEFA0F19475DBE0009C1CF /* APEventCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEFA0D19475DBE0009C1CF /* APEventCellTableViewCell.m */; };
+		18BEFA1019475DBE0009C1CF /* APEventCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEFA0E19475DBE0009C1CF /* APEventCellTableViewCell.xib */; };
 		CE6C09681945B80600455A5B /* APMapViewPlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C09661945B80600455A5B /* APMapViewPlacesViewController.m */; };
 		CE6C09691945B80600455A5B /* APMapViewPlacesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6C09671945B80600455A5B /* APMapViewPlacesViewController.xib */; };
 		CE6C096C1946051400455A5B /* APCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C096B1946051400455A5B /* APCountry.m */; };
@@ -311,6 +314,11 @@
 		18BEFA021947095B0009C1CF /* testView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testView.xib; sourceTree = "<group>"; };
 		18BEFA04194710420009C1CF /* APHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHeader.h; sourceTree = "<group>"; };
 		18BEFA05194710420009C1CF /* APHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHeader.m; sourceTree = "<group>"; };
+		18BEFA08194759D00009C1CF /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		18BEFA09194759D00009C1CF /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
+		18BEFA0C19475DBE0009C1CF /* APEventCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APEventCellTableViewCell.h; sourceTree = "<group>"; };
+		18BEFA0D19475DBE0009C1CF /* APEventCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APEventCellTableViewCell.m; sourceTree = "<group>"; };
+		18BEFA0E19475DBE0009C1CF /* APEventCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APEventCellTableViewCell.xib; sourceTree = "<group>"; };
 		CE6C09651945B80600455A5B /* APMapViewPlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMapViewPlacesViewController.h; sourceTree = "<group>"; };
 		CE6C09661945B80600455A5B /* APMapViewPlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APMapViewPlacesViewController.m; sourceTree = "<group>"; };
 		CE6C09671945B80600455A5B /* APMapViewPlacesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APMapViewPlacesViewController.xib; sourceTree = "<group>"; };
@@ -541,11 +549,9 @@
 		18906C38194166E40072EC38 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				18BEFA0B19475D940009C1CF /* Home */,
 				18BEF88019431C270009C1CF /* Stadium */,
 				18BEF8321942B2960009C1CF /* Ale */,
-				18906C39194167090072EC38 /* APEventTableViewCell.h */,
-				18906C3A194167090072EC38 /* APEventTableViewCell.m */,
-				18906C3B194167090072EC38 /* APEventTableViewCell.xib */,
 				18BEF84F1942C1920009C1CF /* APPlaceTableViewCell.h */,
 				18BEF8501942C1920009C1CF /* APPlaceTableViewCell.m */,
 				18BEF8511942C1920009C1CF /* APPlaceTableViewCell.xib */,
@@ -580,6 +586,7 @@
 		18BEF8311942B23C0009C1CF /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				18BEFA07194759D00009C1CF /* TTTAttributedLabel */,
 				18BEF9E419461DF70009C1CF /* More */,
 				18BEF9DE19460C290009C1CF /* Result */,
 				18BEF9D819460AF60009C1CF /* Echedule */,
@@ -823,6 +830,28 @@
 			path = Loading;
 			sourceTree = "<group>";
 		};
+		18BEFA07194759D00009C1CF /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				18BEFA08194759D00009C1CF /* TTTAttributedLabel.h */,
+				18BEFA09194759D00009C1CF /* TTTAttributedLabel.m */,
+			);
+			path = TTTAttributedLabel;
+			sourceTree = "<group>";
+		};
+		18BEFA0B19475D940009C1CF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18906C39194167090072EC38 /* APEventTableViewCell.h */,
+				18906C3A194167090072EC38 /* APEventTableViewCell.m */,
+				18906C3B194167090072EC38 /* APEventTableViewCell.xib */,
+				18BEFA0C19475DBE0009C1CF /* APEventCellTableViewCell.h */,
+				18BEFA0D19475DBE0009C1CF /* APEventCellTableViewCell.m */,
+				18BEFA0E19475DBE0009C1CF /* APEventCellTableViewCell.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -948,6 +977,7 @@
 				18BEF82519422A2E0009C1CF /* Ale_01_14.png in Resources */,
 				18BEF9EF1946EDA30009C1CF /* round.png in Resources */,
 				18BEF9F61946EF090009C1CF /* Home-but-hover.png in Resources */,
+				18BEFA1019475DBE0009C1CF /* APEventCellTableViewCell.xib in Resources */,
 				18BEF8441942B7AF0009C1CF /* transport.png in Resources */,
 				18BEF8651942C28D0009C1CF /* restaurant.jpg in Resources */,
 				18BEF8611942C28D0009C1CF /* eat.png in Resources */,
@@ -1035,6 +1065,7 @@
 				18BEF89119445E4B0009C1CF /* APDetailStadiumViewController.m in Sources */,
 				CE6C09771946159100455A5B /* APMyAnnotation.m in Sources */,
 				18906BE519409FBB0072EC38 /* APLaunchImageViewController.m in Sources */,
+				18BEFA0A194759D00009C1CF /* TTTAttributedLabel.m in Sources */,
 				18906C2F1940B8CD0072EC38 /* AFXMLRequestOperation.m in Sources */,
 				18BEF81C194228940009C1CF /* APAleViewController.m in Sources */,
 				18906C2C1940B8CD0072EC38 /* AFNetworkActivityIndicatorManager.m in Sources */,
@@ -1052,6 +1083,7 @@
 				18BEF81019418F630009C1CF /* APDetailEventViewController.m in Sources */,
 				18BEF9D6194607930009C1CF /* APTeamViewController.m in Sources */,
 				CE6C09681945B80600455A5B /* APMapViewPlacesViewController.m in Sources */,
+				18BEFA0F19475DBE0009C1CF /* APEventCellTableViewCell.m in Sources */,
 				18BEF9E219460C4D0009C1CF /* APResultViewController.m in Sources */,
 				18906C331940B9F00072EC38 /* APCallAPI.m in Sources */,
 				18BEF9DC19460B120009C1CF /* APEcheduleViewController.m in Sources */,

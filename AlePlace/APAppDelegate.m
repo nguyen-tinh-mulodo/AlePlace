@@ -8,7 +8,6 @@
 
 #import "APAppDelegate.h"
 #import "FMConstants.h"
-
 @implementation APAppDelegate
 @synthesize launchImageViewController,homeViewController,navigation;
 + (APAppDelegate *)appDelegate
@@ -50,11 +49,10 @@
     }else{
         self.navigation.navigationBar.tintColor = UIColorFromRGB(kMetroColorGreen);
     }
+    
 }
 #pragma mark - Navigation Bar delegate
 - (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
-    
-    UINavigationItem *navigationItem = navigationController.navigationBar.topItem;
     
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)
     {
@@ -78,7 +76,7 @@
     label.textAlignment = NSTextAlignmentCenter;
     label.textColor = [UIColor whiteColor];
     navigationItem.titleView = imageview;*/
-         NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"testView" owner:self options:nil];
+        /* NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"testView" owner:self options:nil];
          
          UIView *view = [[UIView alloc] init]; // or if it exists, MCQView *view = [[MCQView alloc] init];
          view = (UIView *)[nib objectAtIndex:0]; // or if it exists, (MCQView *)[nib objectAtIndex:0];
@@ -87,13 +85,13 @@
          [navigationController.navigationBar addSubview:view];
      }else{
          
-         NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"testView" owner:self options:nil];
+        // NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"testView" owner:self options:nil];
          
-         UIView *view = [[UIView alloc] init]; // or if it exists, MCQView *view = [[MCQView alloc] init];
-         view = (UIView *)[nib objectAtIndex:0]; // or if it exists, (MCQView *)[nib objectAtIndex:0];
+        // UIView *view = [[UIView alloc] init]; // or if it exists, MCQView *view = [[MCQView alloc] init];
+        // view = (UIView *)[nib objectAtIndex:0]; // or if it exists, (MCQView *)[nib objectAtIndex:0];
          
           //navigationItem.titleView = view;
-         [navigationController.navigationBar addSubview:view];
+        // [navigationController.navigationBar addSubview:view];
          /*UIView *view = [[UIView alloc] initWithFrame:CGRectMake(-20, 0,self.window.frame.size.width,45)];
          
          

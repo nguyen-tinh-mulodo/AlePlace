@@ -13,4 +13,5 @@
 @property (nonatomic,weak)IBOutlet UIImageView *imageViewStart;
 @property (nonatomic,weak)IBOutlet UIImageView *imageViewRound;
 @property (weak, nonatomic) IBOutlet APEventTableViewCell *customCell;
+- (IBAction)backBtnClick:(id)sender;
 @end
