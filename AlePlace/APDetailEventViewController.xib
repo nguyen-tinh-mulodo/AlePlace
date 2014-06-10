@@ -138,42 +138,48 @@
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="GDX-p5-VKt">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="GDX-p5-VKt">
                     <rect key="frame" x="0.0" y="430" width="80" height="50"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                    <state key="normal" backgroundImage="Ale-button.png">
-                        <color key="titleShadowColor" red="0.17610287124165191" green="0.73944570924879582" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <size key="titleShadowOffset" width="2" height="2"/>
+                    <state key="normal" backgroundImage="Ale-button.png"/>
+                    <state key="selected" backgroundImage="Places-icon-hover.png"/>
+                    <state key="highlighted" backgroundImage="Ale-button.png">
+                        <color key="titleShadowColor" cocoaTouchSystemColor="darkTextColor"/>
                     </state>
                     <connections>
                         <action selector="showAle:" destination="-1" eventType="touchUpInside" id="SMH-9V-Oej"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="IIn-Sg-jbZ">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="IIn-Sg-jbZ">
                     <rect key="frame" x="80" y="430" width="80" height="50"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <state key="normal" backgroundImage="Takecare-but.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <state key="selected" backgroundImage="Takecare-but-hover.png"/>
                     <connections>
                         <action selector="showTake:" destination="-1" eventType="touchUpInside" id="XBF-vy-D92"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="YfD-RA-eMj">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="YfD-RA-eMj">
                     <rect key="frame" x="160" y="430" width="80" height="50"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <state key="normal" backgroundImage="Places-but.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <state key="selected" backgroundImage="Places-icon-hover.png"/>
                     <connections>
                         <action selector="showPlace:" destination="-1" eventType="touchUpInside" id="GAb-8F-gMl"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ANY-Hw-foo">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ANY-Hw-foo">
                     <rect key="frame" x="240" y="430" width="80" height="50"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                     <state key="normal" backgroundImage="Home-but.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <state key="selected" backgroundImage="Home-but-hover.png"/>
                     <connections>
                         <action selector="showHome:" destination="-1" eventType="touchUpInside" id="baI-SG-9Jj"/>
                     </connections>
@@ -186,8 +192,11 @@
     </objects>
     <resources>
         <image name="Ale-button.png" width="469" height="229"/>
+        <image name="Home-but-hover.png" width="469" height="229"/>
         <image name="Home-but.png" width="469" height="229"/>
         <image name="Places-but.png" width="468" height="229"/>
+        <image name="Places-icon-hover.png" width="468" height="229"/>
+        <image name="Takecare-but-hover.png" width="469" height="229"/>
         <image name="Takecare-but.png" width="469" height="229"/>
     </resources>
 </document>

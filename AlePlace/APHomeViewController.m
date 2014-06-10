@@ -23,7 +23,8 @@
 @end
 
 @implementation APHomeViewController
-@synthesize tableViewEvent;
+@synthesize tableViewEvent,imageViewStart,imageViewRound;
+@synthesize customCell = _customCell;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -36,6 +37,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    imageViewStart.hidden = YES;
+    imageViewRound.hidden = YES;
     self.title = @"ALEPLAGE";
     listEvents = [[NSMutableArray alloc] init];
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)
@@ -51,6 +54,7 @@
     });*/
     
     // Do any additional setup after loading the view from its nib.
+    [self.tableViewEvent registerNib:[UINib nibWithNibName:@"APEventTableViewCell" bundle:nil] forCellReuseIdentifier:@"APEventTableViewCell"];
 }
 -(void)callAPIGetEvents{
     NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] init];
@@ -59,6 +63,8 @@
     [APCallAPI getEvents:^(NSArray *listEvent, NSObject *error) {
         listEvents = [NSMutableArray arrayWithArray:listEvent];
         [self.tableViewEvent reloadData];
+        imageViewStart.hidden = NO;
+        imageViewRound.hidden = NO;
     } parameters:dictionary didFail:^(NSObject *error) {
     }];
     
@@ -94,21 +100,37 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *CellIdentifier = @"APEventTableViewCell";
-    APEventTableViewCell *cell = nil;
-    cell = (APEventTableViewCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-       // cell = [[APEventTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-        NSArray *topLevelObjects = [[NSBundle mainBundle] loadNibNamed:@"APEventTableViewCell" owner:self options:nil];
-        // Grab a pointer to the first object (presumably the custom cell, as that's all the XIB should contain).
-        cell = [topLevelObjects objectAtIndex:0];
+   //    APEventTableViewCell *cell = nil;
+    APEventTableViewCell *cell = (APEventTableViewCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    if(cell == nil)
+    {
+        cell = [[APEventTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+       
+        [[NSBundle mainBundle] loadNibNamed:@"APEventTableViewCell" owner:self options:nil];
+        
     }
-    
+//    if (cell == nil) {
+//       // cell = [[APEventTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+//        NSArray *topLevelObjects = [[NSBundle mainBundle] loadNibNamed:@"APEventTableViewCell" owner:self options:nil];
+//        // Grab a pointer to the first object (presumably the custom cell, as that's all the XIB should contain).
+//        /*for( id obj in topLevelObjects ) {
+//            if( [obj isMemberOfClass:[APEventTableViewCell class] ]  || [obj isKindOfClass:[APEventTableViewCell class]] ) {
+//                cell = obj;
+//            }
+//        }*/
+//       
+//
+//        APEventTableViewCell* temp = [topLevelObjects objectAtIndex:0];
+//        
+//       
+//        cell =temp;
+//    }
     APEvent *event = [listEvents objectAtIndex:indexPath.row];
     NSLog(@"dsaas:%@",event.descriptionEvent);
     cell.nameEvent.text = event.nameEvent;
     cell.dateEvent.text = [NSString stringWithFormat:@"%@-%@",event.start_dateEvent,event.end_dateEvent];
     [cell.imageEvent setImageWithURL:[NSURL URLWithString:event.thumb_photoEvent] placeholderImage:nil];
-    cell.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+    
     return cell;
 }
 
@@ -121,7 +143,7 @@
 //}
 
 
--(float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 120;
 }
 

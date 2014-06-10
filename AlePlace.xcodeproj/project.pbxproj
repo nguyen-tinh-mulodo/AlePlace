@@ -42,7 +42,6 @@
 		18BEF81019418F630009C1CF /* APDetailEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEF80E19418F630009C1CF /* APDetailEventViewController.m */; };
 		18BEF81119418F630009C1CF /* APDetailEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF80F19418F630009C1CF /* APDetailEventViewController.xib */; };
 		18BEF81619420C870009C1CF /* FMUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEF81519420C870009C1CF /* FMUtils.m */; };
-		18BEF8181942209F0009C1CF /* Back-button-.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF8171942209F0009C1CF /* Back-button-.png */; };
 		18BEF81C194228940009C1CF /* APAleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEF81A194228940009C1CF /* APAleViewController.m */; };
 		18BEF81D194228940009C1CF /* APAleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF81B194228940009C1CF /* APAleViewController.xib */; };
 		18BEF82319422A2E0009C1CF /* Ale_01_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF81F19422A2E0009C1CF /* Ale_01_11.png */; };
@@ -117,6 +116,17 @@
 		18BEF9E319460C4D0009C1CF /* APResultViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9E119460C4D0009C1CF /* APResultViewController.xib */; };
 		18BEF9E819461E0D0009C1CF /* APMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEF9E619461E0D0009C1CF /* APMoreViewController.m */; };
 		18BEF9E919461E0D0009C1CF /* APMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9E719461E0D0009C1CF /* APMoreViewController.xib */; };
+		18BEF9EB1946B68B0009C1CF /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9EA1946B68B0009C1CF /* star.png */; };
+		18BEF9ED1946E8640009C1CF /* Location.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9EC1946E8640009C1CF /* Location.png */; };
+		18BEF9EF1946EDA30009C1CF /* round.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9EE1946EDA30009C1CF /* round.png */; };
+		18BEF9F51946EF090009C1CF /* Ale-button-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9F11946EF090009C1CF /* Ale-button-hover.png */; };
+		18BEF9F61946EF090009C1CF /* Home-but-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9F21946EF090009C1CF /* Home-but-hover.png */; };
+		18BEF9F71946EF090009C1CF /* Places-icon-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9F31946EF090009C1CF /* Places-icon-hover.png */; };
+		18BEF9F81946EF090009C1CF /* Takecare-but-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9F41946EF090009C1CF /* Takecare-but-hover.png */; };
+		18BEF9FA1946EF110009C1CF /* Loading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9F91946EF110009C1CF /* Loading.jpg */; };
+		18BEF9FF1946F4C00009C1CF /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9FC1946F4C00009C1CF /* ball.png */; };
+		18BEFA001946F4C00009C1CF /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9FD1946F4C00009C1CF /* shadow.png */; };
+		18BEFA011946F4C00009C1CF /* tag.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9FE1946F4C00009C1CF /* tag.png */; };
 		CE6C09681945B80600455A5B /* APMapViewPlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C09661945B80600455A5B /* APMapViewPlacesViewController.m */; };
 		CE6C09691945B80600455A5B /* APMapViewPlacesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6C09671945B80600455A5B /* APMapViewPlacesViewController.xib */; };
 		CE6C096C1946051400455A5B /* APCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C096B1946051400455A5B /* APCountry.m */; };
@@ -196,7 +206,6 @@
 		18BEF80F19418F630009C1CF /* APDetailEventViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APDetailEventViewController.xib; sourceTree = "<group>"; };
 		18BEF81419420C870009C1CF /* FMUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMUtils.h; sourceTree = "<group>"; };
 		18BEF81519420C870009C1CF /* FMUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMUtils.m; sourceTree = "<group>"; };
-		18BEF8171942209F0009C1CF /* Back-button-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back-button-.png"; sourceTree = "<group>"; };
 		18BEF819194228940009C1CF /* APAleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APAleViewController.h; path = ../APAleViewController.h; sourceTree = "<group>"; };
 		18BEF81A194228940009C1CF /* APAleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APAleViewController.m; path = ../APAleViewController.m; sourceTree = "<group>"; };
 		18BEF81B194228940009C1CF /* APAleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = APAleViewController.xib; path = ../APAleViewController.xib; sourceTree = "<group>"; };
@@ -286,6 +295,17 @@
 		18BEF9E519461E0D0009C1CF /* APMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMoreViewController.h; sourceTree = "<group>"; };
 		18BEF9E619461E0D0009C1CF /* APMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APMoreViewController.m; sourceTree = "<group>"; };
 		18BEF9E719461E0D0009C1CF /* APMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APMoreViewController.xib; sourceTree = "<group>"; };
+		18BEF9EA1946B68B0009C1CF /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		18BEF9EC1946E8640009C1CF /* Location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Location.png; sourceTree = "<group>"; };
+		18BEF9EE1946EDA30009C1CF /* round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round.png; sourceTree = "<group>"; };
+		18BEF9F11946EF090009C1CF /* Ale-button-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ale-button-hover.png"; sourceTree = "<group>"; };
+		18BEF9F21946EF090009C1CF /* Home-but-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-but-hover.png"; sourceTree = "<group>"; };
+		18BEF9F31946EF090009C1CF /* Places-icon-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Places-icon-hover.png"; sourceTree = "<group>"; };
+		18BEF9F41946EF090009C1CF /* Takecare-but-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Takecare-but-hover.png"; sourceTree = "<group>"; };
+		18BEF9F91946EF110009C1CF /* Loading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Loading.jpg; sourceTree = "<group>"; };
+		18BEF9FC1946F4C00009C1CF /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		18BEF9FD1946F4C00009C1CF /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow.png; sourceTree = "<group>"; };
+		18BEF9FE1946F4C00009C1CF /* tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag.png; sourceTree = "<group>"; };
 		CE6C09651945B80600455A5B /* APMapViewPlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMapViewPlacesViewController.h; sourceTree = "<group>"; };
 		CE6C09661945B80600455A5B /* APMapViewPlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APMapViewPlacesViewController.m; sourceTree = "<group>"; };
 		CE6C09671945B80600455A5B /* APMapViewPlacesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APMapViewPlacesViewController.xib; sourceTree = "<group>"; };
@@ -435,12 +455,16 @@
 		18906BE71940A25C0072EC38 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				18BEF9FB1946F4C00009C1CF /* Loading */,
+				18BEF9F91946EF110009C1CF /* Loading.jpg */,
+				18BEF9EE1946EDA30009C1CF /* round.png */,
+				18BEF9EC1946E8640009C1CF /* Location.png */,
+				18BEF9EA1946B68B0009C1CF /* star.png */,
 				18BEF88619431F2E0009C1CF /* Map-Preview_Icon */,
 				18BEF86F19430A2C0009C1CF /* Top-Bottom_Menu */,
 				18BEF8541942C28D0009C1CF /* Place */,
 				18BEF8381942B7AF0009C1CF /* take care */,
 				18BEF81E19422A2E0009C1CF /* ale-4-buttons */,
-				18BEF8171942209F0009C1CF /* Back-button-.png */,
 				18906BE81940A25C0072EC38 /* Loading.psd */,
 			);
 			path = Image;
@@ -680,6 +704,7 @@
 		18BEF86F19430A2C0009C1CF /* Top-Bottom_Menu */ = {
 			isa = PBXGroup;
 			children = (
+				18BEF9F01946EF090009C1CF /* hover */,
 				18BEF87019430A2C0009C1CF /* Ale-button.png */,
 				18BEF87119430A2C0009C1CF /* Back-button-.png */,
 				18BEF87219430A2C0009C1CF /* Back-button.png */,
@@ -769,6 +794,27 @@
 			name = More;
 			sourceTree = "<group>";
 		};
+		18BEF9F01946EF090009C1CF /* hover */ = {
+			isa = PBXGroup;
+			children = (
+				18BEF9F11946EF090009C1CF /* Ale-button-hover.png */,
+				18BEF9F21946EF090009C1CF /* Home-but-hover.png */,
+				18BEF9F31946EF090009C1CF /* Places-icon-hover.png */,
+				18BEF9F41946EF090009C1CF /* Takecare-but-hover.png */,
+			);
+			path = hover;
+			sourceTree = "<group>";
+		};
+		18BEF9FB1946F4C00009C1CF /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				18BEF9FC1946F4C00009C1CF /* ball.png */,
+				18BEF9FD1946F4C00009C1CF /* shadow.png */,
+				18BEF9FE1946F4C00009C1CF /* tag.png */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -816,6 +862,9 @@
 				CLASSPREFIX = AP;
 				LastUpgradeCheck = 0510;
 				TargetAttributes = {
+					18906BAF19409CAF0072EC38 = {
+						DevelopmentTeam = Y86M9Q9U52;
+					};
 					18906BCA19409CAF0072EC38 = {
 						TestTargetID = 18906BAF19409CAF0072EC38;
 					};
@@ -877,20 +926,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BEF9F81946EF090009C1CF /* Takecare-but-hover.png in Resources */,
 				18BEF87B19430A2C0009C1CF /* Home-but.png in Resources */,
+				18BEF9F51946EF090009C1CF /* Ale-button-hover.png in Resources */,
+				18BEFA001946F4C00009C1CF /* shadow.png in Resources */,
 				18BEF82B1942A7E20009C1CF /* APAleViewCell.xib in Resources */,
 				18BEF82419422A2E0009C1CF /* Ale_01_12.png in Resources */,
 				18BEF8631942C28D0009C1CF /* MyNY.jpg in Resources */,
 				18BEF8621942C28D0009C1CF /* esquina.jpg in Resources */,
 				18BEF9DD19460B120009C1CF /* APEcheduleViewController.xib in Resources */,
 				18BEF9E319460C4D0009C1CF /* APResultViewController.xib in Resources */,
+				18BEF9ED1946E8640009C1CF /* Location.png in Resources */,
 				18BEF82519422A2E0009C1CF /* Ale_01_14.png in Resources */,
+				18BEF9EF1946EDA30009C1CF /* round.png in Resources */,
+				18BEF9F61946EF090009C1CF /* Home-but-hover.png in Resources */,
 				18BEF8441942B7AF0009C1CF /* transport.png in Resources */,
 				18BEF8651942C28D0009C1CF /* restaurant.jpg in Resources */,
 				18BEF8611942C28D0009C1CF /* eat.png in Resources */,
+				18BEF9F71946EF090009C1CF /* Places-icon-hover.png in Resources */,
 				18BEF9CC194467DF0009C1CF /* GoogleMaps.bundle in Resources */,
 				18BEF9AF1944630C0009C1CF /* CHANGELOG in Resources */,
 				18BEF83F1942B7AF0009C1CF /* bannerTake.png in Resources */,
+				18BEF9FF1946F4C00009C1CF /* ball.png in Resources */,
 				18BEF88A19431F2E0009C1CF /* Preview-icon.jpg in Resources */,
 				18BEF8661942C28D0009C1CF /* see.png in Resources */,
 				18906BBE19409CAF0072EC38 /* InfoPlist.strings in Resources */,
@@ -904,7 +961,9 @@
 				18BEF87E19430A2C0009C1CF /* Takecare-but.png in Resources */,
 				18BEF89219445E4B0009C1CF /* APDetailStadiumViewController.xib in Resources */,
 				18BEF87819430A2C0009C1CF /* Ale-button.png in Resources */,
+				18BEFA011946F4C00009C1CF /* tag.png in Resources */,
 				18BEF82619422A2E0009C1CF /* Ale_01_15.png in Resources */,
+				18BEF9FA1946EF110009C1CF /* Loading.jpg in Resources */,
 				18BEF8601942C28D0009C1CF /* do.png in Resources */,
 				18BEF9D11944C7810009C1CF /* APShowFullMapViewController.xib in Resources */,
 				18BEF82319422A2E0009C1CF /* Ale_01_11.png in Resources */,
@@ -920,7 +979,6 @@
 				18BEF81D194228940009C1CF /* APAleViewController.xib in Resources */,
 				18BEF88919431F2E0009C1CF /* Map-icon.jpg in Resources */,
 				18BEF8681942C28D0009C1CF /* tour.png in Resources */,
-				18BEF8181942209F0009C1CF /* Back-button-.png in Resources */,
 				18BEF87F19430A2C0009C1CF /* Title.png in Resources */,
 				18906BEE1940A2D00072EC38 /* APHomeViewController.xib in Resources */,
 				18BEF87A19430A2C0009C1CF /* Back-button.png in Resources */,
@@ -930,6 +988,7 @@
 				18BEF81119418F630009C1CF /* APDetailEventViewController.xib in Resources */,
 				18BEF8431942B7AF0009C1CF /* take-care_icon.png in Resources */,
 				18BEF8401942B7AF0009C1CF /* hospital.png in Resources */,
+				18BEF9EB1946B68B0009C1CF /* star.png in Resources */,
 				CE6C09691945B80600455A5B /* APMapViewPlacesViewController.xib in Resources */,
 				18BEF87D19430A2C0009C1CF /* Places-but.png in Resources */,
 			);
@@ -1106,6 +1165,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AlePlace/Libarary/GoogleMaps-iOS-1.8.1",
@@ -1117,6 +1178,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1126,6 +1188,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AlePlace/Libarary/GoogleMaps-iOS-1.8.1",
@@ -1137,6 +1201,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -58,7 +58,7 @@
     
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)
     {
-        navigationController.navigationBar.barTintColor = UIColorFromRGB(kMetroColorGreen);
+        navigationController.navigationBar.barTintColor = UIColorFromRGB(kMetroColorGreenSea);
     }else{
         navigationController.navigationController.navigationBar.tintColor = UIColorFromRGB(kMetroColorGreen);
     }
