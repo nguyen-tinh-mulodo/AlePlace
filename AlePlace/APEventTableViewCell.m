@@ -13,6 +13,7 @@
 - (void)awakeFromNib
 {
     // Initialization code
+       
 }
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

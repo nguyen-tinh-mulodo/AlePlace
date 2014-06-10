@@ -17,23 +17,60 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Fh-Hd-FuT">
-                    <rect key="frame" x="0.0" y="-11" width="325" height="579"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Loading.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="5Fh-Hd-FuT">
+                    <rect key="frame" x="0.0" y="-7" width="325" height="579"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H3C-mK-0OE">
-                    <rect key="frame" x="93" y="283" width="150" height="2"/>
+                    <rect key="frame" x="93" y="290" width="150" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="progressTintColor" red="0.14659114200964918" green="0.18033788982041088" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="progressTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                 </progressView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="tag.png" translatesAutoresizingMaskIntoConstraints="NO" id="J9K-Kj-Acw">
+                    <rect key="frame" x="110" y="110" width="105" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="128" id="6Y5-NI-wgH"/>
+                        <constraint firstAttribute="width" constant="105" id="fGM-Bg-pnj"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="ball.png" translatesAutoresizingMaskIntoConstraints="NO" id="onP-EE-5TD">
+                    <rect key="frame" x="133" y="133" width="59" height="60"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="6Mh-Za-YMO"/>
+                        <constraint firstAttribute="width" constant="59" id="Yht-Jr-KRk"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="shadow.png" translatesAutoresizingMaskIntoConstraints="NO" id="J8X-wf-A07">
+                    <rect key="frame" x="75" y="241" width="170" height="29"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="29" id="Cdw-Qk-k71"/>
+                        <constraint firstAttribute="width" constant="170" id="L8F-Q2-wTq"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="centerY" secondItem="H3C-mK-0OE" secondAttribute="centerY" id="Atl-H5-gMC"/>
-                <constraint firstAttribute="centerX" secondItem="H3C-mK-0OE" secondAttribute="centerX" id="vDR-B8-s6G"/>
+                <constraint firstItem="5Fh-Hd-FuT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="KKg-wT-ink"/>
+                <constraint firstAttribute="bottom" secondItem="5Fh-Hd-FuT" secondAttribute="bottom" id="VkD-E1-eZY"/>
+                <constraint firstItem="H3C-mK-0OE" firstAttribute="top" secondItem="J8X-wf-A07" secondAttribute="bottom" constant="20" id="ZKQ-VN-hNs"/>
+                <constraint firstItem="5Fh-Hd-FuT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aoH-Ub-m2Z"/>
+                <constraint firstAttribute="trailing" secondItem="5Fh-Hd-FuT" secondAttribute="trailing" constant="-5" id="bbS-Ng-fHy"/>
+                <constraint firstAttribute="centerX" secondItem="J8X-wf-A07" secondAttribute="centerX" id="hwe-UT-l1s"/>
+                <constraint firstAttribute="centerX" secondItem="onP-EE-5TD" secondAttribute="centerX" id="jmP-Wf-K0E"/>
+                <constraint firstAttribute="centerX" secondItem="H3C-mK-0OE" secondAttribute="centerX" id="q92-cb-RLC"/>
+                <constraint firstAttribute="centerX" secondItem="J9K-Kj-Acw" secondAttribute="centerX" id="sXB-Id-DKK"/>
             </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
     </objects>
+    <resources>
+        <image name="Loading.jpg" width="480" height="800"/>
+        <image name="ball.png" width="80" height="81"/>
+        <image name="shadow.png" width="169" height="15"/>
+        <image name="tag.png" width="135" height="168"/>
+    </resources>
 </document>

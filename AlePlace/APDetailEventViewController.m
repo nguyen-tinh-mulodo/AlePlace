@@ -74,8 +74,8 @@
     scrollDetailEvent.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     
     [self callAPIGetDetailEvent];
-     self.navigationItem.leftBarButtonItem = [FMUtils backArrowButtonWithTarget:self action:@selector(popViewControllerAnimated)];
-     self.navigationItem.rightBarButtonItem = [FMUtils moreArrowButtonWithTarget:self action:@selector(showMoreView)];
+    self.navigationItem.leftBarButtonItem = [FMUtils backArrowButtonWithTarget:self action:@selector(popViewControllerAnimated)];
+    // self.navigationItem.rightBarButtonItem = [FMUtils moreArrowButtonWithTarget:self action:@selector(showMoreView)];
     // Do any additional setup after loading the view from its nib.
     tabBarAle.delegate = self;
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)
@@ -94,7 +94,7 @@
     [tabBarItemHome setTag:1000];
     [btItemHome setTag:1000];
     
-    [btItemHome roundCornerShadowAndBorder];
+    [btItemHome setSelected:YES];
     
     
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(setFlagView:) name:kAleViewController object:nil];
@@ -386,6 +386,10 @@
 -(IBAction)showAle:(id)sender{
     UIButton *bt = sender;
     if (bt.tag != 1000) {
+        btItemAle.selected = YES;
+        btItemHome.selected = NO;
+        btItemPlace.selected = NO;
+        btItemTake.selected =NO;
         btItemAle.tag = 1000;
         btItemHome.tag = btItemPlace.tag = btItemTake.tag = 100;
         //if (!aleViewController) {
@@ -406,7 +410,12 @@
 -(IBAction)showTake:(id)sender{
     UIButton *bt = sender;
     if (bt.tag != 1000) {
+        btItemAle.selected = NO;
+        btItemHome.selected = NO;
+        btItemPlace.selected = NO;
+        btItemTake.selected =YES;
         btItemTake.tag = 1000;
+        btItemAle.selected = NO;
         btItemHome.tag = btItemPlace.tag = btItemAle.tag = 100;
         //if (!takecareViewController) {
             takecareViewController = [[APTakecareViewController alloc] initWithNibName:@"APTakecareViewController" bundle:nil];
@@ -424,6 +433,10 @@
     UIButton *bt = sender;
     if (bt.tag != 1000) {
         btItemPlace.tag = 1000;
+        btItemAle.selected = NO;
+        btItemHome.selected = NO;
+        btItemPlace.selected = YES;
+        btItemTake.selected =NO;
         btItemHome.tag = btItemAle.tag = btItemTake.tag = 100;
         //if (!placeViewController) {
             placeViewController = [[APPlaceViewController alloc] initWithNibName:@"APPlaceViewController" bundle:nil];
