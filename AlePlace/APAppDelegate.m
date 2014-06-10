@@ -65,7 +65,7 @@
     
      if ([viewController isKindOfClass:[APHomeViewController class]]) {
     
-     UIImageView *imageview = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Title.png"]];
+     /*UIImageView *imageview = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Title.png"]];
           [imageview setContentMode:UIViewContentModeScaleAspectFit];
          imageview.frame = CGRectMake(0, 0, 200, 44);
      UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 44)];
@@ -77,16 +77,23 @@
     //label.shadowColor = [UIColor colorWithWhite:0.0 alpha:0.5];
     label.textAlignment = NSTextAlignmentCenter;
     label.textColor = [UIColor whiteColor];
-    navigationItem.titleView = imageview;
+    navigationItem.titleView = imageview;*/
+         NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"testView" owner:self options:nil];
+         
+         UIView *view = [[UIView alloc] init]; // or if it exists, MCQView *view = [[MCQView alloc] init];
+         view = (UIView *)[nib objectAtIndex:0]; // or if it exists, (MCQView *)[nib objectAtIndex:0];
+         
+         //navigationItem.titleView = view;
+         [navigationController.navigationBar addSubview:view];
      }else{
          
          NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"testView" owner:self options:nil];
          
          UIView *view = [[UIView alloc] init]; // or if it exists, MCQView *view = [[MCQView alloc] init];
-         
          view = (UIView *)[nib objectAtIndex:0]; // or if it exists, (MCQView *)[nib objectAtIndex:0];
          
-          navigationItem.titleView = view;
+          //navigationItem.titleView = view;
+         [navigationController.navigationBar addSubview:view];
          /*UIView *view = [[UIView alloc] initWithFrame:CGRectMake(-20, 0,self.window.frame.size.width,45)];
          
          
@@ -154,5 +161,7 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
-
+- (IBAction)backBtnClick:(id)sender {
+    [[NSNotificationCenter defaultCenter]postNotificationName:ktest object:self userInfo:@{kNameView:@"APStadiumViewController"}];
+}
 @end

@@ -275,6 +275,8 @@ typedef enum {
 
 #endif
 #define kAPDetailStadiumViewController @"APDetailStadiumViewController"
+#define ktest @"test"
+
 #define kAleViewController @"AleViewController"
 #define kRemoveAPTeamViewController @"kRemoveAPTeamViewController"
 #define kRemoveAPEcheduleViewController @"kRemoveAPEcheduleViewController"

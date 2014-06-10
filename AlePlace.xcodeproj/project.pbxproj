@@ -128,6 +128,7 @@
 		18BEFA001946F4C00009C1CF /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9FD1946F4C00009C1CF /* shadow.png */; };
 		18BEFA011946F4C00009C1CF /* tag.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF9FE1946F4C00009C1CF /* tag.png */; };
 		18BEFA031947095B0009C1CF /* testView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEFA021947095B0009C1CF /* testView.xib */; };
+		18BEFA06194710420009C1CF /* APHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEFA05194710420009C1CF /* APHeader.m */; };
 		CE6C09681945B80600455A5B /* APMapViewPlacesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C09661945B80600455A5B /* APMapViewPlacesViewController.m */; };
 		CE6C09691945B80600455A5B /* APMapViewPlacesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6C09671945B80600455A5B /* APMapViewPlacesViewController.xib */; };
 		CE6C096C1946051400455A5B /* APCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C096B1946051400455A5B /* APCountry.m */; };
@@ -308,6 +309,8 @@
 		18BEF9FD1946F4C00009C1CF /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow.png; sourceTree = "<group>"; };
 		18BEF9FE1946F4C00009C1CF /* tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag.png; sourceTree = "<group>"; };
 		18BEFA021947095B0009C1CF /* testView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testView.xib; sourceTree = "<group>"; };
+		18BEFA04194710420009C1CF /* APHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHeader.h; sourceTree = "<group>"; };
+		18BEFA05194710420009C1CF /* APHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHeader.m; sourceTree = "<group>"; };
 		CE6C09651945B80600455A5B /* APMapViewPlacesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMapViewPlacesViewController.h; sourceTree = "<group>"; };
 		CE6C09661945B80600455A5B /* APMapViewPlacesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APMapViewPlacesViewController.m; sourceTree = "<group>"; };
 		CE6C09671945B80600455A5B /* APMapViewPlacesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APMapViewPlacesViewController.xib; sourceTree = "<group>"; };
@@ -547,6 +550,8 @@
 				18BEF8501942C1920009C1CF /* APPlaceTableViewCell.m */,
 				18BEF8511942C1920009C1CF /* APPlaceTableViewCell.xib */,
 				18BEFA021947095B0009C1CF /* testView.xib */,
+				18BEFA04194710420009C1CF /* APHeader.h */,
+				18BEFA05194710420009C1CF /* APHeader.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -1025,6 +1030,7 @@
 				18BEF8361942B48B0009C1CF /* APTakecareViewController.m in Sources */,
 				18906C2D1940B8CD0072EC38 /* AFPropertyListRequestOperation.m in Sources */,
 				18906C131940B82E0072EC38 /* APAlePlaceNetWork.m in Sources */,
+				18BEFA06194710420009C1CF /* APHeader.m in Sources */,
 				18BEF88D1943FE850009C1CF /* APStadium.m in Sources */,
 				18BEF89119445E4B0009C1CF /* APDetailStadiumViewController.m in Sources */,
 				CE6C09771946159100455A5B /* APMyAnnotation.m in Sources */,

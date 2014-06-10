@@ -98,6 +98,7 @@
     
     
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(setFlagView:) name:kAleViewController object:nil];
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(popViewControllerAnimated) name:ktest object:nil];
     
 }
 - (void)setFlagView:(NSNotification *)notification {
