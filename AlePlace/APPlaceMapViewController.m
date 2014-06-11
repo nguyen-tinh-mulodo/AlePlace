@@ -110,8 +110,6 @@ didTapInfoWindowOfMarker:(GMSMarker*)marker
     
 }
 
-
-
 - (BOOL) mapView:	(GMSMapView *) 	mapView didTapMarker:(GMSMarker *) 	marker
 {
     NSLog(@"MARKER..... %@",marker);
