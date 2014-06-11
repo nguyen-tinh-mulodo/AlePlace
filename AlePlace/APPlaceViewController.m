@@ -10,9 +10,11 @@
 #import "APPlaceTableViewCell.h"
 #import "APPlaceMapViewController.h"
 #import "APPlaceDataListTableViewController.h"
+#import "APPlaceDataListViewController.h"
 @interface APPlaceViewController ()
 {
     APPlaceDataListTableViewController *dataView;
+    APPlaceMapViewController *mapView;
 }
 @end
 
@@ -111,8 +113,6 @@ APPlaceMapViewController *mapView;
 
 - (void)eat{
     [self showMap];
-    
-    
 }
 - (void)do_do{
     
@@ -131,13 +131,17 @@ APPlaceMapViewController *mapView;
 }
 
 -(void)showMap{
-    /*
-    APPlaceMapViewController *mapView = [[APPlaceMapViewController alloc] init];
+    
+    mapView = [[APPlaceMapViewController alloc] init];
     mapView.view.frame = self.view.frame;
     [self.view addSubview:mapView.view];
-     */
+/*
     dataView = [[APPlaceDataListTableViewController alloc] initWithNibName:@"APPlaceDataListTableViewController" bundle:nil];
         [self.view addSubview:dataView.view];
+    */
+    /*APPlaceDataListTableViewController *dataView = [[APPlaceDataListTableViewController alloc] initWithNibName:@"APPlaceDataListTableViewController" bundle:nil];
+    dataView.view.frame = self.view.frame;
+    [self.view addSubview:dataView.view];*/
     
 }
 @end

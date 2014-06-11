@@ -54,7 +54,7 @@
 #pragma mark - Navigation Bar delegate
 - (void)navigationController:(UINavigationController *)navigationController willShowViewController:(UIViewController *)viewController animated:(BOOL)animated {
     
-    UINavigationItem *navigationItem = navigationController.navigationBar.topItem;
+    /*UINavigationItem *navigationItem = navigationController.navigationBar.topItem;
     
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)
     {
@@ -87,6 +87,7 @@
         label.textColor = [UIColor whiteColor];
         navigationItem.titleView = label;
     }
+     */
 }
 -(void)setTitleLabel{
     UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 200, 44)];

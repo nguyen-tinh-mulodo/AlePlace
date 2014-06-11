@@ -129,6 +129,10 @@
 		CE06340D1947FD4500A88347 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = CE06340A1947FD4500A88347 /* ball.png */; };
 		CE06340E1947FD4500A88347 /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = CE06340B1947FD4500A88347 /* shadow.png */; };
 		CE06340F1947FD4500A88347 /* tag.png in Resources */ = {isa = PBXBuildFile; fileRef = CE06340C1947FD4500A88347 /* tag.png */; };
+		18BEFA2C1947745E0009C1CF /* APEventCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEFA2A1947745E0009C1CF /* APEventCellTableViewCell.m */; };
+		18BEFA2D1947745E0009C1CF /* APEventCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEFA2B1947745E0009C1CF /* APEventCellTableViewCell.xib */; };
+		18BEFA3119477BD30009C1CF /* APPlaceDataListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEFA2F19477BD30009C1CF /* APPlaceDataListViewController.m */; };
+		18BEFA3219477BD30009C1CF /* APPlaceDataListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEFA3019477BD30009C1CF /* APPlaceDataListViewController.xib */; };
 		CE4CF8E119475602002F3895 /* APPlaceMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF8DF19475602002F3895 /* APPlaceMapViewController.m */; };
 		CE6C096C1946051400455A5B /* APCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C096B1946051400455A5B /* APCountry.m */; };
 		CE6C096F194606D800455A5B /* APCity.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C096E194606D800455A5B /* APCity.m */; };
@@ -324,6 +328,12 @@
 		CE06340A1947FD4500A88347 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = Loading/ball.png; sourceTree = "<group>"; };
 		CE06340B1947FD4500A88347 /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shadow.png; path = Loading/shadow.png; sourceTree = "<group>"; };
 		CE06340C1947FD4500A88347 /* tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tag.png; path = Loading/tag.png; sourceTree = "<group>"; };
+		18BEFA291947745E0009C1CF /* APEventCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APEventCellTableViewCell.h; sourceTree = "<group>"; };
+		18BEFA2A1947745E0009C1CF /* APEventCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APEventCellTableViewCell.m; sourceTree = "<group>"; };
+		18BEFA2B1947745E0009C1CF /* APEventCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APEventCellTableViewCell.xib; sourceTree = "<group>"; };
+		18BEFA2E19477BD30009C1CF /* APPlaceDataListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPlaceDataListViewController.h; sourceTree = "<group>"; };
+		18BEFA2F19477BD30009C1CF /* APPlaceDataListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPlaceDataListViewController.m; sourceTree = "<group>"; };
+		18BEFA3019477BD30009C1CF /* APPlaceDataListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APPlaceDataListViewController.xib; sourceTree = "<group>"; };
 		CE4CF8DE19475602002F3895 /* APPlaceMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPlaceMapViewController.h; sourceTree = "<group>"; };
 		CE4CF8DF19475602002F3895 /* APPlaceMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPlaceMapViewController.m; sourceTree = "<group>"; };
 		CE6C096A1946051400455A5B /* APCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCountry.h; sourceTree = "<group>"; };
@@ -575,9 +585,9 @@
 		18906C38194166E40072EC38 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CE0633F51947ED8300A88347 /* APEventCellTableViewCell.h */,
-				CE0633F61947ED8300A88347 /* APEventCellTableViewCell.m */,
-				CE0633F71947ED8300A88347 /* APEventCellTableViewCell.xib */,
+				18BEFA291947745E0009C1CF /* APEventCellTableViewCell.h */,
+				18BEFA2A1947745E0009C1CF /* APEventCellTableViewCell.m */,
+				18BEFA2B1947745E0009C1CF /* APEventCellTableViewCell.xib */,
 				18BEF88019431C270009C1CF /* Stadium */,
 				18BEF8321942B2960009C1CF /* Ale */,
 				18906C39194167090072EC38 /* APEventTableViewCell.h */,
@@ -708,6 +718,9 @@
 				CEDFBE751946EC9E000BA0F4 /* APPlaceDataListTableViewController.h */,
 				CEDFBE761946EC9E000BA0F4 /* APPlaceDataListTableViewController.m */,
 				CEDFBE771946EC9E000BA0F4 /* APPlaceDataListTableViewController.xib */,
+				18BEFA2E19477BD30009C1CF /* APPlaceDataListViewController.h */,
+				18BEFA2F19477BD30009C1CF /* APPlaceDataListViewController.m */,
+				18BEFA3019477BD30009C1CF /* APPlaceDataListViewController.xib */,
 			);
 			name = Places;
 			sourceTree = "<group>";
@@ -969,7 +982,8 @@
 				CE0634001947FD1400A88347 /* round.png in Resources */,
 				CEDFBE741946E082000BA0F4 /* transport.png in Resources */,
 				18BEF8631942C28D0009C1CF /* MyNY.jpg in Resources */,
-				CE0633F91947ED8300A88347 /* APEventCellTableViewCell.xib in Resources */,
+
+				18BEFA2D1947745E0009C1CF /* APEventCellTableViewCell.xib in Resources */,
 				18BEF8621942C28D0009C1CF /* esquina.jpg in Resources */,
 				18BEF9DD19460B120009C1CF /* APEcheduleViewController.xib in Resources */,
 				18BEF9E319460C4D0009C1CF /* APResultViewController.xib in Resources */,
@@ -994,6 +1008,8 @@
 				CE06340D1947FD4500A88347 /* ball.png in Resources */,
 				18BEF85F1942C28D0009C1CF /* casa-da-vila-700x391.png in Resources */,
 				CE0633FE1947FD1400A88347 /* Loading.jpg in Resources */,
+
+				18BEFA3219477BD30009C1CF /* APPlaceDataListViewController.xib in Resources */,
 				18906C3D194167090072EC38 /* APEventTableViewCell.xib in Resources */,
 				18906BE619409FBB0072EC38 /* APLaunchImageViewController.xib in Resources */,
 				18BEF8671942C28D0009C1CF /* shopping.jpg in Resources */,
@@ -1077,7 +1093,8 @@
 				18906BE519409FBB0072EC38 /* APLaunchImageViewController.m in Sources */,
 				18906C2F1940B8CD0072EC38 /* AFXMLRequestOperation.m in Sources */,
 				18BEF81C194228940009C1CF /* APAleViewController.m in Sources */,
-				CE0633F81947ED8300A88347 /* APEventCellTableViewCell.m in Sources */,
+
+				18BEFA2C1947745E0009C1CF /* APEventCellTableViewCell.m in Sources */,
 				18906C2C1940B8CD0072EC38 /* AFNetworkActivityIndicatorManager.m in Sources */,
 				18BEF86D1942DACC0009C1CF /* APStadiumViewController.m in Sources */,
 				18906C371940C1360072EC38 /* APParserData.m in Sources */,
@@ -1095,6 +1112,7 @@
 				18BEF9D6194607930009C1CF /* APTeamViewController.m in Sources */,
 				18BEF9E219460C4D0009C1CF /* APResultViewController.m in Sources */,
 				18906C331940B9F00072EC38 /* APCallAPI.m in Sources */,
+				18BEFA3119477BD30009C1CF /* APPlaceDataListViewController.m in Sources */,
 				18BEF9DC19460B120009C1CF /* APEcheduleViewController.m in Sources */,
 				18906C2B1940B8CD0072EC38 /* AFJSONRequestOperation.m in Sources */,
 				18BEF82A1942A7E20009C1CF /* APAleViewCell.m in Sources */,
