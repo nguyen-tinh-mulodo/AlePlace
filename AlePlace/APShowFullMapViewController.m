@@ -33,9 +33,6 @@ UIImage *markerImg;
     locationManager.distanceFilter = kCLDistanceFilterNone;
     locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters; // 100 m
     
-    
-    [locationManager startUpdatingLocation];
-
     return self;
 }
 
