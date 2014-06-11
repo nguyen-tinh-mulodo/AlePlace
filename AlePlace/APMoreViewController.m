@@ -36,7 +36,7 @@
     self.navigationItem.leftBarButtonItem = [FMUtils backArrowButtonWithTarget:self action:@selector(popViewControllerAnimated)];
     
     
-    image = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2-45, 20, 100, 100)];
+    image = [[UIImageView alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2-50, 20, 100, 100)];
     [image setImage:[UIImage imageNamed:@"app-icon.png"]];
      [image setContentMode:UIViewContentModeScaleAspectFit];
     nameApp = [[UILabel alloc] initWithFrame:CGRectMake(20, CGRectGetMaxY(image.frame), self.view.frame.size.width-40, 30)];
@@ -69,7 +69,7 @@
     titleVote = [[UILabel alloc] initWithFrame:CGRectMake(5, CGRectGetMaxY(titleCT.frame), 90, 30)];
     titleVote.text = @"Vote us:";
     
-    vote= [[TTTAttributedLabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(titleVote.frame)+10,CGRectGetMaxY(contact.frame), self.view.frame.size.width-80, 50)];
+    vote= [[TTTAttributedLabel alloc] initWithFrame:CGRectMake(CGRectGetMaxX(titleVote.frame)+10,CGRectGetMaxY(contact.frame), self.view.frame.size.width-100, 50)];
     vote.lineHeightMultiple = 2;
     [vote setNumberOfLines:2];
     vote.enabledTextCheckingTypes = NSTextCheckingTypeLink;

@@ -10,6 +10,7 @@
 
 @interface APDetailEventViewController : UIViewController<UIScrollViewDelegate,UITabBarDelegate>
 @property(nonatomic,readwrite)NSInteger idEvent;
+@property(nonatomic,weak)IBOutlet UILabel *titleEvent;
 @property(nonatomic,weak)IBOutlet UIScrollView *scrollDetailEvent;
 @property(nonatomic,weak)IBOutlet UILabel *startdate;
 @property(nonatomic,weak)IBOutlet UILabel *enddate;

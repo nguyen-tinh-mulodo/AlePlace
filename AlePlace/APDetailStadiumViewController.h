@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <GoogleMaps/GoogleMaps.h>
 #import "APStadium.h"
-@interface APDetailStadiumViewController : UIViewController
+@interface APDetailStadiumViewController : UIViewController<GMSMapViewDelegate>
 @property(nonatomic,strong) APStadium *stadium;
 @property(nonatomic,weak) IBOutlet UIView *map;
 @property(nonatomic,weak) IBOutlet GMSMapView *mapView;
