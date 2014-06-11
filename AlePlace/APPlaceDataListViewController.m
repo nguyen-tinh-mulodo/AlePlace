@@ -15,14 +15,14 @@
 #import "APStadium.h"
 #import "UIImageView+AFNetworking.h"
 #import "FMConstants.h"
-#import "APDetailStadiumViewController.h"
+#import "APDetailPlaceViewController.h"
 #import "APShowFullMapViewController.h"
 @interface APPlaceDataListViewController ()
 {
     NSMutableArray *listStadiums;
     NSInteger page;
     NSMutableDictionary *dictionary;
-    APDetailStadiumViewController *detailStadiumViewController;
+    APDetailPlaceViewController *detailPlaceViewController;
     APShowFullMapViewController *showFullMapViewController;
 }
 @end
@@ -104,13 +104,16 @@
         
     }
     cell.autoresizingMask = UIViewAutoresizingFlexibleWidth;
-    APStadium *stadium = [listStadiums objectAtIndex:indexPath.row];
-    cell.titileStadium.text = stadium.nameStadium;
-    [cell.imageStadium setImageWithURL:[NSURL URLWithString: [stadium.thumb_photoStadium stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]placeholderImage:nil];
+    APPlace *place = [listStadiums objectAtIndex:indexPath.row];
+    cell.fromView=@"PlaceMap";
+    cell.countryTitle.text=@"Phone:";
+    cell.cityTitle.text=@"Hours:";
+    cell.titileStadium.text = place.nameplace;
+    [cell.imageStadium setImageWithURL:[NSURL URLWithString: [place.thumb_photoplace stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]placeholderImage:nil];
     [cell.imageStadium setContentMode:UIViewContentModeScaleAspectFit];
-    cell.country.text = @"";
-    cell.city.text = stadium.city;
-    cell.add.text = stadium.address;
+    cell.country.text = place.phone;
+    cell.city.text = place.service_hour;
+    cell.add.text = place.address;
     [cell.btMap setContentMode:UIViewContentModeScaleAspectFit];
     
     return cell;
@@ -118,10 +121,10 @@
     
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    detailStadiumViewController = [[APDetailStadiumViewController alloc] initWithNibName:@"APDetailStadiumViewController" bundle:nil];
-    detailStadiumViewController.stadium = [listStadiums objectAtIndex:indexPath.row];
-    detailStadiumViewController.view.frame = self.view.frame;
-    [self.view addSubview:detailStadiumViewController.view];
+    detailPlaceViewController = [[APDetailPlaceViewController alloc] initWithNibName:@"APDetailPlaceViewController" bundle:nil];
+    detailPlaceViewController.place = [listStadiums objectAtIndex:indexPath.row];
+    detailPlaceViewController.view.frame = self.view.frame;
+    [self.view addSubview:detailPlaceViewController.view];
 }
 
 //- (void)handleGesture:(UIGestureRecognizer *)gestureRecognizer {

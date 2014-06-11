@@ -284,6 +284,8 @@ typedef enum {
 #define kRemoveAPResultViewController @"kRemoveAPResultViewController"
 #define kRemoveStadiumViewController @"kRemoveStadiumViewController"
 #define kRemoveStadiumDetailViewController @"kRemoveStadiumDetailViewController"
+#define kRemovePlaceDetailViewController @"kRemovePlaceDetailViewController"
+
 #define kRemoveAPShowFullMapViewController @"kRemoveAPShowFullMapViewController"
 #define editTitle @"editTitle"
 #define kIdCity  @"kIdCity";

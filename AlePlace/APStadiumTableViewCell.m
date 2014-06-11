@@ -16,13 +16,6 @@
 - (void)awakeFromNib
 {
     
-   
-    if([fromView isEqualToString:@"PlaceMap"])
-    {
-    countryTitle.text=@"";
-     cityTitle.text=@"Hours:";
-    
-    }
     // Initialization code
 }
 

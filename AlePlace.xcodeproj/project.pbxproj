@@ -135,6 +135,9 @@
 		CE063411194813EA00A88347 /* testView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE063410194813EA00A88347 /* testView.xib */; };
 		CE0634141948143600A88347 /* APHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0634131948143600A88347 /* APHeader.m */; };
 		CE4CF8E119475602002F3895 /* APPlaceMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF8DF19475602002F3895 /* APPlaceMapViewController.m */; };
+		CE5C4ECE19484F33005F2218 /* APDetailPlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5C4ECC19484F33005F2218 /* APDetailPlaceViewController.m */; };
+		CE5C4ECF19484F33005F2218 /* APDetailPlaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE5C4ECD19484F33005F2218 /* APDetailPlaceViewController.xib */; };
+		CE5C4ED219485431005F2218 /* APPlace.m in Sources */ = {isa = PBXBuildFile; fileRef = CE5C4ED119485431005F2218 /* APPlace.m */; };
 		CE6C096C1946051400455A5B /* APCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C096B1946051400455A5B /* APCountry.m */; };
 		CE6C096F194606D800455A5B /* APCity.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C096E194606D800455A5B /* APCity.m */; };
 		CE6C0971194612C200455A5B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6C0970194612C200455A5B /* MapKit.framework */; };
@@ -335,6 +338,11 @@
 		CE0634131948143600A88347 /* APHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHeader.m; sourceTree = "<group>"; };
 		CE4CF8DE19475602002F3895 /* APPlaceMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPlaceMapViewController.h; sourceTree = "<group>"; };
 		CE4CF8DF19475602002F3895 /* APPlaceMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPlaceMapViewController.m; sourceTree = "<group>"; };
+		CE5C4ECB19484F33005F2218 /* APDetailPlaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APDetailPlaceViewController.h; sourceTree = "<group>"; };
+		CE5C4ECC19484F33005F2218 /* APDetailPlaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APDetailPlaceViewController.m; sourceTree = "<group>"; };
+		CE5C4ECD19484F33005F2218 /* APDetailPlaceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APDetailPlaceViewController.xib; sourceTree = "<group>"; };
+		CE5C4ED019485431005F2218 /* APPlace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPlace.h; sourceTree = "<group>"; };
+		CE5C4ED119485431005F2218 /* APPlace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPlace.m; sourceTree = "<group>"; };
 		CE6C096A1946051400455A5B /* APCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCountry.h; sourceTree = "<group>"; };
 		CE6C096B1946051400455A5B /* APCountry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCountry.m; sourceTree = "<group>"; };
 		CE6C096D194606D800455A5B /* APCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCity.h; sourceTree = "<group>"; };
@@ -528,6 +536,8 @@
 				CE6C096E194606D800455A5B /* APCity.m */,
 				CE6C09751946159100455A5B /* APMyAnnotation.h */,
 				CE6C09761946159100455A5B /* APMyAnnotation.m */,
+				CE5C4ED019485431005F2218 /* APPlace.h */,
+				CE5C4ED119485431005F2218 /* APPlace.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -717,6 +727,9 @@
 				18BEFA2E19477BD30009C1CF /* APPlaceDataListViewController.h */,
 				18BEFA2F19477BD30009C1CF /* APPlaceDataListViewController.m */,
 				18BEFA3019477BD30009C1CF /* APPlaceDataListViewController.xib */,
+				CE5C4ECB19484F33005F2218 /* APDetailPlaceViewController.h */,
+				CE5C4ECC19484F33005F2218 /* APDetailPlaceViewController.m */,
+				CE5C4ECD19484F33005F2218 /* APDetailPlaceViewController.xib */,
 			);
 			name = Places;
 			sourceTree = "<group>";
@@ -980,6 +993,7 @@
 				18BEF8631942C28D0009C1CF /* MyNY.jpg in Resources */,
 				18BEFA2D1947745E0009C1CF /* APEventCellTableViewCell.xib in Resources */,
 				18BEF8621942C28D0009C1CF /* esquina.jpg in Resources */,
+				CE5C4ECF19484F33005F2218 /* APDetailPlaceViewController.xib in Resources */,
 				18BEF9DD19460B120009C1CF /* APEcheduleViewController.xib in Resources */,
 				18BEF9E319460C4D0009C1CF /* APResultViewController.xib in Resources */,
 				CEDFBE6D1946E082000BA0F4 /* police_map.png in Resources */,
@@ -1094,6 +1108,7 @@
 				18BEF86D1942DACC0009C1CF /* APStadiumViewController.m in Sources */,
 				18906C371940C1360072EC38 /* APParserData.m in Sources */,
 				18906C291940B8CD0072EC38 /* AFHTTPRequestOperation.m in Sources */,
+				CE5C4ED219485431005F2218 /* APPlace.m in Sources */,
 				18BEF8521942C1920009C1CF /* APPlaceTableViewCell.m in Sources */,
 				18BEF82F1942AA200009C1CF /* APAleViewCellBt.m in Sources */,
 				18BEF81619420C870009C1CF /* FMUtils.m in Sources */,
@@ -1109,6 +1124,7 @@
 				18BEFA3119477BD30009C1CF /* APPlaceDataListViewController.m in Sources */,
 				18BEF9DC19460B120009C1CF /* APEcheduleViewController.m in Sources */,
 				18906C2B1940B8CD0072EC38 /* AFJSONRequestOperation.m in Sources */,
+				CE5C4ECE19484F33005F2218 /* APDetailPlaceViewController.m in Sources */,
 				18BEF82A1942A7E20009C1CF /* APAleViewCell.m in Sources */,
 				18906BC419409CAF0072EC38 /* APAppDelegate.m in Sources */,
 				CE6C0974194613AC00455A5B /* MapAnnotation.m in Sources */,
