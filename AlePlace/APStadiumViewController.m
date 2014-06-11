@@ -134,8 +134,10 @@
 }
 - (void)showMap:(int)tapCell{
     showFullMapViewController = [[APShowFullMapViewController alloc] initWithNibName:@"APShowFullMapViewController" bundle:nil];
+    APStadium *_stadium= [listStadiums objectAtIndex:tapCell];
+    showFullMapViewController.stadium = _stadium;
     showFullMapViewController.view.frame = self.view.frame;
-    showFullMapViewController.stadium = [listStadiums objectAtIndex:tapCell];
+   
     [self.view addSubview:showFullMapViewController.view];
 }
 @end

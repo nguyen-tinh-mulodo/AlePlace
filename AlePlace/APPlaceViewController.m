@@ -142,6 +142,7 @@ APPlaceMapViewController *mapView;
         [self showMap:5];
     }
 
+
 }
 -(void)see{
     if ([APAppDelegate appDelegate].idCity > 0) {
@@ -156,6 +157,7 @@ APPlaceMapViewController *mapView;
         // show map
         [self showMap:6];
     }
+
 
 }
 -(void)restaurant{
@@ -189,6 +191,7 @@ APPlaceMapViewController *mapView;
         [self showMap:8];
     }
 
+
 }
 -(void)shopping{
      //categoryId/1
@@ -204,6 +207,7 @@ APPlaceMapViewController *mapView;
         [self showMap:1];
         // show map
     }
+
 
 }
 

@@ -61,6 +61,7 @@
     [[NSNotificationCenter defaultCenter]postNotificationName:kAleViewController object:self userInfo:@{kNameView:@"APDetailPlaceViewController"}];
     [self loadData];
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(removeView) name:kRemoveDetailPlaceViewController object:nil];
+
 }
 -(void)removeView{
     [self.view removeFromSuperview];
@@ -68,7 +69,7 @@
 -(IBAction)showFullMap:(id)sender{
     showFullMapViewController = [[APShowFullMapViewController alloc] initWithNibName:@"APShowFullMapViewController" bundle:nil];
     showFullMapViewController.view.frame = self.view.frame;
-    //showFullMapViewController.stadium = place;
+    showFullMapViewController.place = place;
     [self.view addSubview:showFullMapViewController.view];
 }
 -(void)loadData{

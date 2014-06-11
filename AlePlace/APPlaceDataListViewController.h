@@ -12,4 +12,5 @@
 @property(nonatomic,weak)IBOutlet UITableView *tableStadium;
 @property(nonatomic,strong) NSString *city_id;
 @property(nonatomic,strong) NSString *catagoryId;
+
 @end
