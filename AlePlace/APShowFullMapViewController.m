@@ -18,7 +18,7 @@
 @end
 
 @implementation APShowFullMapViewController
-@synthesize stadium,place,locationManager;
+@synthesize stadium,place,locationManager,distanceFromHere;
 UIImage *markerImg;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -27,8 +27,8 @@ UIImage *markerImg;
     if (self) {
         // Custom initialization
     }
-    place =[[APPlace alloc] init];
-    stadium=[[APStadium alloc] init];
+//    place =[[APPlace alloc] init];
+//    stadium=[[APStadium alloc] init];
     locationManager = [[CLLocationManager alloc] init];
     locationManager.distanceFilter = kCLDistanceFilterNone;
     locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters; // 100 m
@@ -117,7 +117,20 @@ UIImage *markerImg;
     GMSPolyline *rectangle = [GMSPolyline polylineWithPath:path];
     rectangle.strokeWidth = 2.f;
     rectangle.map = mapView_;
-
+    
+    CLLocation* location1 =
+    [[CLLocation alloc]
+     initWithLatitude: mapView_.myLocation.coordinate.latitude
+     longitude: mapView_.myLocation.coordinate.longitude];
+    CLLocation* location2 =
+    [[CLLocation alloc]
+     initWithLatitude: lat
+     longitude: longt];
+    
+    double distance=[location1 distanceFromLocation: location2];
+    [mapView_ addSubview:distanceFromHere];
+    distanceFromHere.text=[NSString stringWithFormat:@"Distance from here : %f",distance];
+    
 }
 -(void)removeView{
     [self.view removeFromSuperview];

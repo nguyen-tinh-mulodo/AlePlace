@@ -12,10 +12,12 @@
 #import <CoreLocation/CoreLocation.h>
 
 @interface APShowFullMapViewController : UIViewController
+@property(nonatomic,weak) IBOutlet UILabel *distanceFromHere;
 
-@property(nonatomic,retain) APStadium *stadium;
-@property(nonatomic,retain) APPlace *place;
+@property(nonatomic,strong) APStadium *stadium;
+@property(nonatomic,strong) APPlace *place;
 @property(nonatomic,retain) CLLocationManager *locationManager;
+
 
 
 @end
