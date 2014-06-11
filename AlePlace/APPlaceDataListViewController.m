@@ -28,7 +28,7 @@
 @end
 
 @implementation APPlaceDataListViewController
-@synthesize tableStadium;
+@synthesize tableStadium,city_id,catagoryId;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -59,6 +59,10 @@
     dictionary = [[NSMutableDictionary alloc] init];
     [dictionary setValue:@"json" forKey:@"format"];
     [dictionary setValue:[NSString stringWithFormat:@"%d",page] forKey:@"page"];
+    [dictionary setValue:city_id forKey:@"cityid"];
+
+    [dictionary setValue:catagoryId forKey:@"categoryId"];
+
     [dictionary setValue:@"5d7299e5d3ea2698b9ef43527eae374e1ce439da" forKey:@"esapikey"];
     [APCallAPI getStadiumData:^(NSArray *listEvent, NSObject *error) {
         listStadiums = [NSMutableArray arrayWithArray:listEvent];
@@ -104,7 +108,7 @@
     cell.titileStadium.text = stadium.nameStadium;
     [cell.imageStadium setImageWithURL:[NSURL URLWithString: [stadium.thumb_photoStadium stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]placeholderImage:nil];
     [cell.imageStadium setContentMode:UIViewContentModeScaleAspectFit];
-    cell.country.text = stadium.country;
+    cell.country.text = @"";
     cell.city.text = stadium.city;
     cell.add.text = stadium.address;
     [cell.btMap setContentMode:UIViewContentModeScaleAspectFit];
@@ -129,7 +133,7 @@
 
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 150;
+    return 130;
 }
 - (void)showMap:(int)tapCell{
     showFullMapViewController = [[APShowFullMapViewController alloc] initWithNibName:@"APShowFullMapViewController" bundle:nil];

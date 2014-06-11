@@ -150,8 +150,6 @@
 		CEDFBE721946E082000BA0F4 /* Thing-to-do_map.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDFBE671946E082000BA0F4 /* Thing-to-do_map.png */; };
 		CEDFBE731946E082000BA0F4 /* Tour_map.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDFBE681946E082000BA0F4 /* Tour_map.png */; };
 		CEDFBE741946E082000BA0F4 /* transport_map.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDFBE691946E082000BA0F4 /* transport_map.png */; };
-		CEDFBE781946EC9E000BA0F4 /* APPlaceDataListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEDFBE761946EC9E000BA0F4 /* APPlaceDataListTableViewController.m */; };
-		CEDFBE791946EC9E000BA0F4 /* APPlaceDataListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEDFBE771946EC9E000BA0F4 /* APPlaceDataListTableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -355,9 +353,6 @@
 		CEDFBE671946E082000BA0F4 /* Thing-to-do_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thing-to-do_map.png"; sourceTree = "<group>"; };
 		CEDFBE681946E082000BA0F4 /* Tour_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tour_map.png; sourceTree = "<group>"; };
 		CEDFBE691946E082000BA0F4 /* transport_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transport_map.png; sourceTree = "<group>"; };
-		CEDFBE751946EC9E000BA0F4 /* APPlaceDataListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPlaceDataListTableViewController.h; sourceTree = "<group>"; };
-		CEDFBE761946EC9E000BA0F4 /* APPlaceDataListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPlaceDataListTableViewController.m; sourceTree = "<group>"; };
-		CEDFBE771946EC9E000BA0F4 /* APPlaceDataListTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APPlaceDataListTableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -716,9 +711,6 @@
 				18BEF84C1942C1440009C1CF /* APPlaceViewController.xib */,
 				CE4CF8DE19475602002F3895 /* APPlaceMapViewController.h */,
 				CE4CF8DF19475602002F3895 /* APPlaceMapViewController.m */,
-				CEDFBE751946EC9E000BA0F4 /* APPlaceDataListTableViewController.h */,
-				CEDFBE761946EC9E000BA0F4 /* APPlaceDataListTableViewController.m */,
-				CEDFBE771946EC9E000BA0F4 /* APPlaceDataListTableViewController.xib */,
 				18BEFA2E19477BD30009C1CF /* APPlaceDataListViewController.h */,
 				18BEFA2F19477BD30009C1CF /* APPlaceDataListViewController.m */,
 				18BEFA3019477BD30009C1CF /* APPlaceDataListViewController.xib */,
@@ -1037,7 +1029,6 @@
 				CE0633FF1947FD1400A88347 /* Location.png in Resources */,
 				18BEF81D194228940009C1CF /* APAleViewController.xib in Resources */,
 				18BEF88919431F2E0009C1CF /* Map-icon.jpg in Resources */,
-				CEDFBE791946EC9E000BA0F4 /* APPlaceDataListTableViewController.xib in Resources */,
 				18BEF8681942C28D0009C1CF /* tour.png in Resources */,
 				18BEF87F19430A2C0009C1CF /* Title.png in Resources */,
 				18906BEE1940A2D00072EC38 /* APHomeViewController.xib in Resources */,
@@ -1102,7 +1093,6 @@
 				18BEF8521942C1920009C1CF /* APPlaceTableViewCell.m in Sources */,
 				18BEF82F1942AA200009C1CF /* APAleViewCellBt.m in Sources */,
 				18BEF81619420C870009C1CF /* FMUtils.m in Sources */,
-				CEDFBE781946EC9E000BA0F4 /* APPlaceDataListTableViewController.m in Sources */,
 				18906BED1940A2D00072EC38 /* APHomeViewController.m in Sources */,
 				18906C2A1940B8CD0072EC38 /* AFImageRequestOperation.m in Sources */,
 				18906C281940B8CD0072EC38 /* AFHTTPClient.m in Sources */,

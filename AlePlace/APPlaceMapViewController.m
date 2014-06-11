@@ -11,11 +11,14 @@
 #import "APCallAPI.h"
 #import "APStadium.h"
 #import "FMUtils.h"
+#import "APPlaceDataListViewController.h"
 
 
 @interface APPlaceMapViewController (){
     NSInteger page;
     NSMutableDictionary *dictionary;
+    APStadium * stadium;
+    APPlaceDataListViewController * dataView;
     
 }
 @end
@@ -38,7 +41,7 @@
     [self callAPIGetStadium];
     
     
-    markerImg=[FMUtils imageWithImage:[UIImage imageNamed:@"Eat&-drink"] scaledToSize:CGSizeMake(40, 40)];
+    markerImg=[FMUtils imageWithImage:[UIImage imageNamed:@"stadium_map"] scaledToSize:CGSizeMake(40, 40)];
     // Do any additional setup after loading the view from its nib.
 }
 -(void)callAPIGetStadium{
@@ -55,8 +58,8 @@
     
 }
 -(void) showMultiAnonation:(NSMutableArray*) listData{
-    APStadium * stadium=[[APStadium alloc] init];
-    stadium =[listData objectAtIndex:2];
+    stadium=[[APStadium alloc] init];
+
     
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:0
                                                             longitude:0
@@ -76,47 +79,41 @@
     {
         stadium =[listData objectAtIndex:i];
         
-        
         CLLocationCoordinate2D position = CLLocationCoordinate2DMake(stadium.latitude,stadium.longitude);
         CLLocationDegrees degrees = 0;
         GMSMarker *gmarker = [GMSMarker markerWithPosition:position];
         gmarker.appearAnimation=kGMSMarkerAnimationPop;
         gmarker.groundAnchor = CGPointMake(0.5, 0.5);
-        gmarker.title=stadium.nameStadium;
-        gmarker.snippet = stadium.city;
         bounds = [bounds includingCoordinate:gmarker.position];
         gmarker.icon=markerImg;
+        gmarker.userData=stadium;
+        gmarker.title=stadium.nameStadium;
+        gmarker.snippet = stadium.city;
+        gmarker.infoWindowAnchor = CGPointMake(0.4, 0.4);
         gmarker.rotation = degrees;
         gmarker.map = mapView;
         
         
     }
     [mapView animateWithCameraUpdate:[GMSCameraUpdate fitBounds:bounds withPadding:30.0f]];
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [button addTarget:self
-               action:@selector(buttonClicked:)
-     forControlEvents:UIControlEventTouchUpInside];
-    [button setTitle:@"Show View" forState:UIControlStateNormal];
-    button.frame = CGRectMake(80.0, 210.0, 160.0, 40.0);
-    
-    [self.view addSubview:button];
     
 }
+
 -(void)mapView:(GMSMapView *)mapView
 didTapInfoWindowOfMarker:(GMSMarker*)marker
 {
-    NSLog(@"MARKER..... %@",marker);
+    stadium=marker.userData;
+    
+    NSLog(@"MARKER..... %ld",(long)stadium.city_id);
+    
+     dataView = [[APPlaceDataListViewController alloc] initWithNibName:@"APPlaceDataListViewController" bundle:nil];
+    dataView.city_id=[NSString stringWithFormat:@"%d",stadium.city_id ];
+    dataView.catagoryId=@"6";
+     [self.view addSubview:dataView.view];
+    
     
     
 }
-
-- (BOOL) mapView:	(GMSMapView *) 	mapView didTapMarker:(GMSMarker *) 	marker
-{
-    NSLog(@"MARKER..... %@",marker);
-    return TRUE;
-    
-}
-
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

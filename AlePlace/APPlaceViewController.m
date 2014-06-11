@@ -9,11 +9,9 @@
 #import "APPlaceViewController.h"
 #import "APPlaceTableViewCell.h"
 #import "APPlaceMapViewController.h"
-#import "APPlaceDataListTableViewController.h"
 #import "APPlaceDataListViewController.h"
 @interface APPlaceViewController ()
 {
-    APPlaceDataListTableViewController *dataView;
     APPlaceMapViewController *mapView;
 }
 @end

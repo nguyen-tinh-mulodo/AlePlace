@@ -10,13 +10,19 @@
 
 @implementation APStadiumTableViewCell
 
-@synthesize imageView,imageStadium,city,country,add,btMap,btPreview,delegate;
+@synthesize imageView,imageStadium,city,country,add,btMap,btPreview,delegate,fromView,cityTitle,countryTitle,addTitle;
 
 
 - (void)awakeFromNib
 {
-    [btPreview.imageView setContentMode:UIViewContentModeScaleAspectFit];
-     [btMap.imageView setContentMode:UIViewContentModeScaleAspectFit];
+    
+   
+    if([fromView isEqualToString:@"PlaceMap"])
+    {
+    countryTitle.text=@"";
+     cityTitle.text=@"Hours:";
+    
+    }
     // Initialization code
 }
 
