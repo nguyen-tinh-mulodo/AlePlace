@@ -34,7 +34,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceHorizontal="YES" id="J0Q-8p-VUn">
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="J0Q-8p-VUn">
                     <rect key="frame" x="0.0" y="55" width="320" height="375"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                     <subviews>

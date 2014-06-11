@@ -47,6 +47,8 @@
     // Do any additional setup after loading the view from its nib.
     [self callAPIGetStadium];
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(removeView) name:kRemoveStadiumViewController object:nil];
+    NSString *title = titleStadium;
+    [[NSNotificationCenter defaultCenter]postNotificationName:editTitle object:self userInfo:@{editTitle: title}];
 }
 -(void)removeView{
     [self.view removeFromSuperview];

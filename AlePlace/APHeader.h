@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface APHeader : UIView
+@property(nonatomic,weak)IBOutlet UILabel *titleHeader;
 - (IBAction)backBtnClick:(id)sender;
 - (IBAction)more:(id)sender;
 @end

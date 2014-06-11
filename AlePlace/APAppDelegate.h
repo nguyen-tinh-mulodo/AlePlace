@@ -16,6 +16,7 @@
 @property (strong,nonatomic ) APLaunchImageViewController *launchImageViewController;
 @property (strong,nonatomic) APHomeViewController *homeViewController;
 @property (strong,nonatomic) UINavigationController *navigation;
+@property (readwrite) NSInteger *idCity;
 + (APAppDelegate *)appDelegate;
 -(void)setTitleLabel;
 - (IBAction)backBtnClick:(id)sender;

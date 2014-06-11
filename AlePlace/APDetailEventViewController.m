@@ -95,8 +95,9 @@
     [btItemHome setTag:1000];
     
     [btItemHome setSelected:YES];
+    NSString *title = titleDetailEvent;
     
-    
+    [[NSNotificationCenter defaultCenter]postNotificationName:editTitle object:self userInfo:@{editTitle: title}];
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(setFlagView:) name:kAleViewController object:nil];
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(popViewControllerAnimated) name:ktest object:nil];
     
@@ -130,6 +131,8 @@
     if ([flagClass isEqualToString:@"APStadiumViewController"]) {
         flagClass = @"APAleViewController";
         [[NSNotificationCenter defaultCenter]postNotificationName:kRemoveStadiumViewController object:self];
+        NSString *title = titleDetailEvent;
+        [[NSNotificationCenter defaultCenter]postNotificationName:editTitle object:self userInfo:@{editTitle: title}];
         return;
     }
     if ([flagClass isEqualToString:@"APDetailStadiumViewController"]) {
@@ -184,12 +187,14 @@
              NSLog(@"%@",self.view.subviews);
         }
     }
+    NSString *title = titleHome;
+    [[NSNotificationCenter defaultCenter]postNotificationName:editTitle object:self userInfo:@{editTitle: title}];
     [self.navigationController popViewControllerAnimated:NO];
 }
 -(void)loadData:(APEvent *)event{
     [self.imageDetailEvent setImageWithURL:[NSURL URLWithString:event.thumb_photoEvent] placeholderImage:nil];
-    self.startdate.text = event.start_dateEvent;
-    self.enddate.text = event.end_dateEvent;
+    self.startdate.text = [FMUtils timeToDate:event.start_dateEvent];
+    self.enddate.text = [FMUtils timeToDate:event.end_dateEvent];
     self.description.text = event.descriptionEvent;
     self.description.frame = CGRectMake(self.description.frame.origin.x,CGRectGetMaxY(self.titleDescription.frame), self.description.frame.size.width, [FMUtils heightForCell:event.descriptionEvent size:17 font:@"Helvetica" width:self.description.frame.size.width]);
     self.album1.frame = CGRectMake(self.album1.frame.origin.x,CGRectGetMaxY(self.description.frame) + 10, self.album1.frame.size.width, self.album1.frame.size.height);

@@ -9,6 +9,8 @@
 #import "APTakecareViewController.h"
 #import "APAleViewCellBt.h"
 #import "APAleViewCell.h"
+#import "FMConstants.h"
+#import "APAppDelegate.h"
 @interface APTakecareViewController ()
 
 @end
@@ -146,15 +148,35 @@
 }
 #pragma APAleViewCellBtDelegate
 - (void)showStadium{
-    
+    //categoryId/3
+    if ([APAppDelegate appDelegate].idCity > 0) {
+        // show data
+    }else{
+        // show map
+    }
 }
 - (void)showTerm{
-    
+     //categoryId/4
+    if ([APAppDelegate appDelegate].idCity > 0) {
+        // show data
+    }else{
+        // show map
+    }
 }
 -(void)showSchedule{
-    
+     //categoryId/9
+    if ([APAppDelegate appDelegate].idCity > 0) {
+        // show data
+    }else{
+        // show map
+    }
 }
 -(void)showResult{
-    
+     //categoryId/10
+    if ([APAppDelegate appDelegate].idCity > 0) {
+        // show data
+    }else{
+        // show map
+    }
 }
 @end
