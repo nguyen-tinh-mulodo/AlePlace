@@ -9,6 +9,8 @@
 #import "APShowFullMapViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
 #import "FMConstants.h"
+#import "FMUtils.h"
+
 @interface APShowFullMapViewController ()
 {
     GMSMapView *mapView_ ;
@@ -45,7 +47,8 @@
     GMSMarker *marker = [[GMSMarker alloc] init];
     marker.position = CLLocationCoordinate2DMake(stadium.latitude, stadium.longitude);
     marker.title = stadium.nameStadium;
-    marker.snippet = stadium.country;
+    marker.snippet = stadium.city;
+    marker.icon = [FMUtils imageWithImage:[UIImage imageNamed:@"stadium_map.png"] scaledToSize:CGSizeMake(40, 40)];
     marker.map = mapView_;
 }
 -(void)removeView{

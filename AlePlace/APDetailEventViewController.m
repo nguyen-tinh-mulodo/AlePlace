@@ -193,6 +193,7 @@
 }
 -(void)loadData:(APEvent *)event{
     [self.imageDetailEvent setImageWithURL:[NSURL URLWithString:event.thumb_photoEvent] placeholderImage:nil];
+    [self.imageDetailEvent roundCornerShadowAndBorder];
     self.startdate.text = [FMUtils timeToDate:event.start_dateEvent];
     self.enddate.text = [FMUtils timeToDate:event.end_dateEvent];
     self.description.text = event.descriptionEvent;
