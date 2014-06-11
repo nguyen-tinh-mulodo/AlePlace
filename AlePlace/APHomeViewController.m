@@ -37,7 +37,7 @@
     }
     return self;
 }
-/*
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -70,7 +70,7 @@
      view = (UIView *)[nib objectAtIndex:0]; // or if it exists, (MCQView *)[nib objectAtIndex:0];
      [self.navigationController.navigationBar addSubview:view];
 }
-*/
+/*
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -89,7 +89,7 @@
      });*/
     
     // Do any additional setup after loading the view from its nib.
-}
+//}
 -(void)callAPIGetEvents{
     NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] init];
     [dictionary setValue:@"json" forKey:@"format"];
