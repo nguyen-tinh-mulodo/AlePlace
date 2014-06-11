@@ -131,6 +131,8 @@
 		CE06340D1947FD4500A88347 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = CE06340A1947FD4500A88347 /* ball.png */; };
 		CE06340E1947FD4500A88347 /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = CE06340B1947FD4500A88347 /* shadow.png */; };
 		CE06340F1947FD4500A88347 /* tag.png in Resources */ = {isa = PBXBuildFile; fileRef = CE06340C1947FD4500A88347 /* tag.png */; };
+		CE063411194813EA00A88347 /* testView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE063410194813EA00A88347 /* testView.xib */; };
+		CE0634141948143600A88347 /* APHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0634131948143600A88347 /* APHeader.m */; };
 		CE4CF8E119475602002F3895 /* APPlaceMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4CF8DF19475602002F3895 /* APPlaceMapViewController.m */; };
 		CE6C096C1946051400455A5B /* APCountry.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C096B1946051400455A5B /* APCountry.m */; };
 		CE6C096F194606D800455A5B /* APCity.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C096E194606D800455A5B /* APCity.m */; };
@@ -328,6 +330,9 @@
 		CE06340A1947FD4500A88347 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = Loading/ball.png; sourceTree = "<group>"; };
 		CE06340B1947FD4500A88347 /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shadow.png; path = Loading/shadow.png; sourceTree = "<group>"; };
 		CE06340C1947FD4500A88347 /* tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tag.png; path = Loading/tag.png; sourceTree = "<group>"; };
+		CE063410194813EA00A88347 /* testView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testView.xib; sourceTree = "<group>"; };
+		CE0634121948143600A88347 /* APHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APHeader.h; sourceTree = "<group>"; };
+		CE0634131948143600A88347 /* APHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APHeader.m; sourceTree = "<group>"; };
 		CE4CF8DE19475602002F3895 /* APPlaceMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APPlaceMapViewController.h; sourceTree = "<group>"; };
 		CE4CF8DF19475602002F3895 /* APPlaceMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPlaceMapViewController.m; sourceTree = "<group>"; };
 		CE6C096A1946051400455A5B /* APCountry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCountry.h; sourceTree = "<group>"; };
@@ -578,6 +583,9 @@
 		18906C38194166E40072EC38 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CE0634121948143600A88347 /* APHeader.h */,
+				CE0634131948143600A88347 /* APHeader.m */,
+				CE063410194813EA00A88347 /* testView.xib */,
 				18BEFA291947745E0009C1CF /* APEventCellTableViewCell.h */,
 				18BEFA2A1947745E0009C1CF /* APEventCellTableViewCell.m */,
 				18BEFA2B1947745E0009C1CF /* APEventCellTableViewCell.xib */,
@@ -1047,6 +1055,7 @@
 				CEDFBE6A1946E082000BA0F4 /* Eat&-drink_map.png in Resources */,
 				CEDFBE711946E082000BA0F4 /* stadium_map.png in Resources */,
 				18BEF87D19430A2C0009C1CF /* Places-but.png in Resources */,
+				CE063411194813EA00A88347 /* testView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1072,6 +1081,7 @@
 				CE6C096C1946051400455A5B /* APCountry.m in Sources */,
 				18906C301940B8CD0072EC38 /* UIImageView+AFNetworking.m in Sources */,
 				18906BC019409CAF0072EC38 /* main.m in Sources */,
+				CE0634141948143600A88347 /* APHeader.m in Sources */,
 				18BEF9D01944C7810009C1CF /* APShowFullMapViewController.m in Sources */,
 				18906BF21940B4770072EC38 /* APEvent.m in Sources */,
 				18BEF8361942B48B0009C1CF /* APTakecareViewController.m in Sources */,
