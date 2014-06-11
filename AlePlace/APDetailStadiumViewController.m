@@ -27,7 +27,7 @@
     [self.layer setMasksToBounds:NO];
     
     [self.layer setShadowColor:[UIColor darkTextColor].CGColor];
-    [self.layer setShadowOpacity:0.6];
+    [self.layer setShadowOpacity:0.9];
     [self.layer setShadowOffset:CGSizeMake(1,1)];
     [self.layer setShadowRadius:0.9];
     [self.layer setShadowPath:[[UIBezierPath bezierPathWithRoundedRect:self.layer.bounds cornerRadius:self.layer.cornerRadius] CGPath]];
@@ -84,7 +84,8 @@
     GMSMarker *marker = [[GMSMarker alloc] init];
     marker.position = CLLocationCoordinate2DMake(stadium.latitude, stadium.longitude);
     marker.title = stadium.nameStadium;
-    marker.snippet = stadium.country;
+    marker.snippet = stadium.city;
+    marker.icon = [FMUtils imageWithImage:[UIImage imageNamed:@"stadium_map.png"] scaledToSize:CGSizeMake(40, 40)];
     marker.map = mapView_;
     
     

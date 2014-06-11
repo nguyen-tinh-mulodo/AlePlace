@@ -85,7 +85,6 @@
 		18BEF87E19430A2C0009C1CF /* Takecare-but.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF87619430A2C0009C1CF /* Takecare-but.png */; };
 		18BEF87F19430A2C0009C1CF /* Title.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF87719430A2C0009C1CF /* Title.png */; };
 		18BEF88419431CD80009C1CF /* APStadiumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEF88219431CD80009C1CF /* APStadiumTableViewCell.m */; };
-		18BEF88519431CD80009C1CF /* APStadiumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF88319431CD80009C1CF /* APStadiumTableViewCell.xib */; };
 		18BEF88919431F2E0009C1CF /* Map-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF88719431F2E0009C1CF /* Map-icon.jpg */; };
 		18BEF88A19431F2E0009C1CF /* Preview-icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18BEF88819431F2E0009C1CF /* Preview-icon.jpg */; };
 		18BEF88D1943FE850009C1CF /* APStadium.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEF88C1943FE850009C1CF /* APStadium.m */; };
@@ -121,6 +120,8 @@
 		18BEFA3119477BD30009C1CF /* APPlaceDataListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEFA2F19477BD30009C1CF /* APPlaceDataListViewController.m */; };
 		18BEFA3219477BD30009C1CF /* APPlaceDataListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEFA3019477BD30009C1CF /* APPlaceDataListViewController.xib */; };
 		18BEFA341948449D0009C1CF /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEFA331948449D0009C1CF /* app-icon.png */; };
+		18BEFA3819484F760009C1CF /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEFA3719484F760009C1CF /* TTTAttributedLabel.m */; };
+		18BEFA3A1948B2930009C1CF /* APStadiumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEFA391948B2930009C1CF /* APStadiumTableViewCell.xib */; };
 		CE0633FE1947FD1400A88347 /* Loading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE0633FA1947FD1400A88347 /* Loading.jpg */; };
 		CE0633FF1947FD1400A88347 /* Location.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0633FB1947FD1400A88347 /* Location.png */; };
 		CE0634001947FD1400A88347 /* round.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0633FC1947FD1400A88347 /* round.png */; };
@@ -277,7 +278,6 @@
 		18BEF87719430A2C0009C1CF /* Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title.png; sourceTree = "<group>"; };
 		18BEF88119431CD80009C1CF /* APStadiumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APStadiumTableViewCell.h; sourceTree = "<group>"; };
 		18BEF88219431CD80009C1CF /* APStadiumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APStadiumTableViewCell.m; sourceTree = "<group>"; };
-		18BEF88319431CD80009C1CF /* APStadiumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APStadiumTableViewCell.xib; sourceTree = "<group>"; };
 		18BEF88719431F2E0009C1CF /* Map-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Map-icon.jpg"; sourceTree = "<group>"; };
 		18BEF88819431F2E0009C1CF /* Preview-icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Preview-icon.jpg"; sourceTree = "<group>"; };
 		18BEF88B1943FE850009C1CF /* APStadium.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APStadium.h; sourceTree = "<group>"; };
@@ -322,6 +322,9 @@
 		18BEFA2F19477BD30009C1CF /* APPlaceDataListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APPlaceDataListViewController.m; sourceTree = "<group>"; };
 		18BEFA3019477BD30009C1CF /* APPlaceDataListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APPlaceDataListViewController.xib; sourceTree = "<group>"; };
 		18BEFA331948449D0009C1CF /* app-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon.png"; sourceTree = "<group>"; };
+		18BEFA3619484F760009C1CF /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
+		18BEFA3719484F760009C1CF /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
+		18BEFA391948B2930009C1CF /* APStadiumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APStadiumTableViewCell.xib; sourceTree = "<group>"; };
 		CE0633FA1947FD1400A88347 /* Loading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Loading.jpg; sourceTree = "<group>"; };
 		CE0633FB1947FD1400A88347 /* Location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Location.png; sourceTree = "<group>"; };
 		CE0633FC1947FD1400A88347 /* round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round.png; sourceTree = "<group>"; };
@@ -591,6 +594,7 @@
 		18906C38194166E40072EC38 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				18BEFA3519484F760009C1CF /* TTTAttributedLabel */,
 				CE0634121948143600A88347 /* APHeader.h */,
 				CE0634131948143600A88347 /* APHeader.m */,
 				CE063410194813EA00A88347 /* testView.xib */,
@@ -785,9 +789,9 @@
 		18BEF88019431C270009C1CF /* Stadium */ = {
 			isa = PBXGroup;
 			children = (
+				18BEFA391948B2930009C1CF /* APStadiumTableViewCell.xib */,
 				18BEF88119431CD80009C1CF /* APStadiumTableViewCell.h */,
 				18BEF88219431CD80009C1CF /* APStadiumTableViewCell.m */,
-				18BEF88319431CD80009C1CF /* APStadiumTableViewCell.xib */,
 			);
 			name = Stadium;
 			sourceTree = "<group>";
@@ -857,6 +861,15 @@
 				18BEF9E719461E0D0009C1CF /* APMoreViewController.xib */,
 			);
 			name = More;
+			sourceTree = "<group>";
+		};
+		18BEFA3519484F760009C1CF /* TTTAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				18BEFA3619484F760009C1CF /* TTTAttributedLabel.h */,
+				18BEFA3719484F760009C1CF /* TTTAttributedLabel.m */,
+			);
+			path = TTTAttributedLabel;
 			sourceTree = "<group>";
 		};
 		CEDFBE5E1946E082000BA0F4 /* marker */ = {
@@ -1000,6 +1013,7 @@
 				CE0634011947FD1400A88347 /* star.png in Resources */,
 				18BEF82519422A2E0009C1CF /* Ale_01_14.png in Resources */,
 				CE06340F1947FD4500A88347 /* tag.png in Resources */,
+				18BEFA3A1948B2930009C1CF /* APStadiumTableViewCell.xib in Resources */,
 				18BEF8441942B7AF0009C1CF /* transport.png in Resources */,
 				18BEF8651942C28D0009C1CF /* restaurant.jpg in Resources */,
 				18BEF8611942C28D0009C1CF /* eat.png in Resources */,
@@ -1035,7 +1049,6 @@
 				18BEF9D11944C7810009C1CF /* APShowFullMapViewController.xib in Resources */,
 				18BEF82319422A2E0009C1CF /* Ale_01_11.png in Resources */,
 				18BEF87C19430A2C0009C1CF /* More.png in Resources */,
-				18BEF88519431CD80009C1CF /* APStadiumTableViewCell.xib in Resources */,
 				18BEF86E1942DACC0009C1CF /* APStadiumViewController.xib in Resources */,
 				18BEF8301942AA200009C1CF /* APAleViewCellBt.xib in Resources */,
 				18BEF9D7194607930009C1CF /* APTeamViewController.xib in Resources */,
@@ -1128,6 +1141,7 @@
 				18BEF82A1942A7E20009C1CF /* APAleViewCell.m in Sources */,
 				18906BC419409CAF0072EC38 /* APAppDelegate.m in Sources */,
 				CE6C0974194613AC00455A5B /* MapAnnotation.m in Sources */,
+				18BEFA3819484F760009C1CF /* TTTAttributedLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

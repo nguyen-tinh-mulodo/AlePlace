@@ -21,5 +21,6 @@
 
 }
 @property(nonatomic,retain) NSMutableArray *mapData;
+@property(readwrite)NSInteger idcategory;
 @end
 

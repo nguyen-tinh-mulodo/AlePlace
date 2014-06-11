@@ -10,6 +10,7 @@
 #import "APStadiumTableViewCell.h"
 @interface APPlaceDataListViewController : UIViewController<APStadiumTableViewCellDelegate>
 @property(nonatomic,weak)IBOutlet UITableView *tableStadium;
-@property(nonatomic,retain)IBOutlet NSString *city_id;
-@property(nonatomic,retain)IBOutlet NSString *catagoryId;
+@property(nonatomic,strong) NSString *city_id;
+@property(nonatomic,strong) NSString *catagoryId;
+
 @end

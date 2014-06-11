@@ -60,7 +60,8 @@
     [self.view setBackgroundColor:[UIColor whiteColor]];
     [[NSNotificationCenter defaultCenter]postNotificationName:kAleViewController object:self userInfo:@{kNameView:@"APDetailPlaceViewController"}];
     [self loadData];
-    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(removeView) name:kRemovePlaceDetailViewController object:nil];
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(removeView) name:kRemoveDetailPlaceViewController object:nil];
+
 }
 -(void)removeView{
     [self.view removeFromSuperview];

@@ -5,6 +5,7 @@
 //  Created by Apple on 6/5/14.
 //
 //
+
 #define kBgQueue dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0) //1
 #define kLatestKivaLoansURL [NSURL URLWithString: @"http://cms.aleplace.com/ws/api/events/getData?esapikey=5d7299e5d3ea2698b9ef43527eae374e1ce439da&format=json"]
 #import "APHomeViewController.h"
@@ -19,7 +20,30 @@
 #import "FMUtils.h"
 #import "APEventCellTableViewCell.h"
 #import "APHeader.h"
+@interface UIView (ARES)
 
+- (void)roundCornerShadowAndBorder;
+
+@end
+
+@implementation UIView (ARES)
+
+- (void)roundCornerShadowAndBorder {
+    
+    [self.layer setMasksToBounds:YES];
+    
+    [self.layer setBorderColor:[[UIColor darkTextColor] CGColor]];
+    [self.layer setBorderWidth:1.0f];
+    if(YES)
+    {
+        [self.layer setShadowColor:[[UIColor darkTextColor] CGColor]];
+        [self.layer setShadowOffset:CGSizeMake(0, 0)];
+        [self.layer setShadowOpacity:1];
+        [self.layer setShadowRadius:2.0];
+    }
+}
+
+@end
 @interface APHomeViewController ()
 {
     NSMutableArray *listEvents;
@@ -139,7 +163,6 @@
         cell.nameEvent.text = event.nameEvent;
         cell.dateEvent.text = [NSString stringWithFormat:@"%@-%@",[FMUtils timeToDate:event.start_dateEvent],[FMUtils timeToDate:event.end_dateEvent]];
         [cell.imageEvent setImageWithURL:[NSURL URLWithString:event.thumb_photoEvent] placeholderImage:nil];
-        
         return cell;
     }else{
         static NSString *CellIdentifier = @"APEventCellTableViewCell";

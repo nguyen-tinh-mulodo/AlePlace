@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APDetailEventViewController.m"
-            timestampString = "424166244.568355"
+            timestampString = "424192181.758941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "216"
-            endingLineNumber = "216"
+            startingLineNumber = "238"
+            endingLineNumber = "238"
             landmarkName = "-loadData:"
             landmarkType = "5">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APDetailEventViewController.m"
-            timestampString = "424166244.568355"
+            timestampString = "424192181.758941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "210"
-            endingLineNumber = "210"
+            startingLineNumber = "232"
+            endingLineNumber = "232"
             landmarkName = "-loadData:"
             landmarkType = "5">
          </BreakpointContent>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APDetailEventViewController.m"
-            timestampString = "424166244.568355"
+            timestampString = "424192181.758941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "223"
-            endingLineNumber = "223"
+            startingLineNumber = "245"
+            endingLineNumber = "245"
             landmarkName = "-loadData:"
             landmarkType = "5">
          </BreakpointContent>
@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APDetailEventViewController.m"
-            timestampString = "424166244.568355"
+            timestampString = "424192181.758941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "233"
-            endingLineNumber = "233"
+            startingLineNumber = "255"
+            endingLineNumber = "255"
             landmarkName = "-loadData:"
             landmarkType = "5">
          </BreakpointContent>
@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APDetailEventViewController.m"
-            timestampString = "424166244.568355"
+            timestampString = "424192181.758941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "208"
-            endingLineNumber = "208"
+            startingLineNumber = "230"
+            endingLineNumber = "230"
             landmarkName = "-loadData:"
             landmarkType = "5">
          </BreakpointContent>
@@ -106,11 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APDetailEventViewController.m"
-            timestampString = "424166244.568355"
+            timestampString = "424192181.758941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "291"
-            endingLineNumber = "291"
+            startingLineNumber = "313"
+            endingLineNumber = "313"
             landmarkName = "-willRotateToInterfaceOrientation:duration:"
             landmarkType = "5">
          </BreakpointContent>
@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APDetailEventViewController.m"
-            timestampString = "424166244.568355"
+            timestampString = "424192181.758941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "343"
-            endingLineNumber = "343"
+            startingLineNumber = "365"
+            endingLineNumber = "365"
             landmarkName = "-tabBar:didSelectItem:"
             landmarkType = "5">
          </BreakpointContent>
@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APDetailEventViewController.m"
-            timestampString = "424166244.568355"
+            timestampString = "424192181.758941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "336"
-            endingLineNumber = "336"
+            startingLineNumber = "358"
+            endingLineNumber = "358"
             landmarkName = "-tabBar:didSelectItem:"
             landmarkType = "5">
          </BreakpointContent>
@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APDetailEventViewController.m"
-            timestampString = "424166244.568355"
+            timestampString = "424192181.758941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "396"
-            endingLineNumber = "396"
+            startingLineNumber = "418"
+            endingLineNumber = "418"
             landmarkName = "-showAle:"
             landmarkType = "5">
          </BreakpointContent>
@@ -202,11 +202,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APTakecareViewController.m"
-            timestampString = "424158440.301913"
+            timestampString = "424192601.687363"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
             landmarkName = "-showStadium"
             landmarkType = "5">
          </BreakpointContent>
@@ -218,11 +218,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APDetailEventViewController.m"
-            timestampString = "424166244.568355"
+            timestampString = "424192181.758941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "215"
-            endingLineNumber = "215"
+            startingLineNumber = "237"
+            endingLineNumber = "237"
             landmarkName = "-loadData:"
             landmarkType = "5">
          </BreakpointContent>
@@ -234,11 +234,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APTakecareViewController.m"
-            timestampString = "424158440.301913"
+            timestampString = "424192875.248651"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "158"
-            endingLineNumber = "158"
+            startingLineNumber = "183"
+            endingLineNumber = "183"
             landmarkName = "-showTerm"
             landmarkType = "5">
          </BreakpointContent>
@@ -250,11 +250,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APTakecareViewController.m"
-            timestampString = "424158440.301913"
+            timestampString = "424192875.248651"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "168"
-            endingLineNumber = "168"
+            startingLineNumber = "200"
+            endingLineNumber = "200"
             landmarkName = "-showSchedule"
             landmarkType = "5">
          </BreakpointContent>
@@ -266,11 +266,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APTakecareViewController.m"
-            timestampString = "424158440.301913"
+            timestampString = "424192875.248651"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "176"
-            endingLineNumber = "176"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
             landmarkName = "-showResult"
             landmarkType = "5">
          </BreakpointContent>
@@ -282,11 +282,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APPlaceViewController.m"
-            timestampString = "424158440.301913"
+            timestampString = "424189270.234353"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
             landmarkName = "-callAPIGet"
             landmarkType = "5">
          </BreakpointContent>
@@ -298,11 +298,103 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APPlaceViewController.m"
-            timestampString = "424158440.301913"
+            timestampString = "424189270.234353"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "107"
-            endingLineNumber = "107"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "-callAPIGet"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__35-[APPlaceViewController callAPIGet]_block_invoke"
+                  moduleName = "AlePlace"
+                  urlString = "file:///Users/apple/Desktop/Project_APle/AlePlace/AlePlace/APPlaceViewController.m"
+                  timestampString = "424194875.917537"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__35-[APPlaceViewController callAPIGet]_block_invoke90"
+                  moduleName = "AlePlace"
+                  urlString = "file:///Users/apple/Desktop/Project_APle/AlePlace/AlePlace/APPlaceViewController.m"
+                  timestampString = "424194875.917747"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlePlace/APPlaceViewController.m"
+            timestampString = "424189270.234353"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "-callAPIGet"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[APPlaceViewController callAPIGet]"
+                  moduleName = "AlePlace"
+                  urlString = "file:///Users/apple/Desktop/Project_APle/AlePlace/AlePlace/APPlaceViewController.m"
+                  timestampString = "424194875.91854"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__35-[APPlaceViewController callAPIGet]_block_invoke"
+                  moduleName = "AlePlace"
+                  urlString = "file:///Users/apple/Desktop/Project_APle/AlePlace/AlePlace/APPlaceViewController.m"
+                  timestampString = "424194875.918742"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "83">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlePlace/APPlaceViewController.m"
+            timestampString = "424189270.234353"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
             landmarkName = "-callAPIGet"
             landmarkType = "5">
          </BreakpointContent>
@@ -314,13 +406,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APPlaceViewController.m"
-            timestampString = "424158440.301913"
+            timestampString = "424189270.234353"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
-            landmarkName = "-callAPIGet"
-            landmarkType = "5">
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "@implementation APPlaceViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -330,44 +422,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APPlaceViewController.m"
-            timestampString = "424158440.301913"
+            timestampString = "424189270.234353"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
-            landmarkName = "-callAPIGet"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AlePlace/APPlaceViewController.m"
-            timestampString = "424158440.301913"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "-tableView:heightForRowAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AlePlace/APPlaceViewController.m"
-            timestampString = "424158440.301913"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "95"
-            endingLineNumber = "95"
-            landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -458,11 +518,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APDetailEventViewController.m"
-            timestampString = "424166244.568355"
+            timestampString = "424192181.758941"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "350"
-            endingLineNumber = "350"
+            startingLineNumber = "372"
+            endingLineNumber = "372"
             landmarkName = "-tabBar:didSelectItem:"
             landmarkType = "5">
          </BreakpointContent>
@@ -602,11 +662,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APDetailEventViewController.m"
-            timestampString = "424165941.466837"
+            timestampString = "424192084.171471"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "125"
-            endingLineNumber = "125"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
             landmarkName = "-popViewControllerAnimated"
             landmarkType = "5">
          </BreakpointContent>
@@ -634,7 +694,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APDetailStadiumViewController.m"
-            timestampString = "423940169.475868"
+            timestampString = "424176436.697168"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "59"
@@ -650,7 +710,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APDetailStadiumViewController.m"
-            timestampString = "423940169.475868"
+            timestampString = "424176436.697168"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "80"
@@ -666,7 +726,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APDetailStadiumViewController.m"
-            timestampString = "423940169.475868"
+            timestampString = "424176436.697168"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "77"
@@ -714,11 +774,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APHomeViewController.m"
-            timestampString = "424165941.466837"
+            timestampString = "424176459.336132"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "158"
-            endingLineNumber = "158"
+            startingLineNumber = "181"
+            endingLineNumber = "181"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -730,11 +790,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APHomeViewController.m"
-            timestampString = "424165941.466837"
+            timestampString = "424176459.336132"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
+            startingLineNumber = "166"
+            endingLineNumber = "166"
             landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -842,11 +902,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APPlaceDataListViewController.m"
-            timestampString = "424142511.65858"
+            timestampString = "424191636.040697"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "-callAPIGetStadiumData"
             landmarkType = "5">
          </BreakpointContent>
@@ -858,12 +918,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APPlaceDataListViewController.m"
-            timestampString = "424142515.565843"
+            timestampString = "424191636.040697"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
-            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "-tableView:numberOfRowsInSection:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -874,11 +934,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APPlaceDataListViewController.m"
-            timestampString = "424142600.470966"
+            timestampString = "424191636.040697"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
             landmarkName = "-callAPIGetStadiumData"
             landmarkType = "5">
          </BreakpointContent>
@@ -938,11 +998,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APPlaceDataListViewController.m"
-            timestampString = "424142764.927403"
+            timestampString = "424191636.040697"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "-didReceiveMemoryWarning"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlePlace/APPlaceDataListViewController.m"
+            timestampString = "424191636.040697"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
             landmarkName = "-numberOfSectionsInTableView:"
             landmarkType = "5">
          </BreakpointContent>
@@ -954,12 +1030,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APPlaceDataListViewController.m"
-            timestampString = "424142766.434981"
+            timestampString = "424194875.369197"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
-            landmarkName = "-tableView:numberOfRowsInSection:"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -970,11 +1046,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APPlaceDataListViewController.m"
-            timestampString = "424142787.31247"
+            timestampString = "424194875.369197"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
             landmarkName = "-tableView:didSelectRowAtIndexPath:"
             landmarkType = "5">
          </BreakpointContent>
@@ -986,13 +1062,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APPlaceDataListViewController.m"
-            timestampString = "424143020.406758"
+            timestampString = "424194875.369197"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "131"
             endingLineNumber = "131"
-            landmarkName = "-tableView:heightForRowAtIndexPath:"
-            landmarkType = "5">
+            landmarkName = "@implementation APPlaceDataListViewController"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1002,27 +1078,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APPlaceDataListViewController.m"
-            timestampString = "424143022.214387"
+            timestampString = "424191636.040697"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "134"
-            endingLineNumber = "134"
-            landmarkName = "-showMap:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AlePlace/APPlaceDataListViewController.m"
-            timestampString = "424143033.172034"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "-popViewControllerAnimated"
             landmarkType = "5">
          </BreakpointContent>
@@ -1034,11 +1094,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APPlaceDataListViewController.m"
-            timestampString = "424143034.295624"
+            timestampString = "424191636.040697"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
             landmarkName = "-removeView"
             landmarkType = "5">
          </BreakpointContent>
@@ -1050,11 +1110,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APTakecareViewController.m"
-            timestampString = "424155886.304725"
+            timestampString = "424192601.687363"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
             landmarkName = "-showStadium"
             landmarkType = "5">
          </BreakpointContent>
@@ -1082,11 +1142,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APHomeViewController.m"
-            timestampString = "424165941.466837"
+            timestampString = "424176459.336132"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "247"
-            endingLineNumber = "247"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
             landmarkName = "-backBtnClick:"
             landmarkType = "5">
          </BreakpointContent>
@@ -1098,12 +1158,76 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AlePlace/APHomeViewController.m"
-            timestampString = "424163864.395808"
+            timestampString = "424175879.033434"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
             landmarkName = "-viewDidLoad"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlePlace/APPlaceViewController.m"
+            timestampString = "424194875.369197"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "161"
+            endingLineNumber = "161"
+            landmarkName = "-see"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlePlace/APDetailEventViewController.m"
+            timestampString = "424191398.884032"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "-setFlagView:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlePlace/APDetailEventViewController.m"
+            timestampString = "424190621.361865"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "-setFlagView:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AlePlace/APDetailPlaceViewController.m"
+            timestampString = "424194767.298168"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "-roundCornerShadowAndBorder"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

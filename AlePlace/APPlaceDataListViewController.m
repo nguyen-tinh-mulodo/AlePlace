@@ -43,11 +43,10 @@
     [super viewDidLoad];
     listStadiums = [[NSMutableArray alloc] init];
     page = 1;
-    self.navigationItem.leftBarButtonItem = [FMUtils backArrowButtonWithTarget:self action:@selector(popViewControllerAnimated)];
     [[NSNotificationCenter defaultCenter]postNotificationName:kAleViewController object:self userInfo:@{kNameView:@"APPlaceDataListTableViewController"}];
     // Do any additional setup after loading the view from its nib.
     [self callAPIGetStadiumData];
-    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(removeView) name:kRemoveStadiumViewController object:nil];
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(removeView) name:kRemoveDataListViewController object:nil];
 }
 -(void)removeView{
     [self.view removeFromSuperview];
@@ -105,6 +104,8 @@
     }
     cell.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     APPlace *place = [listStadiums objectAtIndex:indexPath.row];
+    
+    cell.fromView=@"PlaceMap";
     cell.countryTitle.text=@"Phone:";
     cell.cityTitle.text=@"Hours:";
     cell.titileStadium.text = place.nameplace;

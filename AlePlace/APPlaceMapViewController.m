@@ -12,6 +12,7 @@
 #import "APStadium.h"
 #import "FMUtils.h"
 #import "APPlaceDataListViewController.h"
+#import "APAppDelegate.h"
 
 
 @interface APPlaceMapViewController (){
@@ -24,7 +25,7 @@
 @end
 
 @implementation APPlaceMapViewController
-@synthesize mapData;
+@synthesize mapData,idcategory;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -42,8 +43,14 @@
     
     
     markerImg=[FMUtils imageWithImage:[UIImage imageNamed:@"stadium_map"] scaledToSize:CGSizeMake(40, 40)];
+    [[NSNotificationCenter defaultCenter]postNotificationName:kAleViewController object:self userInfo:@{kNameView:@"APPlaceMapViewController"}];
     // Do any additional setup after loading the view from its nib.
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(removeView) name:kRemoveMapViewController object:nil];
 }
+-(void)removeView{
+    [self.view removeFromSuperview];
+}
+
 -(void)callAPIGetStadium{
     dictionary = [[NSMutableDictionary alloc] init];
     [dictionary setValue:@"json" forKey:@"format"];
@@ -108,8 +115,9 @@ didTapInfoWindowOfMarker:(GMSMarker*)marker
     
      dataView = [[APPlaceDataListViewController alloc] initWithNibName:@"APPlaceDataListViewController" bundle:nil];
     dataView.city_id=[NSString stringWithFormat:@"%d",stadium.city_id ];
-    dataView.catagoryId=@"6";
-     [self.view addSubview:dataView.view];
+    dataView.catagoryId= [NSString stringWithFormat:@"%d",self.idcategory];
+    [APAppDelegate appDelegate].idCity = stadium.city_id;
+    [self.view addSubview:dataView.view];
     
     
     

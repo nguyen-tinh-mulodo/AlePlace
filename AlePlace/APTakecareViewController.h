@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "APAleViewCellBt.h"
 @interface APTakecareViewController : UIViewController<APAleViewCellBtDelegate>
+{
+     NSMutableArray * mapDataList;
+}
 @property(nonatomic,strong)IBOutlet UITableView *taceCareTable;
 @end

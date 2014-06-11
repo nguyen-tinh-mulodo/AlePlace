@@ -51,9 +51,17 @@
                         <constraint firstAttribute="width" constant="170" id="L8F-Q2-wTq"/>
                     </constraints>
                 </imageView>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="ALEPLACE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXI-UM-UWi">
+                    <rect key="frame" x="105" y="319" width="111" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="pXI-UM-UWi" firstAttribute="top" secondItem="H3C-mK-0OE" secondAttribute="bottom" constant="34" id="2an-V6-y4W"/>
                 <constraint firstItem="5Fh-Hd-FuT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="KKg-wT-ink"/>
                 <constraint firstAttribute="bottom" secondItem="5Fh-Hd-FuT" secondAttribute="bottom" id="VkD-E1-eZY"/>
                 <constraint firstItem="H3C-mK-0OE" firstAttribute="top" secondItem="J8X-wf-A07" secondAttribute="bottom" constant="20" id="ZKQ-VN-hNs"/>

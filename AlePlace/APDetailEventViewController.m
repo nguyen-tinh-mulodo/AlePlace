@@ -45,6 +45,7 @@
 {
     NSMutableArray *listEvents;
     NSString *flagClass;
+    NSString *flagMap;
 }
 @property (nonatomic,strong)APAleViewController *aleViewController;
 @property (nonatomic,strong)APTakecareViewController *takecareViewController;
@@ -103,8 +104,10 @@
     
 }
 - (void)setFlagView:(NSNotification *)notification {
-    
-   flagClass = [notification.userInfo objectForKey:@"nameView"];
+    flagClass = [notification.userInfo objectForKey:@"nameView"];
+    if ([flagClass isEqualToString:@"APPlaceMapViewController"]) {
+        flagMap = @"APPlaceMapViewController";
+    }
 }
 
 -(void)callAPIGetDetailEvent{
@@ -123,9 +126,19 @@
     
 }
 -(void)popViewControllerAnimated{
+    if ([flagClass isEqualToString:@"APDetailPlaceViewController"]) {
+            flagClass = @"APPlaceDataListTableViewController";
+        [[NSNotificationCenter defaultCenter]postNotificationName:kRemoveDetailPlaceViewController object:self];
+        return;
+    }
     if ([flagClass isEqualToString:@"APAleViewController"]) {
         flagClass = @"";
         [aleViewController.view removeFromSuperview];
+        return;
+    }
+    if ([flagClass isEqualToString:@"APPlaceMapViewController"]) {
+        flagClass = @"APPlaceViewController";
+        [[NSNotificationCenter defaultCenter]postNotificationName:kRemoveMapViewController object:self];
         return;
     }
     if ([flagClass isEqualToString:@"APStadiumViewController"]) {
@@ -168,7 +181,14 @@
         return;
     }
     
-    
+    if ([flagClass isEqualToString:@"APPlaceDataListTableViewController"]) {
+        if ([flagMap isEqualToString:@"APPlaceMapViewController"]) {
+            flagClass = @"APPlaceMapViewController";
+            flagMap = @"";
+        }
+        [[NSNotificationCenter defaultCenter]postNotificationName:kRemoveDataListViewController object:self];
+        return;
+    }
     for (UIView *view in [self.view subviews]) {
         if (view == aleViewController.view) {
              NSLog(@"%@",self.view.subviews);
@@ -190,9 +210,11 @@
     NSString *title = titleHome;
     [[NSNotificationCenter defaultCenter]postNotificationName:editTitle object:self userInfo:@{editTitle: title}];
     [self.navigationController popViewControllerAnimated:NO];
+    [APAppDelegate appDelegate].idCity = 0;
 }
 -(void)loadData:(APEvent *)event{
     [self.imageDetailEvent setImageWithURL:[NSURL URLWithString:event.thumb_photoEvent] placeholderImage:nil];
+    [self.imageDetailEvent roundCornerShadowAndBorder];
     self.startdate.text = [FMUtils timeToDate:event.start_dateEvent];
     self.enddate.text = [FMUtils timeToDate:event.end_dateEvent];
     self.description.text = event.descriptionEvent;
