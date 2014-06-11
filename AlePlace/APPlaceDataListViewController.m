@@ -15,20 +15,20 @@
 #import "APStadium.h"
 #import "UIImageView+AFNetworking.h"
 #import "FMConstants.h"
-#import "APDetailStadiumViewController.h"
+#import "APDetailPlaceViewController.h"
 #import "APShowFullMapViewController.h"
 @interface APPlaceDataListViewController ()
 {
     NSMutableArray *listStadiums;
     NSInteger page;
     NSMutableDictionary *dictionary;
-    APDetailStadiumViewController *detailStadiumViewController;
+    APDetailPlaceViewController *detailPlaceViewController;
     APShowFullMapViewController *showFullMapViewController;
 }
 @end
 
 @implementation APPlaceDataListViewController
-@synthesize tableStadium;
+@synthesize tableStadium,city_id,catagoryId;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -43,11 +43,10 @@
     [super viewDidLoad];
     listStadiums = [[NSMutableArray alloc] init];
     page = 1;
-    self.navigationItem.leftBarButtonItem = [FMUtils backArrowButtonWithTarget:self action:@selector(popViewControllerAnimated)];
     [[NSNotificationCenter defaultCenter]postNotificationName:kAleViewController object:self userInfo:@{kNameView:@"APPlaceDataListTableViewController"}];
     // Do any additional setup after loading the view from its nib.
     [self callAPIGetStadiumData];
-    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(removeView) name:kRemoveStadiumViewController object:nil];
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(removeView) name:kRemoveDataListViewController object:nil];
 }
 -(void)removeView{
     [self.view removeFromSuperview];
@@ -59,6 +58,10 @@
     dictionary = [[NSMutableDictionary alloc] init];
     [dictionary setValue:@"json" forKey:@"format"];
     [dictionary setValue:[NSString stringWithFormat:@"%d",page] forKey:@"page"];
+    [dictionary setValue:city_id forKey:@"cityid"];
+
+    [dictionary setValue:catagoryId forKey:@"categoryId"];
+
     [dictionary setValue:@"5d7299e5d3ea2698b9ef43527eae374e1ce439da" forKey:@"esapikey"];
     [APCallAPI getStadiumData:^(NSArray *listEvent, NSObject *error) {
         listStadiums = [NSMutableArray arrayWithArray:listEvent];
@@ -100,13 +103,16 @@
         
     }
     cell.autoresizingMask = UIViewAutoresizingFlexibleWidth;
-    APStadium *stadium = [listStadiums objectAtIndex:indexPath.row];
-    cell.titileStadium.text = stadium.nameStadium;
-    [cell.imageStadium setImageWithURL:[NSURL URLWithString: [stadium.thumb_photoStadium stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]placeholderImage:nil];
+    APPlace *place = [listStadiums objectAtIndex:indexPath.row];
+    cell.fromView=@"PlaceMap";
+    cell.countryTitle.text=@"Phone:";
+    cell.cityTitle.text=@"Hours:";
+    cell.titileStadium.text = place.nameplace;
+    [cell.imageStadium setImageWithURL:[NSURL URLWithString: [place.thumb_photoplace stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]placeholderImage:nil];
     [cell.imageStadium setContentMode:UIViewContentModeScaleAspectFit];
-    cell.country.text = stadium.country;
-    cell.city.text = stadium.city;
-    cell.add.text = stadium.address;
+    cell.country.text = place.phone;
+    cell.city.text = place.service_hour;
+    cell.add.text = place.address;
     [cell.btMap setContentMode:UIViewContentModeScaleAspectFit];
     
     return cell;
@@ -114,10 +120,10 @@
     
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    detailStadiumViewController = [[APDetailStadiumViewController alloc] initWithNibName:@"APDetailStadiumViewController" bundle:nil];
-    detailStadiumViewController.stadium = [listStadiums objectAtIndex:indexPath.row];
-    detailStadiumViewController.view.frame = self.view.frame;
-    [self.view addSubview:detailStadiumViewController.view];
+    detailPlaceViewController = [[APDetailPlaceViewController alloc] initWithNibName:@"APDetailPlaceViewController" bundle:nil];
+    detailPlaceViewController.place = [listStadiums objectAtIndex:indexPath.row];
+    detailPlaceViewController.view.frame = self.view.frame;
+    [self.view addSubview:detailPlaceViewController.view];
 }
 
 //- (void)handleGesture:(UIGestureRecognizer *)gestureRecognizer {
@@ -129,7 +135,7 @@
 
 
 -(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 150;
+    return 130;
 }
 - (void)showMap:(int)tapCell{
     showFullMapViewController = [[APShowFullMapViewController alloc] initWithNibName:@"APShowFullMapViewController" bundle:nil];

@@ -21,6 +21,14 @@
 @property(nonatomic,weak)IBOutlet UILabel *add;
 @property(nonatomic,weak)IBOutlet UIButton *btMap;
 @property(nonatomic,weak)IBOutlet UIButton *btPreview;
+@property(nonatomic,retain) NSString *fromView;
+
+@property(nonatomic,weak)IBOutlet UILabel *countryTitle;
+@property(nonatomic,weak)IBOutlet UILabel *cityTitle;
+@property(nonatomic,weak)IBOutlet UILabel *addTitle;
+
+
+
 @property (weak,nonatomic) id<APStadiumTableViewCellDelegate> delegate;
 -(IBAction)showFullMap:(id)sender;
 @end

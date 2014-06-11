@@ -11,8 +11,14 @@
 #import "APAleViewCell.h"
 #import "FMConstants.h"
 #import "APAppDelegate.h"
+#import "APPlaceMapViewController.h"
+#import "APPlaceDataListViewController.h"
+#import "APCallAPI.h"
 @interface APTakecareViewController ()
-
+{
+    APPlaceMapViewController *mapView;
+    APPlaceDataListViewController *placeDataListViewController;
+}
 @end
 
 @implementation APTakecareViewController
@@ -30,9 +36,21 @@
 {
     [super viewDidLoad];
     [self.taceCareTable setAllowsSelection:NO];
+    [self callAPIGet];
     // Do any additional setup after loading the view from its nib.
 }
-
+-(void)callAPIGet{
+    NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] init];
+    [dictionary setValue:@"json" forKey:@"format"];
+    [dictionary setValue:@"33" forKey:@"countryId"];
+    [dictionary setValue:@"5d7299e5d3ea2698b9ef43527eae374e1ce439da" forKey:@"esapikey"];
+    [APCallAPI getCities:^(NSArray *listPlaces, NSObject *error) {
+        mapDataList = [NSMutableArray arrayWithArray:listPlaces];
+        // [self.tableStadium reloadData];
+    } parameters:dictionary didFail:^(NSObject *error) {
+    }];
+    
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -151,32 +169,69 @@
     //categoryId/3
     if ([APAppDelegate appDelegate].idCity > 0) {
         // show data
+        placeDataListViewController = [[APPlaceDataListViewController alloc] initWithNibName:@"APPlaceDataListViewController" bundle:nil];
+        placeDataListViewController.view.frame = self.view.frame;
+
+        placeDataListViewController.city_id =[NSString stringWithFormat:@"%d",[APAppDelegate appDelegate].idCity];
+        placeDataListViewController.catagoryId=@"3";
+        [self.view addSubview:placeDataListViewController.view];
     }else{
         // show map
+        [self showMap:3];
     }
 }
 - (void)showTerm{
      //categoryId/4
     if ([APAppDelegate appDelegate].idCity > 0) {
         // show data
+        placeDataListViewController = [[APPlaceDataListViewController alloc] initWithNibName:@"APPlaceDataListViewController" bundle:nil];
+        placeDataListViewController.view.frame = self.view.frame;
+
+        placeDataListViewController.city_id =[NSString stringWithFormat:@"%d",[APAppDelegate appDelegate].idCity];
+        placeDataListViewController.catagoryId=@"4";
+        [self.view addSubview:placeDataListViewController.view];
     }else{
         // show map
+        [self showMap:4];
     }
 }
 -(void)showSchedule{
      //categoryId/9
     if ([APAppDelegate appDelegate].idCity > 0) {
         // show data
+        placeDataListViewController = [[APPlaceDataListViewController alloc] initWithNibName:@"APPlaceDataListViewController" bundle:nil];
+        placeDataListViewController.view.frame = self.view.frame;
+
+        placeDataListViewController.city_id =[NSString stringWithFormat:@"%d",[APAppDelegate appDelegate].idCity];
+        placeDataListViewController.catagoryId=@"9";
+        [self.view addSubview:placeDataListViewController.view];
     }else{
         // show map
+        [self showMap:9];
     }
 }
 -(void)showResult{
      //categoryId/10
     if ([APAppDelegate appDelegate].idCity > 0) {
         // show data
+        placeDataListViewController = [[APPlaceDataListViewController alloc] initWithNibName:@"APPlaceDataListViewController" bundle:nil];
+        placeDataListViewController.view.frame = self.view.frame;
+
+        placeDataListViewController.city_id =[NSString stringWithFormat:@"%d",[APAppDelegate appDelegate].idCity];
+        placeDataListViewController.catagoryId=@"10";
+        [self.view addSubview:placeDataListViewController.view];
     }else{
         // show map
+        [self showMap:10];
     }
 }
+-(void)showMap:(NSInteger)categoryId{
+    
+    mapView = [[APPlaceMapViewController alloc] init];
+    mapView.idcategory = categoryId;
+    mapView.view.frame = self.view.frame;
+    [self.view addSubview:mapView.view];
+    
+}
+
 @end

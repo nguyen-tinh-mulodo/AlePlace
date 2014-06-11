@@ -11,6 +11,7 @@
 #import "APStadium.h"
 #import "APCity.h"
 #import "APCountry.h"
+#import "APPlace.h"
 @implementation APParserData
 + (NSArray *)parseJSONtoArrayOfProduct:(id)responseObject {
     //NSArray *postsFromResponse =[[responseObject objectForKey:@"xml"] objectForKey:@"item"];
@@ -34,8 +35,8 @@
     
     NSMutableArray *mutableProducts = [NSMutableArray arrayWithCapacity:[responseObject count]];
     for (NSDictionary *attributes in [responseObject objectForKey:@"data"]) {
-        APStadium *stadium = [[APStadium alloc] initWithAttributes:attributes];
-        [mutableProducts addObject:stadium];
+        APPlace *place = [[APPlace alloc] initWithAttributes:attributes];
+        [mutableProducts addObject:place];
     }
     return mutableProducts;
 }
