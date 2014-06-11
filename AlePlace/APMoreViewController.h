@@ -7,7 +7,5 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "TTTAttributedLabel.h"
 @interface APMoreViewController : UIViewController
-@property(nonatomic,weak)IBOutlet TTTAttributedLabel *lable;
 @end

@@ -11,7 +11,9 @@
 #import "APPlaceMapViewController.h"
 #import "APPlaceDataListTableViewController.h"
 @interface APPlaceViewController ()
-
+{
+    APPlaceDataListTableViewController *dataView;
+}
 @end
 
 @implementation APPlaceViewController
@@ -134,9 +136,8 @@ APPlaceMapViewController *mapView;
     mapView.view.frame = self.view.frame;
     [self.view addSubview:mapView.view];
      */
-    APPlaceDataListTableViewController *dataView = [[APPlaceDataListTableViewController alloc] initWithNibName:@"APPlaceDataListTableViewController" bundle:nil];
-    dataView.view.frame = self.view.frame;
-    [self.view addSubview:dataView.view];
+    dataView = [[APPlaceDataListTableViewController alloc] initWithNibName:@"APPlaceDataListTableViewController" bundle:nil];
+        [self.view addSubview:dataView.view];
     
 }
 @end

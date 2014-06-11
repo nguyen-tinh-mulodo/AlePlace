@@ -1,6 +1,16 @@
 dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APMapViewPlacesViewController.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/APAleViewController.m \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/APAleViewController.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APAleViewCellBt.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APEvent.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/FMUtils.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APAleViewCell.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APStadiumViewController.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APStadiumTableViewCell.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APAppDelegate.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APLaunchImageViewController.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APHomeViewController.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APEventTableViewCell.h \
   /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GoogleMaps.h \
   /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSAddress.h \
   /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapView.h \
@@ -38,10 +48,11 @@ dependencies: \
   /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSSyncTileLayer.h \
   /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSTileLayer.h \
   /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSURLTileLayer.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/UIImageView+AFNetworking.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFImageRequestOperation.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPRequestOperation.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFURLConnectionOperation.h \
   /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/FMConstants.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCity.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/MapAnnotation.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APMyAnnotation.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APStadium.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/FMUtils.h
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APTeamViewController.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APEcheduleViewController.h \
+  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APResultViewController.h

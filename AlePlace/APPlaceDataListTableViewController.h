@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "APStadiumTableViewCell.h"
-@interface APPlaceDataListTableViewController : UITableViewController<APStadiumTableViewCellDelegate>
-@property(nonatomic,weak)IBOutlet UITableView *tableStadium;
+@interface APPlaceDataListTableViewController : UIViewController
+@property(nonatomic,weak)IBOutlet UITableView *tableStadiumssdsdsđ;
 @end

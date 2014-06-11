@@ -27,7 +27,7 @@
 @end
 
 @implementation APPlaceDataListTableViewController
-@synthesize tableStadium;
+@synthesize tableStadiumssdsdsđ;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -42,11 +42,11 @@
     [super viewDidLoad];
     listStadiums = [[NSMutableArray alloc] init];
     page = 1;
-    self.navigationItem.leftBarButtonItem = [FMUtils backArrowButtonWithTarget:self action:@selector(popViewControllerAnimated)];
-    [[NSNotificationCenter defaultCenter]postNotificationName:kAleViewController object:self userInfo:@{kNameView:@"APPlaceDataListTableViewController"}];
+    //self.navigationItem.leftBarButtonItem = [FMUtils backArrowButtonWithTarget:self action:@selector(popViewControllerAnimated)];
+    //[[NSNotificationCenter defaultCenter]postNotificationName:kAleViewController object:self userInfo:@{kNameView:@"APPlaceDataListTableViewController"}];
     // Do any additional setup after loading the view from its nib.
     [self callAPIGetStadiumData];
-    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(removeView) name:kRemoveStadiumViewController object:nil];
+    //[[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(removeView) name:kRemoveStadiumViewController object:nil];
 }
 -(void)removeView{
     [self.view removeFromSuperview];
@@ -61,7 +61,7 @@
     [dictionary setValue:@"5d7299e5d3ea2698b9ef43527eae374e1ce439da" forKey:@"esapikey"];
     [APCallAPI getStadiumData:^(NSArray *listEvent, NSObject *error) {
         listStadiums = [NSMutableArray arrayWithArray:listEvent];
-        [self.tableStadium reloadData];
+        [self.tableStadiumssdsdsđ reloadData];
     } parameters:dictionary didFail:^(NSObject *error) {
     }];
     
@@ -86,7 +86,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *CellIdentifier = @"cell";
+    static NSString *CellIdentifier = @"APAleViewCellBt";
     APStadiumTableViewCell *cell = nil;
     cell = (APStadiumTableViewCell*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     cell.tag = indexPath.row;
@@ -95,7 +95,7 @@
         NSArray *topLevelObjects = [[NSBundle mainBundle] loadNibNamed:@"APStadiumTableViewCell" owner:self options:nil];
         // Grab a pointer to the first object (presumably the custom cell, as that's all the XIB should contain).
         cell = [topLevelObjects objectAtIndex:0];
-        cell.delegate = self;
+        
         
     }
     cell.autoresizingMask = UIViewAutoresizingFlexibleWidth;
@@ -127,13 +127,8 @@
 //}
 
 
--(float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 150;
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 250;
 }
-- (void)showMap:(int)tapCell{
-    showFullMapViewController = [[APShowFullMapViewController alloc] initWithNibName:@"APShowFullMapViewController" bundle:nil];
-    showFullMapViewController.view.frame = self.view.frame;
-    showFullMapViewController.stadium = [listStadiums objectAtIndex:tapCell];
-    [self.view addSubview:showFullMapViewController.view];
-}
+
 @end

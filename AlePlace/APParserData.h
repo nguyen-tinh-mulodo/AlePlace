@@ -14,4 +14,6 @@
 + (NSArray *)parseJSONtoArrayOfStadiums:(id)responseObject;
 + (NSArray *)parseJSONtoArrayOfCountries:(id)responseObject;
 + (NSArray *)parseJSONtoArrayOfCity:(id)responseObject;
++ (NSArray *)parseJSONtoArrayOfPlaceData:(id)responseObject;
+
 @end

@@ -24,6 +24,15 @@
 + (NSArray *)parseJSONtoArrayOfStadiums:(id)responseObject {
 
     NSMutableArray *mutableProducts = [NSMutableArray arrayWithCapacity:[responseObject count]];
+    for (NSDictionary *attributes in responseObject) {
+        APStadium *stadium = [[APStadium alloc] initWithAttributes:attributes];
+        [mutableProducts addObject:stadium];
+    }
+    return mutableProducts;
+}
++ (NSArray *)parseJSONtoArrayOfPlaceData:(id)responseObject {
+    
+    NSMutableArray *mutableProducts = [NSMutableArray arrayWithCapacity:[responseObject count]];
     for (NSDictionary *attributes in [responseObject objectForKey:@"data"]) {
         APStadium *stadium = [[APStadium alloc] initWithAttributes:attributes];
         [mutableProducts addObject:stadium];

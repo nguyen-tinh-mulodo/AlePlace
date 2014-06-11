@@ -37,7 +37,7 @@
     }
     return self;
 }
-
+/*
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -52,11 +52,11 @@
     }
     [self callAPIGetEvents];
     [self.tableViewEvent setSeparatorStyle:UITableViewCellSeparatorStyleNone];
-    /*dispatch_async(kBgQueue, ^{
-        NSData* data = [NSData dataWithContentsOfURL: kLatestKivaLoansURL];
-        [self performSelectorOnMainThread:@selector(fetchedData:) withObject:data waitUntilDone:YES];
-    });*/
-    
+//    dispatch_async(kBgQueue, ^{
+//        NSData* data = [NSData dataWithContentsOfURL: kLatestKivaLoansURL];
+//        [self performSelectorOnMainThread:@selector(fetchedData:) withObject:data waitUntilDone:YES];
+//    });
+//    
     // Do any additional setup after loading the view from its nib.
     [self.tableViewEvent registerNib:[UINib nibWithNibName:@"APEventTableViewCell" bundle:nil] forCellReuseIdentifier:@"APEventTableViewCell"];
     [self.tableViewEvent registerNib:[UINib nibWithNibName:@"APEventCellTableViewCell" bundle:nil] forCellReuseIdentifier:@"APEventCellTableViewCell"];
@@ -69,6 +69,26 @@
      UIView *view = [[UIView alloc] init]; // or if it exists, MCQView *view = [[MCQView alloc] init];
      view = (UIView *)[nib objectAtIndex:0]; // or if it exists, (MCQView *)[nib objectAtIndex:0];
      [self.navigationController.navigationBar addSubview:view];
+}
+*/
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    self.title = @"ALEPLAGE";
+    listEvents = [[NSMutableArray alloc] init];
+    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)
+    {
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+        self.navigationController.navigationBar.translucent = NO;
+    }
+    [self callAPIGetEvents];
+    [self.tableViewEvent setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+    /*dispatch_async(kBgQueue, ^{
+     NSData* data = [NSData dataWithContentsOfURL: kLatestKivaLoansURL];
+     [self performSelectorOnMainThread:@selector(fetchedData:) withObject:data waitUntilDone:YES];
+     });*/
+    
+    // Do any additional setup after loading the view from its nib.
 }
 -(void)callAPIGetEvents{
     NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] init];

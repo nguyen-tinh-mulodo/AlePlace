@@ -9,12 +9,10 @@
 #import "APMoreViewController.h"
 #import "FMConstants.h"
 #import "FMUtils.h"
-#import "TTTAttributedLabel.h"
 @interface APMoreViewController ()
 @end
 
 @implementation APMoreViewController
-@synthesize lable;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

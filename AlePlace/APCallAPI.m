@@ -66,7 +66,7 @@
     [[APAlePlaceNetWork sharedClient] getPath:@"places/getDataBy" parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
         
         NSMutableArray *dictionary = [NSJSONSerialization JSONObjectWithData:responseObject  options: NSJSONReadingMutableContainers error:nil];
-        NSMutableArray *mutableProducts =[[NSMutableArray alloc] initWithArray:[APParserData parseJSONtoArrayOfStadiums:dictionary]];
+        NSMutableArray *mutableProducts =[[NSMutableArray alloc] initWithArray:[APParserData parseJSONtoArrayOfPlaceData:dictionary]];
         
         if (block) {
             block([NSArray arrayWithArray:mutableProducts], nil);
