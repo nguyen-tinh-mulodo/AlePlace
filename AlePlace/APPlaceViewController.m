@@ -126,6 +126,8 @@ APPlaceMapViewController *mapView;
     }else{
         // show map
     }
+    [self showMap];
+
 
 }
 -(void)see{
@@ -134,6 +136,8 @@ APPlaceMapViewController *mapView;
     }else{
         // show map
     }
+    [self showMap];
+
 
 }
 -(void)restaurant{
@@ -143,6 +147,7 @@ APPlaceMapViewController *mapView;
     }else{
         // show map
     }
+    [self showMap];
 
 }
 -(void)tour{
@@ -152,6 +157,8 @@ APPlaceMapViewController *mapView;
     }else{
         // show map
     }
+    [self showMap];
+
 
 }
 -(void)shopping{
@@ -161,6 +168,8 @@ APPlaceMapViewController *mapView;
     }else{
         // show map
     }
+    [self showMap];
+
 
 }
 

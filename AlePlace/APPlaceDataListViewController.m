@@ -105,7 +105,6 @@
     }
     cell.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     APPlace *place = [listStadiums objectAtIndex:indexPath.row];
-    cell.fromView=@"PlaceMap";
     cell.countryTitle.text=@"Phone:";
     cell.cityTitle.text=@"Hours:";
     cell.titileStadium.text = place.nameplace;
@@ -140,8 +139,10 @@
 }
 - (void)showMap:(int)tapCell{
     showFullMapViewController = [[APShowFullMapViewController alloc] initWithNibName:@"APShowFullMapViewController" bundle:nil];
+    APPlace * place=[listStadiums objectAtIndex:tapCell];
+    showFullMapViewController.place = place;
     showFullMapViewController.view.frame = self.view.frame;
-    showFullMapViewController.stadium = [listStadiums objectAtIndex:tapCell];
+   
     [self.view addSubview:showFullMapViewController.view];
 }
 

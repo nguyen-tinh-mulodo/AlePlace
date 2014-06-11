@@ -68,7 +68,7 @@
 -(IBAction)showFullMap:(id)sender{
     showFullMapViewController = [[APShowFullMapViewController alloc] initWithNibName:@"APShowFullMapViewController" bundle:nil];
     showFullMapViewController.view.frame = self.view.frame;
-    //showFullMapViewController.stadium = place;
+    showFullMapViewController.place = place;
     [self.view addSubview:showFullMapViewController.view];
 }
 -(void)loadData{
