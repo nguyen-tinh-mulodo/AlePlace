@@ -68,8 +68,8 @@
 }
 -(IBAction)showFullMap:(id)sender{
     showFullMapViewController = [[APShowFullMapViewController alloc] initWithNibName:@"APShowFullMapViewController" bundle:nil];
-    showFullMapViewController.view.frame = self.view.frame;
     showFullMapViewController.place = place;
+    showFullMapViewController.view.frame = self.view.frame;
     [self.view addSubview:showFullMapViewController.view];
 }
 -(void)loadData{
@@ -80,11 +80,14 @@
     mapView_ = [GMSMapView mapWithFrame:CGRectMake(0, 0, self.map.frame.size.width, self.map.frame.size.height) camera:camera];
     mapView_.myLocationEnabled = YES;
     [self.map addSubview:mapView_];
+    [self.map addSubview:showFull];
     // Creates a marker in the center of the map.
     GMSMarker *marker = [[GMSMarker alloc] init];
     marker.position = CLLocationCoordinate2DMake(place.latitude, place.longitude);
     marker.title = place.nameplace;
     marker.snippet = place.city;
+     UIImage *markerImg=[FMUtils imageWithImage:[UIImage imageNamed:@"stadium_map"] scaledToSize:CGSizeMake(50, 50)];
+    marker.icon=markerImg;
     marker.map = mapView_;
     self.titleDetail.text = place.nameplace;
     [self.imageDetail roundCornerShadowAndBorder];

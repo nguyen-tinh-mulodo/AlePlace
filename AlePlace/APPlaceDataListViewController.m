@@ -143,8 +143,8 @@
     APPlace * place=[listStadiums objectAtIndex:tapCell];
     showFullMapViewController.place = place;
     showFullMapViewController.view.frame = self.view.frame;
-   
     [self.view addSubview:showFullMapViewController.view];
+    
 }
 
 @end

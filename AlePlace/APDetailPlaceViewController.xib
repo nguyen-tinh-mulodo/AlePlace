@@ -15,6 +15,7 @@
                 <outlet property="phone" destination="HgL-VJ-xnu" id="Ntg-3O-eui"/>
                 <outlet property="price" destination="VQ7-mf-b3z" id="V3g-6I-xLS"/>
                 <outlet property="scrollStadium" destination="jdI-Dn-aVm" id="zZI-mB-Pjg"/>
+                <outlet property="showFull" destination="8du-EK-Vfu" id="FhW-Kt-Zg8"/>
                 <outlet property="titleDetail" destination="mp6-j3-O9L" id="7uI-mA-UgR"/>
                 <outlet property="view" destination="Dpb-ab-SvW" id="sYK-VR-sRT"/>
                 <outlet property="webView" destination="fYA-bf-fUb" id="aKh-Gm-ZSV"/>
@@ -40,7 +41,7 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8du-EK-Vfu">
-                                    <rect key="frame" x="0.0" y="0.0" width="25" height="45"/>
+                                    <rect key="frame" x="-1" y="-1" width="25" height="45"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" backgroundImage="Location.png">
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>

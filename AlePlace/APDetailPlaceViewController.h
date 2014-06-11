@@ -10,7 +10,7 @@
 #import <GoogleMaps/GoogleMaps.h>
 #import "APPlace.h"
 @interface APDetailPlaceViewController : UIViewController
-@property(nonatomic,strong) APPlace *place;
+@property(nonatomic,retain) APPlace *place;
 @property(nonatomic,weak) IBOutlet UIView *map;
 @property(nonatomic,weak) IBOutlet UIView *viewContaintImaves;
 @property(nonatomic,weak) IBOutlet UIImageView *imageDetail;
