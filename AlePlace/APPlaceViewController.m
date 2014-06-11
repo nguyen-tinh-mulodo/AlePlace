@@ -10,6 +10,7 @@
 #import "APPlaceTableViewCell.h"
 #import "APPlaceMapViewController.h"
 #import "APPlaceDataListViewController.h"
+#import "APAppDelegate.h"
 @interface APPlaceViewController ()
 {
     APPlaceMapViewController *mapView;
@@ -110,26 +111,61 @@ APPlaceMapViewController *mapView;
 
 
 - (void)eat{
+    //categoryId/2
+    if ([APAppDelegate appDelegate].idCity > 0) {
+        // show data
+    }else{
+        // show map
+    }
     [self showMap];
 }
 - (void)do_do{
-    
+     //categoryId/5
+    if ([APAppDelegate appDelegate].idCity > 0) {
+        // show data
+    }else{
+        // show map
+    }
+
 }
 -(void)see{
-    
+    if ([APAppDelegate appDelegate].idCity > 0) {
+        // show data
+    }else{
+        // show map
+    }
+
 }
 -(void)restaurant{
-    
+     //categoryId/7
+    if ([APAppDelegate appDelegate].idCity > 0) {
+        // show data
+    }else{
+        // show map
+    }
+
 }
 -(void)tour{
-    
+     //categoryId/8
+    if ([APAppDelegate appDelegate].idCity > 0) {
+        // show data
+    }else{
+        // show map
+    }
+
 }
 -(void)shopping{
-    
+     //categoryId/1
+    if ([APAppDelegate appDelegate].idCity > 0) {
+        // show data
+    }else{
+        // show map
+    }
+
 }
 
 -(void)showMap{
-    
+
     mapView = [[APPlaceMapViewController alloc] init];
     mapView.view.frame = self.view.frame;
     [self.view addSubview:mapView.view];

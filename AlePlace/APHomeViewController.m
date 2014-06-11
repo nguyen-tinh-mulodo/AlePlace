@@ -18,16 +18,18 @@
 #import "APMoreViewController.h"
 #import "FMUtils.h"
 #import "APEventCellTableViewCell.h"
+#import "APHeader.h"
 
 @interface APHomeViewController ()
 {
     NSMutableArray *listEvents;
     BOOL flagMore;
+    APHeader *view;
 }
 @end
 
 @implementation APHomeViewController
-@synthesize tableViewEvent,imageViewStart,imageViewRound;
+@synthesize tableViewEvent,imageViewStart,imageViewRound,titleHeader;
 @synthesize customCell = _customCell;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -65,31 +67,20 @@
     
     
     NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"testView" owner:self options:nil];
-    
-     UIView *view = [[UIView alloc] init]; // or if it exists, MCQView *view = [[MCQView alloc] init];
-     view = (UIView *)[nib objectAtIndex:0]; // or if it exists, (MCQView *)[nib objectAtIndex:0];
+     view = [[APHeader alloc] init]; // or if it exists, MCQView *view = [[MCQView alloc] init];
+     view = (APHeader *)[nib objectAtIndex:0]; // or if it exists, (MCQView *)[nib objectAtIndex:0];
+    titleHeader = [[UILabel alloc] initWithFrame:CGRectMake(60, 0, self.view.frame.size.width -120, 40)];
+    titleHeader.text = titleHome;
+    titleHeader.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+    titleHeader.textColor = [UIColor whiteColor];
+    titleHeader.textAlignment = NSTextAlignmentCenter;
+    [titleHeader setBackgroundColor:[UIColor clearColor]];
+    [view addSubview:titleHeader];
      [self.navigationController.navigationBar addSubview:view];
-}
-/*
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-    self.title = @"ALEPLAGE";
-    listEvents = [[NSMutableArray alloc] init];
-    if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)
-    {
-        self.edgesForExtendedLayout = UIRectEdgeNone;
-        self.navigationController.navigationBar.translucent = NO;
-    }
-    [self callAPIGetEvents];
-    [self.tableViewEvent setSeparatorStyle:UITableViewCellSeparatorStyleNone];
-    /*dispatch_async(kBgQueue, ^{
-     NSData* data = [NSData dataWithContentsOfURL: kLatestKivaLoansURL];
-     [self performSelectorOnMainThread:@selector(fetchedData:) withObject:data waitUntilDone:YES];
-     });*/
+      [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(setTextLable:) name:editTitle object:nil];
     
-    // Do any additional setup after loading the view from its nib.
-//}
+}
+
 -(void)callAPIGetEvents{
     NSMutableDictionary *dictionary = [[NSMutableDictionary alloc] init];
     [dictionary setValue:@"json" forKey:@"format"];
@@ -146,7 +137,7 @@
         }
         APEvent *event = [listEvents objectAtIndex:indexPath.row];
         cell.nameEvent.text = event.nameEvent;
-        cell.dateEvent.text = [NSString stringWithFormat:@"%@-%@",event.start_dateEvent,event.end_dateEvent];
+        cell.dateEvent.text = [NSString stringWithFormat:@"%@-%@",[FMUtils timeToDate:event.start_dateEvent],[FMUtils timeToDate:event.end_dateEvent]];
         [cell.imageEvent setImageWithURL:[NSURL URLWithString:event.thumb_photoEvent] placeholderImage:nil];
         
         return cell;
@@ -163,7 +154,7 @@
         }
         APEvent *event = [listEvents objectAtIndex:indexPath.row];
         cell.nameEvent.text = event.nameEvent;
-        cell.dateEvent.text = [NSString stringWithFormat:@"%@-%@",event.start_dateEvent,event.end_dateEvent];
+        cell.dateEvent.text = [NSString stringWithFormat:@"%@-%@",[FMUtils timeToDate:event.start_dateEvent],[FMUtils timeToDate:event.end_dateEvent]];
         [cell.imageEvent setImageWithURL:[NSURL URLWithString:event.thumb_photoEvent] placeholderImage:nil];
         
         return cell;
@@ -263,5 +254,10 @@
         APMoreViewController *moreView = [[APMoreViewController alloc] initWithNibName:@"APMoreViewController" bundle:nil];
         [self.navigationController pushViewController:moreView animated:NO];
     }
+}
+
+
+-(void)setTextLable:(NSNotification *)notification{
+    self.titleHeader.text = [notification.userInfo objectForKey:editTitle] ;
 }
 @end

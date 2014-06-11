@@ -13,5 +13,6 @@
 @property (nonatomic,weak)IBOutlet UIImageView *imageViewStart;
 @property (nonatomic,weak)IBOutlet UIImageView *imageViewRound;
 @property (weak, nonatomic) IBOutlet APEventTableViewCell *customCell;
+@property (nonatomic,strong) UILabel *titleHeader;
 - (IBAction)backBtnClick:(id)sender;
 @end

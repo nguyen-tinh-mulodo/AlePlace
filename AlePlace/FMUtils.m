@@ -62,4 +62,12 @@
     UIGraphicsEndImageContext();
     return newImage;
 }
++(NSString *)timeToDate:(NSString *)time{
+        NSTimeInterval _interval=[time doubleValue];
+        NSDate *date = [NSDate dateWithTimeIntervalSince1970:_interval];
+        NSDateFormatter *dateF=[[NSDateFormatter alloc] init];
+       [dateF setDateFormat:@"dd/MM/yyyy"];
+        NSString *dateStr=[dateF stringFromDate:date];
+    return dateStr;
+}
 @end
