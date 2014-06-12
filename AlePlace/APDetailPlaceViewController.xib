@@ -31,9 +31,10 @@
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <subviews>
                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unknow" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" id="HgL-VJ-xnu">
-                            <rect key="frame" x="20" y="107" width="212" height="21"/>
+                            <rect key="frame" x="38" y="107" width="212" height="21"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="1" alpha="0.92000000000000004" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <view contentMode="scaleToFill" id="nF9-WT-fS4">
@@ -117,12 +118,10 @@
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uFC-5B-UHM">
-                            <rect key="frame" x="19" y="89" width="54" height="21"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_phone.png" id="JH5-S4-G5Y">
+                            <rect key="frame" x="10" y="107" width="35" height="21"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
-                            <nil key="highlightedColor"/>
-                        </label>
+                        </imageView>
                     </subviews>
                 </scrollView>
             </subviews>
@@ -133,5 +132,6 @@
     </objects>
     <resources>
         <image name="Location.png" width="222" height="368"/>
+        <image name="icon_phone.png" width="16" height="16"/>
     </resources>
 </document>

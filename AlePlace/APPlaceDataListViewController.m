@@ -109,7 +109,7 @@
     cell.countryTitle.text=@"Phone:";
     cell.cityTitle.text=@"Hours:";
     cell.titileStadium.text = place.nameplace;
-    [cell.imageStadium setImageWithURL:[NSURL URLWithString: [place.thumb_photoplace stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]placeholderImage:nil];
+    [cell.imageStadium setImageWithURL:[NSURL URLWithString: [place.thumb_photoplace stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]placeholderImage:[UIImage imageNamed:@"placeholder"]];
     [cell.imageStadium setContentMode:UIViewContentModeScaleAspectFit];
     cell.country.text = place.phone;
     cell.city.text = place.service_hour;

@@ -103,7 +103,7 @@
     cell.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     APStadium *stadium = [listStadiums objectAtIndex:indexPath.row];
     cell.titileStadium.text = stadium.nameStadium;
-    [cell.imageStadium setImageWithURL:[NSURL URLWithString: [stadium.thumb_photoStadium stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]placeholderImage:nil];
+    [cell.imageStadium setImageWithURL:[NSURL URLWithString: [stadium.thumb_photoStadium stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]placeholderImage:[UIImage imageNamed:@"placeholder"]];
    [cell.imageStadium setContentMode:UIViewContentModeScaleAspectFit];
     cell.country.text = stadium.country;
     cell.city.text = stadium.city;
