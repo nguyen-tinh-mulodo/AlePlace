@@ -36,6 +36,8 @@ APPlaceMapViewController *mapView;
     [self.tableViewPlace setEditing:NO];
     [self.tableViewPlace setAllowsSelection:NO];
     [[NSNotificationCenter defaultCenter]postNotificationName:kAleViewController object:self userInfo:@{kNameView:@"APPlaceViewController"}];
+    NSString *title = titleHome;
+    [[NSNotificationCenter defaultCenter]postNotificationName:editTitle object:self userInfo:@{editTitle: title}];
 
     // Do any additional setup after loading the view from its nib.
 }

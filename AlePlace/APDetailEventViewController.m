@@ -53,7 +53,7 @@
 @end
 
 @implementation APDetailEventViewController
-@synthesize idEvent,scrollDetailEvent,startdate,enddate,description,webView,imageDetailEvent,album1,album2,album3,titleDescription,tabBarAle,tabBarItemAle,tabBarItemPlace,tabBarItemHome,tabBarItemTace,aleViewController,takecareViewController,placeViewController,btItemAle,btItemHome,btItemPlace,btItemTake;
+@synthesize idEvent,scrollDetailEvent,startdate,enddate,description,webView,imageDetailEvent,album1,album2,album3,titleDescription,tabBarAle,tabBarItemAle,tabBarItemPlace,tabBarItemHome,tabBarItemTace,aleViewController,takecareViewController,placeViewController,btItemAle,btItemHome,btItemPlace,btItemTake,titleEvent;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -144,7 +144,7 @@
     if ([flagClass isEqualToString:@"APStadiumViewController"]) {
         flagClass = @"APAleViewController";
         [[NSNotificationCenter defaultCenter]postNotificationName:kRemoveStadiumViewController object:self];
-        NSString *title = titleDetailEvent;
+        NSString *title = titleHome;
         [[NSNotificationCenter defaultCenter]postNotificationName:editTitle object:self userInfo:@{editTitle: title}];
         return;
     }
@@ -213,6 +213,7 @@
     [APAppDelegate appDelegate].idCity = 0;
 }
 -(void)loadData:(APEvent *)event{
+    self.titleEvent.text = event.nameEvent;
     [self.imageDetailEvent setImageWithURL:[NSURL URLWithString:event.thumb_photoEvent] placeholderImage:nil];
     [self.imageDetailEvent roundCornerShadowAndBorder];
     self.startdate.text = [FMUtils timeToDate:event.start_dateEvent];

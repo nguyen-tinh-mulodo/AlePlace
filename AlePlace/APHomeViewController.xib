@@ -39,12 +39,12 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="1" green="0.18469568363550826" blue="0.17801809535078827" alpha="1" colorSpace="calibratedRGB"/>
                 </view>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="iZ4-1q-Bh1">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="star.png" translatesAutoresizingMaskIntoConstraints="NO" id="iZ4-1q-Bh1">
                     <rect key="frame" x="148" y="130" width="25" height="25"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="30" id="hcl-AQ-dEZ"/>
-                        <constraint firstAttribute="width" constant="30" id="xhe-5R-cNk"/>
+                        <constraint firstAttribute="height" constant="25" id="hcl-AQ-dEZ"/>
+                        <constraint firstAttribute="width" constant="25" id="xhe-5R-cNk"/>
                     </constraints>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="round.png" translatesAutoresizingMaskIntoConstraints="NO" id="0kG-PU-3X0">

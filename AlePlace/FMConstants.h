@@ -296,5 +296,5 @@ typedef enum {
 
 #define titleHome  @"ALEPLACE";
 #define titleDetailEvent  @"SPORT EVENT";
-#define titleStadium  @"STADIUMS";
+#define titleStadium  @"STADIUM";
 

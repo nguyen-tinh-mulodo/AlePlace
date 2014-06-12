@@ -46,6 +46,8 @@
     [bannerAle setImageWithURL:[NSURL URLWithString:event.photoEvent] placeholderImage:nil];
     [self.aleScroll setAllowsSelection:NO];
     [[NSNotificationCenter defaultCenter]postNotificationName:kAleViewController object:self userInfo:@{kNameView:@"APAleViewController"}];
+    NSString *title = titleHome;
+    [[NSNotificationCenter defaultCenter]postNotificationName:editTitle object:self userInfo:@{editTitle: title}];
    // Do any additional setup after loading the view from its nib.
 }
 -(void)viewWillAppear:(BOOL)animated{

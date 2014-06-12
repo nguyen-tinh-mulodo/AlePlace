@@ -37,6 +37,9 @@
     [super viewDidLoad];
     [self.taceCareTable setAllowsSelection:NO];
     [self callAPIGet];
+    NSString *title = titleHome;
+    
+    [[NSNotificationCenter defaultCenter]postNotificationName:editTitle object:self userInfo:@{editTitle: title}];
     // Do any additional setup after loading the view from its nib.
 }
 -(void)callAPIGet{

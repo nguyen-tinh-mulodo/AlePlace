@@ -13,6 +13,7 @@
 #import "FMUtils.h"
 #import "APShowFullMapViewController.h"
 #import "FMUtils.h"
+#import "APAppDelegate.h"
 @interface UIView (ARES)
 
 - (void)roundCornerShadowAndBorder;
@@ -80,6 +81,7 @@
                                                                  zoom:20];
     mapView_ = [GMSMapView mapWithFrame:CGRectMake(0, 0, self.map.frame.size.width, self.map.frame.size.height) camera:camera];
     mapView_.myLocationEnabled = YES;
+    mapView.delegate = self;
     [self.map addSubview:mapView_];
     // Creates a marker in the center of the map.
     GMSMarker *marker = [[GMSMarker alloc] init];
@@ -166,5 +168,15 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(void)mapView:(GMSMapView *)mapView
+didTapInfoWindowOfMarker:(GMSMarker*)marker
+{
+    stadium=marker.userData;
+    
+    NSLog(@"MARKER..... %ld",(long)stadium.city_id);
+    [APAppDelegate appDelegate].idCity = stadium.city_id;
+    
+    
+    
+}
 @end
