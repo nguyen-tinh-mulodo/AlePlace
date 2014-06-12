@@ -17,6 +17,7 @@
 @property(nonatomic,strong) APStadium *stadium;
 @property(nonatomic,strong) APPlace *place;
 @property(nonatomic,retain) CLLocationManager *locationManager;
+@property(readwrite)BOOL flgShowStadium;
 
 @property(nonatomic,weak) IBOutlet UIButton *showLocation;
 

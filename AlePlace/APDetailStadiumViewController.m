@@ -70,7 +70,7 @@
 -(IBAction)showFullMap:(id)sender{
    showFullMapViewController = [[APShowFullMapViewController alloc] initWithNibName:@"APShowFullMapViewController" bundle:nil];
     showFullMapViewController.stadium = stadium;
-
+    showFullMapViewController.flgShowStadium = TRUE;
     showFullMapViewController.view.frame = self.view.frame;
     [self.view addSubview:showFullMapViewController.view];
 }
