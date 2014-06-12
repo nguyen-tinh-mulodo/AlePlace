@@ -141,7 +141,7 @@ UIImage *markerImg;
     marker.map = mapView_;
     self.titleDetail.text = place.nameplace;
     [self.imageDetail roundCornerShadowAndBorder];
-    [self.imageDetail setImageWithURL:[NSURL URLWithString:[place.thumb_photoplace stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]] placeholderImage:nil];
+    [self.imageDetail setImageWithURL:[NSURL URLWithString:[place.thumb_photoplace stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]] placeholderImage:[UIImage imageNamed:@"placeholder"]];
 
     self.description.text = place.description;
     self.description.frame = CGRectMake(self.description.frame.origin.x,CGRectGetMaxY(self.map.frame)+ 20, self.description.frame.size.width, [FMUtils heightForCell:place.description size:17 font:@"Helvetica" width:self.description.frame.size.width]);
@@ -149,6 +149,11 @@ UIImage *markerImg;
     self.hours.text=place.service_hour;
     self.address.text = place.address;
     self.phone.text = place.phone;
+    self.phone.userInteractionEnabled=YES;
+
+    UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc]
+                                             initWithTarget:self action:@selector(phoneTap:)];
+    [self.phone addGestureRecognizer:tapRecognizer];
     
     
     self.webView.frame = CGRectMake(self.webView.frame.origin.x, CGRectGetMaxY(self.description.frame)+10, self.webView.frame.size.width, self.view.frame.size.height);
@@ -168,6 +173,13 @@ UIImage *markerImg;
     return YES;
 }
 
+- (void)phoneTap:(UITapGestureRecognizer *)tapGestureRecognizer
+{
+    //show your alert...
+    NSString *phoneNumber = [@"telprompt://" stringByAppendingString: place.phone];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:phoneNumber]];
+    
+}
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
     return YES;
 }

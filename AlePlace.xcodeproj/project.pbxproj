@@ -152,6 +152,7 @@
 		CE8AA99F1949892E0005C14E /* app-icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8AA9991949892E0005C14E /* app-icon114.png */; };
 		CE8AA9A01949892E0005C14E /* app-icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8AA99A1949892E0005C14E /* app-icon120.png */; };
 		CE8AA9A219498BC90005C14E /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8AA9A119498BC90005C14E /* placeholder.png */; };
+		CE8AA9A41949A6CA0005C14E /* icon_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8AA9A31949A6CA0005C14E /* icon_phone@2x.png */; };
 		CEDFBE6A1946E082000BA0F4 /* Eat&-drink_map.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDFBE5F1946E082000BA0F4 /* Eat&-drink_map.png */; };
 		CEDFBE6B1946E082000BA0F4 /* hospital_map.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDFBE601946E082000BA0F4 /* hospital_map.png */; };
 		CEDFBE6C1946E082000BA0F4 /* Hotel_map.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDFBE611946E082000BA0F4 /* Hotel_map.png */; };
@@ -371,6 +372,7 @@
 		CE8AA9991949892E0005C14E /* app-icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon114.png"; sourceTree = "<group>"; };
 		CE8AA99A1949892E0005C14E /* app-icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon120.png"; sourceTree = "<group>"; };
 		CE8AA9A119498BC90005C14E /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		CE8AA9A31949A6CA0005C14E /* icon_phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_phone@2x.png"; sourceTree = "<group>"; };
 		CEDFBE5F1946E082000BA0F4 /* Eat&-drink_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eat&-drink_map.png"; sourceTree = "<group>"; };
 		CEDFBE601946E082000BA0F4 /* hospital_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hospital_map.png; sourceTree = "<group>"; };
 		CEDFBE611946E082000BA0F4 /* Hotel_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hotel_map.png; sourceTree = "<group>"; };
@@ -519,6 +521,7 @@
 		18906BE71940A25C0072EC38 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				CE8AA9A31949A6CA0005C14E /* icon_phone@2x.png */,
 				CE8AA9A119498BC90005C14E /* placeholder.png */,
 				CE8AA9951949892E0005C14E /* app-icon29.png */,
 				CE8AA9961949892E0005C14E /* app-icon57.png */,
@@ -1071,6 +1074,7 @@
 				CE8AA9941949808B0005C14E /* Location_icon.png in Resources */,
 				18BEF87E19430A2C0009C1CF /* Takecare-but.png in Resources */,
 				18BEF89219445E4B0009C1CF /* APDetailStadiumViewController.xib in Resources */,
+				CE8AA9A41949A6CA0005C14E /* icon_phone@2x.png in Resources */,
 				18BEF87819430A2C0009C1CF /* Ale-button.png in Resources */,
 				18BEF82619422A2E0009C1CF /* Ale_01_15.png in Resources */,
 				CEDFBE731946E082000BA0F4 /* Tour_map.png in Resources */,

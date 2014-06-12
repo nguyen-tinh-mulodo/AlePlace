@@ -218,7 +218,7 @@
 }
 -(void)loadData:(APEvent *)event{
     self.titleEvent.text = event.nameEvent;
-    [self.imageDetailEvent setImageWithURL:[NSURL URLWithString:event.thumb_photoEvent] placeholderImage:nil];
+    [self.imageDetailEvent setImageWithURL:[NSURL URLWithString:event.thumb_photoEvent] placeholderImage:[UIImage imageNamed:@"placeholder"]];
     [self.imageDetailEvent roundCornerShadowAndBorder];
     self.startdate.text = [FMUtils timeToDate:event.start_dateEvent];
     self.enddate.text = [FMUtils timeToDate:event.end_dateEvent];
@@ -236,7 +236,7 @@
         if (i == 0) {
            NSLog(@"%@",[event.album objectAtIndex:0]);
             NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:[event.album objectAtIndex:0]]];
-            [imageView setImageWithURLRequest:request placeholderImage:nil success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
+            [imageView setImageWithURLRequest:request placeholderImage:[UIImage imageNamed:@"placeholder"] success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
                 [album1 setImage:image forState:UIControlStateNormal];
             }failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error) {
                 NSLog(@"Image error");
@@ -246,7 +246,7 @@
         if (i == 1) {
             NSLog(@"%@",[event.album objectAtIndex:1]);
             NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:[event.album objectAtIndex:1]]];
-            [imageView1 setImageWithURLRequest:request placeholderImage:nil success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
+            [imageView1 setImageWithURLRequest:request placeholderImage:[UIImage imageNamed:@"placeholder"] success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
                 [album2 setImage:image forState:UIControlStateNormal];
             }failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error) {
                 NSLog(@"Image error");
@@ -256,7 +256,7 @@
         if (i == 2) {
             NSLog(@"%@",[event.album objectAtIndex:2]);
             NSURLRequest *request = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:[event.album objectAtIndex:2]]];
-            [imageView2 setImageWithURLRequest:request placeholderImage:nil success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
+            [imageView2 setImageWithURLRequest:request placeholderImage:[UIImage imageNamed:@"placeholder"] success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
                 [album3 setImage:image forState:UIControlStateNormal];
             }failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error) {
                 NSLog(@"Image error");

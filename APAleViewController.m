@@ -43,7 +43,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [bannerAle setImageWithURL:[NSURL URLWithString:event.photoEvent] placeholderImage:nil];
+    [bannerAle setImageWithURL:[NSURL URLWithString:event.photoEvent] placeholderImage:[UIImage imageNamed:@"placeholder"]];
     [self.aleScroll setAllowsSelection:NO];
     [[NSNotificationCenter defaultCenter]postNotificationName:kAleViewController object:self userInfo:@{kNameView:@"APAleViewController"}];
     NSString *title = titleHome;
@@ -174,7 +174,7 @@
             cell = [topLevelObjects objectAtIndex:0];
         }
         cell.autoresizingMask = UIViewAutoresizingFlexibleWidth;
-        [cell.banner setImageWithURL:[NSURL URLWithString:event.photoEvent] placeholderImage:nil];
+        [cell.banner setImageWithURL:[NSURL URLWithString:event.photoEvent] placeholderImage:[UIImage imageNamed:@"placeholder"]];
         return cell;
     }else{
         static NSString *CellIdentifier = @"APAleViewCellBt";
