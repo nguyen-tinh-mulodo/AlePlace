@@ -122,6 +122,7 @@
 		18BEFA341948449D0009C1CF /* app-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BEFA331948449D0009C1CF /* app-icon.png */; };
 		18BEFA3819484F760009C1CF /* TTTAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BEFA3719484F760009C1CF /* TTTAttributedLabel.m */; };
 		18BEFA3A1948B2930009C1CF /* APStadiumTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18BEFA391948B2930009C1CF /* APStadiumTableViewCell.xib */; };
+		18EDA2AE1949AAB2000AD0F3 /* FMControllShowFullImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDA2AD1949AAB2000AD0F3 /* FMControllShowFullImage.m */; };
 		CE0633FE1947FD1400A88347 /* Loading.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE0633FA1947FD1400A88347 /* Loading.jpg */; };
 		CE0633FF1947FD1400A88347 /* Location.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0633FB1947FD1400A88347 /* Location.png */; };
 		CE0634001947FD1400A88347 /* round.png in Resources */ = {isa = PBXBuildFile; fileRef = CE0633FC1947FD1400A88347 /* round.png */; };
@@ -333,6 +334,8 @@
 		18BEFA3619484F760009C1CF /* TTTAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTAttributedLabel.h; sourceTree = "<group>"; };
 		18BEFA3719484F760009C1CF /* TTTAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTAttributedLabel.m; sourceTree = "<group>"; };
 		18BEFA391948B2930009C1CF /* APStadiumTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APStadiumTableViewCell.xib; sourceTree = "<group>"; };
+		18EDA2AC1949AAB2000AD0F3 /* FMControllShowFullImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMControllShowFullImage.h; sourceTree = "<group>"; };
+		18EDA2AD1949AAB2000AD0F3 /* FMControllShowFullImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMControllShowFullImage.m; sourceTree = "<group>"; };
 		CE0633FA1947FD1400A88347 /* Loading.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Loading.jpg; sourceTree = "<group>"; };
 		CE0633FB1947FD1400A88347 /* Location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Location.png; sourceTree = "<group>"; };
 		CE0633FC1947FD1400A88347 /* round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round.png; sourceTree = "<group>"; };
@@ -618,6 +621,8 @@
 		18906C38194166E40072EC38 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				18EDA2AC1949AAB2000AD0F3 /* FMControllShowFullImage.h */,
+				18EDA2AD1949AAB2000AD0F3 /* FMControllShowFullImage.m */,
 				18BEFA3519484F760009C1CF /* TTTAttributedLabel */,
 				CE0634121948143600A88347 /* APHeader.h */,
 				CE0634131948143600A88347 /* APHeader.m */,
@@ -1163,6 +1168,7 @@
 				18BEF84D1942C1440009C1CF /* APPlaceViewController.m in Sources */,
 				CE6C096F194606D800455A5B /* APCity.m in Sources */,
 				18BEF81019418F630009C1CF /* APDetailEventViewController.m in Sources */,
+				18EDA2AE1949AAB2000AD0F3 /* FMControllShowFullImage.m in Sources */,
 				18BEF9D6194607930009C1CF /* APTeamViewController.m in Sources */,
 				18BEF9E219460C4D0009C1CF /* APResultViewController.m in Sources */,
 				18906C331940B9F00072EC38 /* APCallAPI.m in Sources */,

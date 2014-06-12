@@ -112,7 +112,7 @@ NSString *_snip;
         [CATransaction commit];
         
         [mapView_ addSubview:distanceFromHere];
-        distanceFromHere.text=[NSString stringWithFormat:@"Distance from here : %d km",1];
+        distanceFromHere.text=[NSString stringWithFormat:@"Distance from here : %d m",1];
         
         [self.view addSubview:showLocation];
     }else{
@@ -232,7 +232,7 @@ NSString *_snip;
         myMarker.map = mapView_;
         bounds = [bounds includingCoordinate:myMarker.position];
         
-        [mapView_ animateWithCameraUpdate:[GMSCameraUpdate fitBounds:bounds withPadding:60.0f]];
+        [mapView_ animateWithCameraUpdate:[GMSCameraUpdate fitBounds:bounds withPadding:20.0f]];
         CLLocation* stadiumLocation =
         [[CLLocation alloc]
          initWithLatitude: [APAppDelegate appDelegate].lat
@@ -248,7 +248,7 @@ NSString *_snip;
         bounds = [[GMSCoordinateBounds alloc] initWithPath:path];
         //There are several useful init methods for the GMSCoordinateBounds!
         
-        GMSCameraUpdate *update = [GMSCameraUpdate fitBounds:bounds];
+        GMSCameraUpdate *update = [GMSCameraUpdate fitBounds:bounds withPadding:35.0f];
         [mapView_ moveCamera:update];
         [CATransaction commit];
         CLLocation* location2 =

@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface APDetailEventViewController : UIViewController<UIScrollViewDelegate,UITabBarDelegate>
+#import "FMControllShowFullImage.h"
+@interface APDetailEventViewController : UIViewController<UIScrollViewDelegate,UITabBarDelegate,FMControllShowFullImageDelegate>
 @property(nonatomic,readwrite)NSInteger idEvent;
 @property(nonatomic,weak)IBOutlet UILabel *titleEvent;
 @property(nonatomic,weak)IBOutlet UIScrollView *scrollDetailEvent;

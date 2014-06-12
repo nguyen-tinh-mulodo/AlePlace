@@ -43,12 +43,12 @@
 - (void)setupNavigation {
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7)
     {
-        self.navigation.navigationBar.barTintColor = UIColorFromRGB(kMetroColorGreen);
+        self.navigation.navigationBar.barTintColor = UIColorFromRGB(kMetroColorAplace);
         self.navigation.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObject:[UIColor whiteColor] forKey:UITextAttributeTextColor];
         self.navigation.navigationBar.translucent = NO;
         
     }else{
-        self.navigation.navigationBar.tintColor = UIColorFromRGB(kMetroColorGreen);
+        self.navigation.navigationBar.tintColor = UIColorFromRGB(kMetroColorAplace);
     }
 }
 #pragma mark - Navigation Bar delegate

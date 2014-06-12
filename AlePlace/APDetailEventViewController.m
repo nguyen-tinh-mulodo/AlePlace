@@ -17,6 +17,7 @@
 #import "APAppDelegate.h"
 #import "FMConstants.h"
 #import "APStadiumViewController.h"
+#import "FMControllShowFullImage.h"
 @interface UIView (ARES)
 
 - (void)roundCornerShadowAndBorder;
@@ -30,7 +31,7 @@
     [self.layer setCornerRadius:6];
     [self.layer setMasksToBounds:NO];
     
-    [self.layer setShadowColor:[UIColor darkTextColor].CGColor];
+    //[self.layer setShadowColor:[UIColor darkTextColor].CGColor];
     [self.layer setShadowOpacity:0.6];
     [self.layer setShadowOffset:CGSizeMake(1,1)];
     [self.layer setShadowRadius:0.9];
@@ -47,6 +48,8 @@
     NSString *flagClass;
     NSString *flagMap;
     NSString *flagShowFull;
+    FMControllShowFullImage  *controllShowFullImage;
+    APEvent *dataEvent;
 }
 @property (nonatomic,strong)APAleViewController *aleViewController;
 @property (nonatomic,strong)APTakecareViewController *takecareViewController;
@@ -217,9 +220,11 @@
     [APAppDelegate appDelegate].idCity = 0;
 }
 -(void)loadData:(APEvent *)event{
+    dataEvent = [[APEvent alloc] init];
+    dataEvent =event;
     self.titleEvent.text = event.nameEvent;
     [self.imageDetailEvent setImageWithURL:[NSURL URLWithString:event.thumb_photoEvent] placeholderImage:nil];
-    [self.imageDetailEvent roundCornerShadowAndBorder];
+    //[self.imageDetailEvent roundCornerShadowAndBorder];
     self.startdate.text = [FMUtils timeToDate:event.start_dateEvent];
     self.enddate.text = [FMUtils timeToDate:event.end_dateEvent];
     self.description.text = event.descriptionEvent;
@@ -231,7 +236,27 @@
     UIImageView *imageView = [[UIImageView alloc] init];
     UIImageView *imageView1 = [[UIImageView alloc] init];
     UIImageView *imageView2 = [[UIImageView alloc] init];
-    
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]
+                                   initWithTarget:self
+                                   action:@selector(showFullDetailImage:)];
+    UITapGestureRecognizer *tap1 = [[UITapGestureRecognizer alloc]
+                                   initWithTarget:self
+                                   action:@selector(showFullDetailImage:)];
+    UITapGestureRecognizer *tap2 = [[UITapGestureRecognizer alloc]
+                                   initWithTarget:self
+                                   action:@selector(showFullDetailImage:)];
+    album1.tag = 1;
+    [album1 roundCornerShadowAndBorder];
+    [album2 roundCornerShadowAndBorder];
+    [album3 roundCornerShadowAndBorder];
+    album1.userInteractionEnabled = YES;
+    album2.tag = 2;
+    album2.userInteractionEnabled = YES;
+    album3.tag = 3;
+    album3.userInteractionEnabled = YES;
+    [self.album1 addGestureRecognizer:tap];
+     [self.album2 addGestureRecognizer:tap1];
+      [self.album3 addGestureRecognizer:tap2];
     for (int i = 0; i < [event.album count]; i++) {
         if (i == 0) {
            NSLog(@"%@",[event.album objectAtIndex:0]);
@@ -486,5 +511,25 @@
         [self.navigationController popViewControllerAnimated:NO];
         [APAppDelegate appDelegate].idCity = 0;
     }
+}
+#pragma delegateImage
+-(void)showFullDetailImage:(UITapGestureRecognizer *)recognizer{
+    [UIView setAnimationBeginsFromCurrentState: YES];
+    [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
+    [UIView commitAnimations];
+    /*if (controllShowFullImage) {
+     [controllShowFullImage removeFromSuperview];
+     controllShowFullImage = nil;
+     }*/
+    //[arrayDetailImages removeObject:@""];
+    
+    controllShowFullImage = [[FMControllShowFullImage alloc] initWithFrame:self.view.frame pages:dataEvent.album  pageSet:recognizer.view.tag];
+    // int eeee=((UIButton *)sender).tag;
+    controllShowFullImage.delegate =self;
+    //[self.view addSubview:controllShowFullImage];
+    [controllShowFullImage setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
+    [self presentViewController:controllShowFullImage animated:YES completion:nil];
+}
+- (void)navigationBarHidden{
 }
 @end

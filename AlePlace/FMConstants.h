@@ -189,6 +189,7 @@ blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 #define kMetroColorAsbestos     0x7f8c8d
 #define kMetroColorBlue         0x1a8796
 #define kMetroColorGreen        0x4bc1d2
+#define kMetroColorAplace        0x6eb636
 
 
 
