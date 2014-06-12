@@ -19,8 +19,8 @@
 @property (nonatomic,strong) NSArray *album;
 @property (nonatomic,strong) NSArray *media;
 @property (nonatomic,strong)NSString *address;
-@property (readwrite)float latitude;
-@property (readwrite)float longitude;
+@property (nonatomic)float latitude;
+@property (nonatomic)float longitude;
 @property (nonatomic,strong)NSString *category_id;
 @property (nonatomic,strong)NSString *city_id;
 @property (nonatomic,strong)NSString *tags;

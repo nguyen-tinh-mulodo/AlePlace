@@ -27,8 +27,8 @@ UIImage *markerImg;
     if (self) {
         // Custom initialization
     }
-//    place =[[APPlace alloc] init];
-//    stadium=[[APStadium alloc] init];
+    place =[[APPlace alloc] init];
+    stadium=[[APStadium alloc] init];
     locationManager = [[CLLocationManager alloc] init];
     locationManager.distanceFilter = kCLDistanceFilterNone;
     locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters; // 100 m

@@ -110,107 +110,66 @@ APPlaceMapViewController *mapView;
     }];
     
 }
-
+-(void)shopping{
+    //categoryId/1
+        
+        
+        [self showDataListView:@"1"];
+   
+    
+}
 
 - (void)eat{
     //categoryId/2
-    if ([APAppDelegate appDelegate].idCity > 0) {
         // show data
-        placeDataListViewController = [[APPlaceDataListViewController alloc] initWithNibName:@"APPlaceDataListViewController" bundle:nil];
-        placeDataListViewController.view.frame = self.view.frame;
-        placeDataListViewController.city_id =[NSString stringWithFormat:@"%d",[APAppDelegate appDelegate].idCity];
-        placeDataListViewController.catagoryId=@"2";
-        [self.view addSubview:placeDataListViewController.view];
-        
-    }else{
-        // show map
-        [self showMap:2];
-    }
+        [self showDataListView:@"2"];
+    
 }
 - (void)do_do{
-     //categoryId/5
-    if ([APAppDelegate appDelegate].idCity > 0) {
-        // show data
-        placeDataListViewController = [[APPlaceDataListViewController alloc] initWithNibName:@"APPlaceDataListViewController" bundle:nil];
-        placeDataListViewController.view.frame = self.view.frame;
 
-        placeDataListViewController.city_id =[NSString stringWithFormat:@"%d",[APAppDelegate appDelegate].idCity];
-        placeDataListViewController.catagoryId=@"5";
-        [self.view addSubview:placeDataListViewController.view];
-    }else{
-        // show map
-        [self showMap:5];
-    }
-
+        [self showDataListView:@"5"];
 
 }
 -(void)see{
-    if ([APAppDelegate appDelegate].idCity > 0) {
-        placeDataListViewController = [[APPlaceDataListViewController alloc] initWithNibName:@"APPlaceDataListViewController" bundle:nil];
-        placeDataListViewController.view.frame = self.view.frame;
+        [self showDataListView:@"6"];
 
-        placeDataListViewController.city_id =[NSString stringWithFormat:@"%d",[APAppDelegate appDelegate].idCity];
-        placeDataListViewController.catagoryId=@"6";
-        [self.view addSubview:placeDataListViewController.view];
-        // show data
-    }else{
-        // show map
-        [self showMap:6];
-    }
 
 
 }
 -(void)restaurant{
      //categoryId/7
-    if ([APAppDelegate appDelegate].idCity > 0) {
-        placeDataListViewController = [[APPlaceDataListViewController alloc] initWithNibName:@"APPlaceDataListViewController" bundle:nil];
-        placeDataListViewController.view.frame = self.view.frame;
+        [self showDataListView:@"7"];
 
-        placeDataListViewController.city_id =[NSString stringWithFormat:@"%d",[APAppDelegate appDelegate].idCity];
-        placeDataListViewController.catagoryId=@"7";
-        [self.view addSubview:placeDataListViewController.view];
-        // show data
-    }else{
-        // show map
-        [self showMap:7];
-    }
+  
 
 }
 -(void)tour{
      //categoryId/8
-    if ([APAppDelegate appDelegate].idCity > 0) {
-        placeDataListViewController = [[APPlaceDataListViewController alloc] initWithNibName:@"APPlaceDataListViewController" bundle:nil];
-        placeDataListViewController.view.frame = self.view.frame;
+        [self showDataListView:@"8"];
 
-        placeDataListViewController.city_id =[NSString stringWithFormat:@"%d",[APAppDelegate appDelegate].idCity];
-        placeDataListViewController.catagoryId=@"8";
-        [self.view addSubview:placeDataListViewController.view];
-        // show data
-    }else{
-        // show map
-        [self showMap:8];
-    }
-
-
-}
--(void)shopping{
-     //categoryId/1
-    if ([APAppDelegate appDelegate].idCity > 0) {
-        placeDataListViewController = [[APPlaceDataListViewController alloc] initWithNibName:@"APPlaceDataListViewController" bundle:nil];
-        placeDataListViewController.view.frame = self.view.frame;
-
-        placeDataListViewController.city_id =[NSString stringWithFormat:@"%d",[APAppDelegate appDelegate].idCity];
-        placeDataListViewController.catagoryId=@"1";
-        [self.view addSubview:placeDataListViewController.view];
-        // show data
-    }else{
-        [self showMap:1];
-        // show map
-    }
-
+   
 
 }
 
+
+-(void) showDataListView:(NSString *) catagory
+{
+    if ([APAppDelegate appDelegate].idCity > 0) {
+    placeDataListViewController = [[APPlaceDataListViewController alloc] initWithNibName:@"APPlaceDataListViewController" bundle:nil];
+    placeDataListViewController.city_id =[NSString stringWithFormat:@"%d",[APAppDelegate appDelegate].idCity];
+    placeDataListViewController.catagoryId=catagory;
+    placeDataListViewController.view.frame = self.view.frame;
+
+ 
+    [self.view addSubview:placeDataListViewController.view];
+      }
+    else
+    {
+        [self showMap:[catagory intValue]];
+
+    }
+
+}
 -(void)showMap:(NSInteger)categoryId{
 
     mapView = [[APPlaceMapViewController alloc] init];
