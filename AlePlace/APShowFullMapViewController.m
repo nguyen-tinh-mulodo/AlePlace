@@ -10,6 +10,7 @@
 #import <GoogleMaps/GoogleMaps.h>
 #import "FMConstants.h"
 #import "FMUtils.h"
+#import "APAppDelegate.h"
 
 @interface APShowFullMapViewController ()
 {
@@ -89,11 +90,12 @@ UIImage *markerImg;
     // Creates a marker in the center of the map.
 
     GMSMarker *myMarker = [[GMSMarker alloc] init];
-    myMarker.position = CLLocationCoordinate2DMake(mapView_.myLocation.coordinate.latitude, mapView_.myLocation.coordinate.longitude);
-    myMarker.title = @"You are here";
+    myMarker.position = CLLocationCoordinate2DMake([APAppDelegate appDelegate].lat,[APAppDelegate appDelegate].longt);
+    myMarker.title = [APAppDelegate appDelegate].nameStadium;
+    myMarker.snippet = [APAppDelegate appDelegate].city;
     myMarker.icon=markerImg;
     bounds = [bounds includingCoordinate:myMarker.position];
-
+    myMarker.map = mapView_;
     GMSMarker *marker = [[GMSMarker alloc] init];
 
     
@@ -108,28 +110,28 @@ UIImage *markerImg;
 
     marker.map = mapView_;
     [mapView_ animateWithCameraUpdate:[GMSCameraUpdate fitBounds:bounds withPadding:30.0f]];
-    
+    CLLocation* stadiumLocation =
+    [[CLLocation alloc]
+     initWithLatitude: [APAppDelegate appDelegate].lat
+     longitude: [APAppDelegate appDelegate].longt];
     
     GMSMutablePath *path = [GMSMutablePath path];
-    [path addCoordinate:CLLocationCoordinate2DMake(mapView_.myLocation.coordinate.latitude, mapView_.myLocation.coordinate.longitude)];
+    [path addCoordinate:CLLocationCoordinate2DMake([APAppDelegate appDelegate].lat,[APAppDelegate appDelegate].longt)];
     [path addCoordinate:CLLocationCoordinate2DMake(lat, longt)];
     
     GMSPolyline *rectangle = [GMSPolyline polylineWithPath:path];
     rectangle.strokeWidth = 2.f;
     rectangle.map = mapView_;
     
-    CLLocation* location1 =
-    [[CLLocation alloc]
-     initWithLatitude: mapView_.myLocation.coordinate.latitude
-     longitude: mapView_.myLocation.coordinate.longitude];
+
     CLLocation* location2 =
     [[CLLocation alloc]
      initWithLatitude: lat
      longitude: longt];
     
-    double distance=[location1 distanceFromLocation: location2];
+    double distance=[stadiumLocation distanceFromLocation: location2];
     [mapView_ addSubview:distanceFromHere];
-    distanceFromHere.text=[NSString stringWithFormat:@"Distance from here : %f",distance];
+    distanceFromHere.text=[NSString stringWithFormat:@"Distance from here : %f",distance/1000];
     
 }
 -(void)removeView{

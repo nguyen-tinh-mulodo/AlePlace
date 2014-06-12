@@ -10,7 +10,7 @@
 #import "FMConstants.h"
 
 @implementation APAppDelegate
-@synthesize launchImageViewController,homeViewController,navigation,idCity;
+@synthesize launchImageViewController,homeViewController,navigation,idCity,lat,longt,nameStadium,city;
 + (APAppDelegate *)appDelegate
 {
     return (APAppDelegate *)[[UIApplication sharedApplication] delegate];

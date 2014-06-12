@@ -117,6 +117,10 @@ didTapInfoWindowOfMarker:(GMSMarker*)marker
     dataView.city_id=[NSString stringWithFormat:@"%d",stadium.city_id ];
     dataView.catagoryId= [NSString stringWithFormat:@"%d",self.idcategory];
     [APAppDelegate appDelegate].idCity = stadium.city_id;
+    [APAppDelegate appDelegate].longt = stadium.longitude;
+    [APAppDelegate appDelegate].lat = stadium.latitude;
+    [APAppDelegate appDelegate].nameStadium = stadium.nameStadium;
+    [APAppDelegate appDelegate].city = stadium.city;
     [self.view addSubview:dataView.view];
     
     

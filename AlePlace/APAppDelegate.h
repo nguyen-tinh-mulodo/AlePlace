@@ -17,6 +17,12 @@
 @property (strong,nonatomic) APHomeViewController *homeViewController;
 @property (strong,nonatomic) UINavigationController *navigation;
 @property (readwrite) NSInteger idCity;
+@property (readwrite) float lat;
+@property (readwrite) float longt;
+@property (strong, nonatomic)NSString *nameStadium;
+@property (strong, nonatomic)NSString *city;
+
+
 + (APAppDelegate *)appDelegate;
 -(void)setTitleLabel;
 - (IBAction)backBtnClick:(id)sender;
