@@ -27,6 +27,7 @@
                 <outlet property="titleDescription" destination="zsI-9b-urV" id="9Fv-q3-e1R"/>
                 <outlet property="titleEvent" destination="z2C-k4-12D" id="glB-7l-Lpi"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewBg" destination="rJg-CB-G84" id="LUV-ta-XyQ"/>
                 <outlet property="webView" destination="laI-HV-bWo" id="aaf-7s-vHL"/>
             </connections>
         </placeholder>
@@ -39,6 +40,11 @@
                     <rect key="frame" x="0.0" y="55" width="320" height="375"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
                     <subviews>
+                        <webView contentMode="scaleToFill" id="laI-HV-bWo">
+                            <rect key="frame" x="9" y="116" width="302" height="144"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </webView>
                         <view contentMode="scaleToFill" id="rJg-CB-G84">
                             <rect key="frame" x="0.0" y="2" width="320" height="454"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -104,11 +110,6 @@
                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                     </state>
                                 </button>
-                                <webView contentMode="scaleToFill" id="laI-HV-bWo">
-                                    <rect key="frame" x="10" y="223" width="302" height="144"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </webView>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         </view>

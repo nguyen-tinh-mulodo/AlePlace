@@ -112,19 +112,18 @@ didTapInfoWindowOfMarker:(GMSMarker*)marker
     stadium=marker.userData;
     
     NSLog(@"MARKER..... %ld",(long)stadium.city_id);
-    
-     dataView = [[APPlaceDataListViewController alloc] initWithNibName:@"APPlaceDataListViewController" bundle:nil];
-    dataView.city_id=[NSString stringWithFormat:@"%d",stadium.city_id ];
-    dataView.catagoryId= [NSString stringWithFormat:@"%d",self.idcategory];
     [APAppDelegate appDelegate].idCity = stadium.city_id;
     [APAppDelegate appDelegate].longt = stadium.longitude;
     [APAppDelegate appDelegate].lat = stadium.latitude;
     [APAppDelegate appDelegate].nameStadium = stadium.nameStadium;
     [APAppDelegate appDelegate].city = stadium.city;
+
+     dataView = [[APPlaceDataListViewController alloc] initWithNibName:@"APPlaceDataListViewController" bundle:nil];
+    dataView.city_id=[NSString stringWithFormat:@"%d",stadium.city_id ];
+    dataView.catagoryId= [NSString stringWithFormat:@"%d",self.idcategory];
+    dataView.view.frame = self.view.frame;
+    self.view.autoresizingMask = UIViewAutoresizingFlexibleWidth;
     [self.view addSubview:dataView.view];
-    
-    
-    
 }
 - (void)didReceiveMemoryWarning
 {
