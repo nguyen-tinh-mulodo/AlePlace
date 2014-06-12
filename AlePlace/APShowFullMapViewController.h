@@ -18,6 +18,7 @@
 @property(nonatomic,strong) APPlace *place;
 @property(nonatomic,retain) CLLocationManager *locationManager;
 
+@property(nonatomic,weak) IBOutlet UIButton *showLocation;
 
 
 @end

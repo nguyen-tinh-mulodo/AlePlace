@@ -144,6 +144,7 @@
 		CE6C0971194612C200455A5B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6C0970194612C200455A5B /* MapKit.framework */; };
 		CE6C0974194613AC00455A5B /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C0973194613AC00455A5B /* MapAnnotation.m */; };
 		CE6C09771946159100455A5B /* APMyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C09761946159100455A5B /* APMyAnnotation.m */; };
+		CE8AA9941949808B0005C14E /* Location_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8AA9931949808B0005C14E /* Location_icon.png */; };
 		CEDFBE6A1946E082000BA0F4 /* Eat&-drink_map.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDFBE5F1946E082000BA0F4 /* Eat&-drink_map.png */; };
 		CEDFBE6B1946E082000BA0F4 /* hospital_map.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDFBE601946E082000BA0F4 /* hospital_map.png */; };
 		CEDFBE6C1946E082000BA0F4 /* Hotel_map.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDFBE611946E082000BA0F4 /* Hotel_map.png */; };
@@ -355,6 +356,7 @@
 		CE6C0973194613AC00455A5B /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
 		CE6C09751946159100455A5B /* APMyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMyAnnotation.h; sourceTree = "<group>"; };
 		CE6C09761946159100455A5B /* APMyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APMyAnnotation.m; sourceTree = "<group>"; };
+		CE8AA9931949808B0005C14E /* Location_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Location_icon.png; sourceTree = "<group>"; };
 		CEDFBE5F1946E082000BA0F4 /* Eat&-drink_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eat&-drink_map.png"; sourceTree = "<group>"; };
 		CEDFBE601946E082000BA0F4 /* hospital_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hospital_map.png; sourceTree = "<group>"; };
 		CEDFBE611946E082000BA0F4 /* Hotel_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hotel_map.png; sourceTree = "<group>"; };
@@ -503,6 +505,7 @@
 		18906BE71940A25C0072EC38 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				CE8AA9931949808B0005C14E /* Location_icon.png */,
 				18BEFA331948449D0009C1CF /* app-icon.png */,
 				CE06340A1947FD4500A88347 /* ball.png */,
 				CE06340B1947FD4500A88347 /* shadow.png */,
@@ -1040,6 +1043,7 @@
 				18BEF87919430A2C0009C1CF /* Back-button-.png in Resources */,
 				18BEFA341948449D0009C1CF /* app-icon.png in Resources */,
 				CE0634081947FD3800A88347 /* Places-icon-hover.png in Resources */,
+				CE8AA9941949808B0005C14E /* Location_icon.png in Resources */,
 				18BEF87E19430A2C0009C1CF /* Takecare-but.png in Resources */,
 				18BEF89219445E4B0009C1CF /* APDetailStadiumViewController.xib in Resources */,
 				18BEF87819430A2C0009C1CF /* Ale-button.png in Resources */,
