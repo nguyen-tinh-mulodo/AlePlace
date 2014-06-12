@@ -46,6 +46,7 @@
     NSMutableArray *listEvents;
     NSString *flagClass;
     NSString *flagMap;
+    NSString *flagShowFull;
 }
 @property (nonatomic,strong)APAleViewController *aleViewController;
 @property (nonatomic,strong)APTakecareViewController *takecareViewController;
@@ -53,7 +54,7 @@
 @end
 
 @implementation APDetailEventViewController
-@synthesize idEvent,scrollDetailEvent,startdate,enddate,description,webView,imageDetailEvent,album1,album2,album3,titleDescription,tabBarAle,tabBarItemAle,tabBarItemPlace,tabBarItemHome,tabBarItemTace,aleViewController,takecareViewController,placeViewController,btItemAle,btItemHome,btItemPlace,btItemTake,titleEvent;
+@synthesize idEvent,scrollDetailEvent,startdate,enddate,description,webView,imageDetailEvent,album1,album2,album3,titleDescription,tabBarAle,tabBarItemAle,tabBarItemPlace,tabBarItemHome,tabBarItemTace,aleViewController,takecareViewController,placeViewController,btItemAle,btItemHome,btItemPlace,btItemTake,titleEvent,viewBg;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -104,6 +105,9 @@
     
 }
 - (void)setFlagView:(NSNotification *)notification {
+    if ([[notification.userInfo objectForKey:@"nameView"] isEqualToString:@"APShowFullMapViewController"]) {
+        flagShowFull = flagClass;
+    }
     flagClass = [notification.userInfo objectForKey:@"nameView"];
     if ([flagClass isEqualToString:@"APPlaceMapViewController"]) {
         flagMap = @"APPlaceMapViewController";
@@ -154,7 +158,7 @@
         return;
     }
     if ([flagClass isEqualToString:@"APShowFullMapViewController"]) {
-        flagClass = @"APDetailStadiumViewController";
+        flagClass = flagShowFull;
         [[NSNotificationCenter defaultCenter]postNotificationName:kRemoveAPShowFullMapViewController object:self];
         return;
     }
@@ -261,6 +265,7 @@
         
    }
     self.webView.frame = CGRectMake(self.webView.frame.origin.x, CGRectGetMaxY(self.album1.frame)+10, self.webView.frame.size.width, self.webView.frame.size.height);
+    webView.layer.zPosition = 1000;
     if (event.media.count > 0) {
         NSURL *urlforWebView=[NSURL URLWithString:[event.media objectAtIndex:0]];
         NSURLRequest *urlRequest=[NSURLRequest requestWithURL:urlforWebView];
@@ -479,6 +484,7 @@
     UIButton *bt = sender;
     if (bt.tag != 1000) {
         [self.navigationController popViewControllerAnimated:NO];
+        [APAppDelegate appDelegate].idCity = 0;
     }
 }
 @end
