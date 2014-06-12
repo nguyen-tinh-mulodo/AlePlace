@@ -162,7 +162,7 @@
         APEvent *event = [listEvents objectAtIndex:indexPath.row];
         cell.nameEvent.text = event.nameEvent;
         cell.dateEvent.text = [NSString stringWithFormat:@"%@-%@",[FMUtils timeToDate:event.start_dateEvent],[FMUtils timeToDate:event.end_dateEvent]];
-        [cell.imageEvent setImageWithURL:[NSURL URLWithString:event.thumb_photoEvent] placeholderImage:nil];
+        [cell.imageEvent setImageWithURL:[NSURL URLWithString:event.thumb_photoEvent] placeholderImage:[UIImage imageNamed:@"placeholder"]];
         return cell;
     }else{
         static NSString *CellIdentifier = @"APEventCellTableViewCell";
@@ -178,7 +178,7 @@
         APEvent *event = [listEvents objectAtIndex:indexPath.row];
         cell.nameEvent.text = event.nameEvent;
         cell.dateEvent.text = [NSString stringWithFormat:@"%@-%@",[FMUtils timeToDate:event.start_dateEvent],[FMUtils timeToDate:event.end_dateEvent]];
-        [cell.imageEvent setImageWithURL:[NSURL URLWithString:event.thumb_photoEvent] placeholderImage:nil];
+        [cell.imageEvent setImageWithURL:[NSURL URLWithString:event.thumb_photoEvent] placeholderImage:[UIImage imageNamed:@"placeholder"]];
         
         return cell;
 

@@ -144,6 +144,8 @@ NSString *_snip;
    bounds = [[GMSCoordinateBounds alloc] init];
     mapView_ = [GMSMapView mapWithFrame:self.view.frame camera:camera];
     mapView_.myLocationEnabled = YES;
+    mapView_.settings.myLocationButton = YES;
+    mapView_.settings.compassButton = YES;
     //[self.locationManager startUpdatingLocation];
 
     self.view = mapView_;
@@ -179,7 +181,7 @@ NSString *_snip;
     myMarker.map = mapView_;
     bounds = [bounds includingCoordinate:myMarker.position];
 
-    [mapView_ animateWithCameraUpdate:[GMSCameraUpdate fitBounds:bounds withPadding:30.0f]];
+    [mapView_ animateWithCameraUpdate:[GMSCameraUpdate fitBounds:bounds withPadding:60.0f]];
     CLLocation* stadiumLocation =
     [[CLLocation alloc]
      initWithLatitude: [APAppDelegate appDelegate].lat
@@ -208,8 +210,6 @@ NSString *_snip;
 
     [mapView_ addSubview:distanceFromHere];
     distanceFromHere.text=[NSString stringWithFormat:@"Distance from here : %d km",roundedDistance];
-    distanceFromHere.backgroundColor=[UIColor grayColor];
-    distanceFromHere.alpha=0.8;
     
     [self.view addSubview:showLocation];
     
