@@ -14,11 +14,15 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="139"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="tag.png" translatesAutoresizingMaskIntoConstraints="NO" id="sZG-IP-dNU">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="tag.png" translatesAutoresizingMaskIntoConstraints="NO" id="sZG-IP-dNU">
                         <rect key="frame" x="5" y="0.0" width="82" height="139"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="139" id="KhZ-h8-zl1"/>
+                            <constraint firstAttribute="width" constant="82" id="pf2-3X-Rfi"/>
+                        </constraints>
                     </imageView>
-                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Arena Amazonia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="Jb7-7S-EE4">
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Arena Amazonia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="Jb7-7S-EE4">
                         <rect key="frame" x="95" y="13" width="159" height="21"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
@@ -94,6 +98,7 @@
                     <constraint firstItem="YRc-lP-few" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="Sad-2g-LTW"/>
                     <constraint firstAttribute="trailing" secondItem="YRc-lP-few" secondAttribute="trailing" constant="6" id="Zbf-14-I8A"/>
                     <constraint firstItem="Jb7-7S-EE4" firstAttribute="leading" secondItem="sZG-IP-dNU" secondAttribute="trailing" constant="8" id="byZ-kn-DKb"/>
+                    <constraint firstItem="sZG-IP-dNU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="gFZ-EM-SSj"/>
                     <constraint firstItem="BoQ-3a-OzS" firstAttribute="top" secondItem="YRc-lP-few" secondAttribute="bottom" constant="23" id="mS9-OT-KSm"/>
                 </constraints>
             </tableViewCellContentView>

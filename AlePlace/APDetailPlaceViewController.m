@@ -20,7 +20,7 @@
 @end
 
 @implementation UIView (ARES)
-
+UIImage *markerImg;
 - (void)roundCornerShadowAndBorder {
     
     [self.layer setCornerRadius:6];
@@ -74,6 +74,56 @@
 }
 -(void)loadData{
     
+    // load image marker
+    CGSize markerSize=CGSizeMake(35, 50);
+
+    NSString *catagory=[place.category_id stringByTrimmingCharactersInSet:
+                        [NSCharacterSet whitespaceCharacterSet]];
+    switch ([catagory intValue]) {
+        case 1:
+            markerImg=[FMUtils imageWithImage:[UIImage imageNamed:@"Shopping_map"] scaledToSize:markerSize];
+            break;
+        case 2:
+            markerImg=[FMUtils imageWithImage:[UIImage imageNamed:@"Eat&-drink_map"] scaledToSize:markerSize];
+            break;
+        case 3:
+            markerImg=[FMUtils imageWithImage:[UIImage imageNamed:@"police_map"] scaledToSize:markerSize];
+            
+            break;
+        case 4:
+            markerImg=[FMUtils imageWithImage:[UIImage imageNamed:@"hospital_map"] scaledToSize:markerSize];
+            
+            break;
+        case 5:
+            markerImg=[FMUtils imageWithImage:[UIImage imageNamed:@"Thing-to-do_map"] scaledToSize:markerSize];
+            
+            break;
+        case 6:
+            markerImg=[FMUtils imageWithImage:[UIImage imageNamed:@"See_map"] scaledToSize:markerSize];
+            
+            break;
+        case 7:
+            markerImg=[FMUtils imageWithImage:[UIImage imageNamed:@"Restaurant_map"] scaledToSize:markerSize];
+            break;
+        case 8:
+            markerImg=[FMUtils imageWithImage:[UIImage imageNamed:@"Tour_map"] scaledToSize:markerSize];
+            
+            break;
+        case 9:
+            markerImg=[FMUtils imageWithImage:[UIImage imageNamed:@"transport_map"] scaledToSize:markerSize];
+            
+            break;
+        case 10:
+            markerImg=[FMUtils imageWithImage:[UIImage imageNamed:@"Hotel_map"] scaledToSize:markerSize];
+            
+            break;
+            
+        default:
+            markerImg=[FMUtils imageWithImage:[UIImage imageNamed:@"Places-icon"] scaledToSize:markerSize];
+            break;
+    }
+    
+    
     GMSCameraPosition *camera = [GMSCameraPosition cameraWithLatitude:place.latitude
                                                             longitude:place.longitude
                                                                  zoom:20];
@@ -86,7 +136,7 @@
     marker.position = CLLocationCoordinate2DMake(place.latitude, place.longitude);
     marker.title = place.nameplace;
     marker.snippet = place.city;
-     UIImage *markerImg=[FMUtils imageWithImage:[UIImage imageNamed:@"stadium_map"] scaledToSize:CGSizeMake(50, 50)];
+    
     marker.icon=markerImg;
     marker.map = mapView_;
     self.titleDetail.text = place.nameplace;

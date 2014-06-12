@@ -144,6 +144,14 @@
 		CE6C0971194612C200455A5B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE6C0970194612C200455A5B /* MapKit.framework */; };
 		CE6C0974194613AC00455A5B /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C0973194613AC00455A5B /* MapAnnotation.m */; };
 		CE6C09771946159100455A5B /* APMyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6C09761946159100455A5B /* APMyAnnotation.m */; };
+		CE8AA9941949808B0005C14E /* Location_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8AA9931949808B0005C14E /* Location_icon.png */; };
+		CE8AA99B1949892E0005C14E /* app-icon29.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8AA9951949892E0005C14E /* app-icon29.png */; };
+		CE8AA99C1949892E0005C14E /* app-icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8AA9961949892E0005C14E /* app-icon57.png */; };
+		CE8AA99D1949892E0005C14E /* app-icon58.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8AA9971949892E0005C14E /* app-icon58.png */; };
+		CE8AA99E1949892E0005C14E /* app-icon80.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8AA9981949892E0005C14E /* app-icon80.png */; };
+		CE8AA99F1949892E0005C14E /* app-icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8AA9991949892E0005C14E /* app-icon114.png */; };
+		CE8AA9A01949892E0005C14E /* app-icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8AA99A1949892E0005C14E /* app-icon120.png */; };
+		CE8AA9A219498BC90005C14E /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = CE8AA9A119498BC90005C14E /* placeholder.png */; };
 		CEDFBE6A1946E082000BA0F4 /* Eat&-drink_map.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDFBE5F1946E082000BA0F4 /* Eat&-drink_map.png */; };
 		CEDFBE6B1946E082000BA0F4 /* hospital_map.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDFBE601946E082000BA0F4 /* hospital_map.png */; };
 		CEDFBE6C1946E082000BA0F4 /* Hotel_map.png in Resources */ = {isa = PBXBuildFile; fileRef = CEDFBE611946E082000BA0F4 /* Hotel_map.png */; };
@@ -355,6 +363,14 @@
 		CE6C0973194613AC00455A5B /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
 		CE6C09751946159100455A5B /* APMyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APMyAnnotation.h; sourceTree = "<group>"; };
 		CE6C09761946159100455A5B /* APMyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APMyAnnotation.m; sourceTree = "<group>"; };
+		CE8AA9931949808B0005C14E /* Location_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Location_icon.png; sourceTree = "<group>"; };
+		CE8AA9951949892E0005C14E /* app-icon29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon29.png"; sourceTree = "<group>"; };
+		CE8AA9961949892E0005C14E /* app-icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon57.png"; sourceTree = "<group>"; };
+		CE8AA9971949892E0005C14E /* app-icon58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon58.png"; sourceTree = "<group>"; };
+		CE8AA9981949892E0005C14E /* app-icon80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon80.png"; sourceTree = "<group>"; };
+		CE8AA9991949892E0005C14E /* app-icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon114.png"; sourceTree = "<group>"; };
+		CE8AA99A1949892E0005C14E /* app-icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon120.png"; sourceTree = "<group>"; };
+		CE8AA9A119498BC90005C14E /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 		CEDFBE5F1946E082000BA0F4 /* Eat&-drink_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Eat&-drink_map.png"; sourceTree = "<group>"; };
 		CEDFBE601946E082000BA0F4 /* hospital_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hospital_map.png; sourceTree = "<group>"; };
 		CEDFBE611946E082000BA0F4 /* Hotel_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hotel_map.png; sourceTree = "<group>"; };
@@ -503,6 +519,14 @@
 		18906BE71940A25C0072EC38 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				CE8AA9A119498BC90005C14E /* placeholder.png */,
+				CE8AA9951949892E0005C14E /* app-icon29.png */,
+				CE8AA9961949892E0005C14E /* app-icon57.png */,
+				CE8AA9971949892E0005C14E /* app-icon58.png */,
+				CE8AA9981949892E0005C14E /* app-icon80.png */,
+				CE8AA9991949892E0005C14E /* app-icon114.png */,
+				CE8AA99A1949892E0005C14E /* app-icon120.png */,
+				CE8AA9931949808B0005C14E /* Location_icon.png */,
 				18BEFA331948449D0009C1CF /* app-icon.png */,
 				CE06340A1947FD4500A88347 /* ball.png */,
 				CE06340B1947FD4500A88347 /* shadow.png */,
@@ -1005,6 +1029,7 @@
 				CEDFBE741946E082000BA0F4 /* transport_map.png in Resources */,
 				18BEF8631942C28D0009C1CF /* MyNY.jpg in Resources */,
 				18BEFA2D1947745E0009C1CF /* APEventCellTableViewCell.xib in Resources */,
+				CE8AA99C1949892E0005C14E /* app-icon57.png in Resources */,
 				18BEF8621942C28D0009C1CF /* esquina.jpg in Resources */,
 				CE5C4ECF19484F33005F2218 /* APDetailPlaceViewController.xib in Resources */,
 				18BEF9DD19460B120009C1CF /* APEcheduleViewController.xib in Resources */,
@@ -1012,6 +1037,7 @@
 				CEDFBE6D1946E082000BA0F4 /* police_map.png in Resources */,
 				CE0634011947FD1400A88347 /* star.png in Resources */,
 				18BEF82519422A2E0009C1CF /* Ale_01_14.png in Resources */,
+				CE8AA99F1949892E0005C14E /* app-icon114.png in Resources */,
 				CE06340F1947FD4500A88347 /* tag.png in Resources */,
 				18BEFA3A1948B2930009C1CF /* APStadiumTableViewCell.xib in Resources */,
 				18BEF8441942B7AF0009C1CF /* transport.png in Resources */,
@@ -1032,20 +1058,24 @@
 				18BEF85F1942C28D0009C1CF /* casa-da-vila-700x391.png in Resources */,
 				CE0633FE1947FD1400A88347 /* Loading.jpg in Resources */,
 				18BEFA3219477BD30009C1CF /* APPlaceDataListViewController.xib in Resources */,
+				CE8AA9A01949892E0005C14E /* app-icon120.png in Resources */,
 				18906C3D194167090072EC38 /* APEventTableViewCell.xib in Resources */,
 				18906BE619409FBB0072EC38 /* APLaunchImageViewController.xib in Resources */,
+				CE8AA99D1949892E0005C14E /* app-icon58.png in Resources */,
 				18BEF8671942C28D0009C1CF /* shopping.jpg in Resources */,
 				18BEF9E919461E0D0009C1CF /* APMoreViewController.xib in Resources */,
 				CEDFBE6C1946E082000BA0F4 /* Hotel_map.png in Resources */,
 				18BEF87919430A2C0009C1CF /* Back-button-.png in Resources */,
 				18BEFA341948449D0009C1CF /* app-icon.png in Resources */,
 				CE0634081947FD3800A88347 /* Places-icon-hover.png in Resources */,
+				CE8AA9941949808B0005C14E /* Location_icon.png in Resources */,
 				18BEF87E19430A2C0009C1CF /* Takecare-but.png in Resources */,
 				18BEF89219445E4B0009C1CF /* APDetailStadiumViewController.xib in Resources */,
 				18BEF87819430A2C0009C1CF /* Ale-button.png in Resources */,
 				18BEF82619422A2E0009C1CF /* Ale_01_15.png in Resources */,
 				CEDFBE731946E082000BA0F4 /* Tour_map.png in Resources */,
 				18BEF8601942C28D0009C1CF /* do.png in Resources */,
+				CE8AA9A219498BC90005C14E /* placeholder.png in Resources */,
 				18BEF9D11944C7810009C1CF /* APShowFullMapViewController.xib in Resources */,
 				18BEF82319422A2E0009C1CF /* Ale_01_11.png in Resources */,
 				18BEF87C19430A2C0009C1CF /* More.png in Resources */,
@@ -1064,6 +1094,7 @@
 				18BEF87F19430A2C0009C1CF /* Title.png in Resources */,
 				18906BEE1940A2D00072EC38 /* APHomeViewController.xib in Resources */,
 				18BEF87A19430A2C0009C1CF /* Back-button.png in Resources */,
+				CE8AA99E1949892E0005C14E /* app-icon80.png in Resources */,
 				CEDFBE6E1946E082000BA0F4 /* Restaurant_map.png in Resources */,
 				18BEF8411942B7AF0009C1CF /* maps.png in Resources */,
 				CEDFBE6F1946E082000BA0F4 /* See_map.png in Resources */,
@@ -1074,6 +1105,7 @@
 				18BEF81119418F630009C1CF /* APDetailEventViewController.xib in Resources */,
 				18BEF8431942B7AF0009C1CF /* take-care_icon.png in Resources */,
 				18BEF8401942B7AF0009C1CF /* hospital.png in Resources */,
+				CE8AA99B1949892E0005C14E /* app-icon29.png in Resources */,
 				CEDFBE6A1946E082000BA0F4 /* Eat&-drink_map.png in Resources */,
 				CEDFBE711946E082000BA0F4 /* stadium_map.png in Resources */,
 				18BEF87D19430A2C0009C1CF /* Places-but.png in Resources */,
