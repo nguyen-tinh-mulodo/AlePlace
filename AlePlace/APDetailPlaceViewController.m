@@ -44,7 +44,7 @@ UIImage *markerImg;
 @end
 
 @implementation APDetailPlaceViewController
-@synthesize map,viewContaintImaves,imageDetail,titleDetail,description,address,hours,price,webView,showFull,zoomMax,zoomMin,scrollStadium,place,phone;
+@synthesize map,viewContaintImaves,imageDetail,titleDetail,description,address,hours,price,webView,showFull,zoomMax,zoomMin,scrollStadium,place,imagePhone;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -71,6 +71,13 @@ UIImage *markerImg;
     showFullMapViewController.place = place;
     showFullMapViewController.view.frame = self.view.frame;
     [self.view addSubview:showFullMapViewController.view];
+}
+
+- (IBAction)CallNumber:(id)sender {
+    //show your alert...
+    NSString *phoneNumber = [@"telprompt://" stringByAppendingString: place.phone];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:phoneNumber]];
+    
 }
 -(void)loadData{
     
@@ -136,11 +143,9 @@ UIImage *markerImg;
     marker.position = CLLocationCoordinate2DMake(place.latitude, place.longitude);
     marker.title = place.nameplace;
     marker.snippet = place.city;
-    
     marker.icon=markerImg;
     marker.map = mapView_;
     self.titleDetail.text = place.nameplace;
-    [self.imageDetail roundCornerShadowAndBorder];
     [self.imageDetail setImageWithURL:[NSURL URLWithString:[place.thumb_photoplace stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]] placeholderImage:[UIImage imageNamed:@"placeholder"]];
 
     self.description.text = place.description;
@@ -148,13 +153,19 @@ UIImage *markerImg;
     self.price.text=place.price;
     self.hours.text=place.service_hour;
     self.address.text = place.address;
-    self.phone.text = place.phone;
-    self.phone.userInteractionEnabled=YES;
+    [self.phoneNumber setTitle:place.phone forState:UIControlStateNormal];
+    if([place.phone isEqualToString: @"" ])
+    {
+        imagePhone.hidden=YES;
+    }
 
-    UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc]
-                                             initWithTarget:self action:@selector(phoneTap:)];
-    [self.phone addGestureRecognizer:tapRecognizer];
-    
+//    self.phone.text = place.phone;
+//    self.phone.userInteractionEnabled=YES;
+//
+//    UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc]
+//                                             initWithTarget:self action:@selector(phoneTap:)];
+//    [self.phone addGestureRecognizer:tapRecognizer];
+//    
     
     self.webView.frame = CGRectMake(self.webView.frame.origin.x, CGRectGetMaxY(self.description.frame)+10, self.webView.frame.size.width, self.view.frame.size.height);
     if (place.media.count > 0) {

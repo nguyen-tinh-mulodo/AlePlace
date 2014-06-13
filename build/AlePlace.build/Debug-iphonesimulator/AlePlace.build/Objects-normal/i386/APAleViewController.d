@@ -1,58 +1,57 @@
-dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/APAleViewController.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/APAleViewController.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APAleViewCellBt.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APEvent.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/FMUtils.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APAleViewCell.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APStadiumViewController.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APStadiumTableViewCell.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APAppDelegate.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APLaunchImageViewController.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APHomeViewController.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APEventTableViewCell.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GoogleMaps.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSAddress.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapView.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapLayer.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCALayer.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSUISettings.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCameraPosition.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCameraUpdate.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCircle.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSOverlay.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCoordinateBounds.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSProjection.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSGeocoder.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSGeometryUtils.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPath.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSGroundOverlay.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSIndoorBuilding.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSIndoorDisplay.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSIndoorLevel.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapView+Animation.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMarker.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMarkerLayer.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMutablePath.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSOrientation.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanorama.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaCamera.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaLayer.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaLink.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaService.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaView.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPolygon.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPolyline.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSServices.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSSyncTileLayer.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSTileLayer.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSURLTileLayer.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/UIImageView+AFNetworking.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFImageRequestOperation.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPRequestOperation.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFURLConnectionOperation.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/FMConstants.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APTeamViewController.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APEcheduleViewController.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APResultViewController.h
+dependencies: /Users/user/Downloads/AlePlace-1/APAleViewController.m \
+  /Users/user/Downloads/AlePlace-1/APAleViewController.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APAleViewCellBt.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APEvent.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/FMUtils.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APAleViewCell.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APStadiumViewController.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APStadiumTableViewCell.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APAppDelegate.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APLaunchImageViewController.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APHomeViewController.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APEventTableViewCell.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GoogleMaps.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSAddress.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapView.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapLayer.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCALayer.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSUISettings.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCameraPosition.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCameraUpdate.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCircle.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSOverlay.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSCoordinateBounds.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSProjection.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSGeocoder.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSGeometryUtils.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPath.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSGroundOverlay.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSIndoorBuilding.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSIndoorDisplay.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSIndoorLevel.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMapView+Animation.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMarker.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMarkerLayer.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSMutablePath.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSOrientation.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanorama.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaCamera.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaCameraUpdate.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaLayer.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaLink.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaService.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPanoramaView.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPolygon.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSPolyline.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSServices.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSSyncTileLayer.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSTileLayer.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/Libarary/GoogleMaps-iOS-1.8.1/GoogleMaps.framework/Headers/GMSURLTileLayer.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/UIImageView+AFNetworking.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFImageRequestOperation.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFHTTPRequestOperation.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFURLConnectionOperation.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/FMConstants.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APTeamViewController.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APEcheduleViewController.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APResultViewController.h

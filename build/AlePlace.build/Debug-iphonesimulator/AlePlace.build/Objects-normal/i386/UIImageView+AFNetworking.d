@@ -1,6 +1,6 @@
 dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/UIImageView+AFNetworking.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/UIImageView+AFNetworking.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFImageRequestOperation.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPRequestOperation.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFURLConnectionOperation.h
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/UIImageView+AFNetworking.m \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/UIImageView+AFNetworking.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFImageRequestOperation.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFHTTPRequestOperation.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFURLConnectionOperation.h

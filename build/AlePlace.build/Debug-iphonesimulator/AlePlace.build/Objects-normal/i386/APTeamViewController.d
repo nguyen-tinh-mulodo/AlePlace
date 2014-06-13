@@ -1,4 +1,4 @@
 dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APTeamViewController.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APTeamViewController.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/FMConstants.h
+  /Users/user/Downloads/AlePlace-1/AlePlace/APTeamViewController.m \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APTeamViewController.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/FMConstants.h

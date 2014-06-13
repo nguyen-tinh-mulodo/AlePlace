@@ -1,5 +1,5 @@
 dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFNetworkActivityIndicatorManager.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFNetworkActivityIndicatorManager.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPRequestOperation.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFURLConnectionOperation.h
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFNetworkActivityIndicatorManager.m \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFNetworkActivityIndicatorManager.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFHTTPRequestOperation.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFURLConnectionOperation.h

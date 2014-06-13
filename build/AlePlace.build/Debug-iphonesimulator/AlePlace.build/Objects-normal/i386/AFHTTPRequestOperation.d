@@ -1,4 +1,4 @@
 dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPRequestOperation.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPRequestOperation.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFURLConnectionOperation.h
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFHTTPRequestOperation.m \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFHTTPRequestOperation.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFURLConnectionOperation.h

@@ -1,3 +1,2 @@
-dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APAleViewCell.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APAleViewCell.h
+dependencies: /Users/user/Downloads/AlePlace-1/AlePlace/APAleViewCell.m \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APAleViewCell.h

@@ -1,5 +1,5 @@
 dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFXMLRequestOperation.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFXMLRequestOperation.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPRequestOperation.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFURLConnectionOperation.h
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFXMLRequestOperation.m \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFXMLRequestOperation.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFHTTPRequestOperation.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFURLConnectionOperation.h

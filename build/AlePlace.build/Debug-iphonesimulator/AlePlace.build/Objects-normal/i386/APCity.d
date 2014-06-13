@@ -1,3 +1,2 @@
-dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCity.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCity.h
+dependencies: /Users/user/Downloads/AlePlace-1/AlePlace/APCity.m \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APCity.h

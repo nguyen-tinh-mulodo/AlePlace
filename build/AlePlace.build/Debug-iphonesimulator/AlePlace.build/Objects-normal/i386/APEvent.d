@@ -1,3 +1,2 @@
-dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APEvent.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APEvent.h
+dependencies: /Users/user/Downloads/AlePlace-1/AlePlace/APEvent.m \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APEvent.h

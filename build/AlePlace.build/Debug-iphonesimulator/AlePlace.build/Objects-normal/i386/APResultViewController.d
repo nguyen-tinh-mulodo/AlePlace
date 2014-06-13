@@ -1,4 +1,4 @@
 dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APResultViewController.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APResultViewController.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/FMConstants.h
+  /Users/user/Downloads/AlePlace-1/AlePlace/APResultViewController.m \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APResultViewController.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/FMConstants.h

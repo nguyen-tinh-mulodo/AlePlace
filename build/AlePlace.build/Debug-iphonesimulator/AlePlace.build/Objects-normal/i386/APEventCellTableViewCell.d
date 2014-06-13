@@ -1,3 +1,3 @@
 dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APEventCellTableViewCell.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APEventCellTableViewCell.h
+  /Users/user/Downloads/AlePlace-1/AlePlace/APEventCellTableViewCell.m \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APEventCellTableViewCell.h

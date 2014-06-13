@@ -1,3 +1,3 @@
 dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APPlaceTableViewCell.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APPlaceTableViewCell.h
+  /Users/user/Downloads/AlePlace-1/AlePlace/APPlaceTableViewCell.m \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APPlaceTableViewCell.h
