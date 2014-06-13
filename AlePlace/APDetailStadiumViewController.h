@@ -23,5 +23,6 @@
 @property(nonatomic,weak) IBOutlet UIButton *zoomMax;
 @property(nonatomic,weak) IBOutlet UIButton *zoomMin;
 @property(nonatomic,weak) IBOutlet UIScrollView *scrollStadium;
+@property(nonatomic,weak) IBOutlet UIWebView *webviewDes;
 -(IBAction)showFullMap:(id)sender;
 @end

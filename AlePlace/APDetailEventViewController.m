@@ -59,7 +59,7 @@
 @end
 
 @implementation APDetailEventViewController
-@synthesize idEvent,scrollDetailEvent,startdate,enddate,description,webView,imageDetailEvent,album1,album2,album3,titleDescription,tabBarAle,tabBarItemAle,tabBarItemPlace,tabBarItemHome,tabBarItemTace,aleViewController,takecareViewController,placeViewController,btItemAle,btItemHome,btItemPlace,btItemTake,titleEvent,viewBg;
+@synthesize idEvent,scrollDetailEvent,startdate,enddate,description,webView,imageDetailEvent,album1,album2,album3,titleDescription,tabBarAle,tabBarItemAle,tabBarItemPlace,tabBarItemHome,tabBarItemTace,aleViewController,takecareViewController,placeViewController,btItemAle,btItemHome,btItemPlace,btItemTake,titleEvent,viewBg,webViewDes;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -232,7 +232,11 @@
 
     self.startdate.text = [FMUtils timeToDate:event.start_dateEvent];
     self.enddate.text = [FMUtils timeToDate:event.end_dateEvent];
+    [webViewDes loadHTMLString:event.descriptionEvent baseURL:nil];
     self.description.text = event.descriptionEvent;
+    webViewDes.scrollView.scrollEnabled = NO;
+    webViewDes.scrollView.bounces = NO;
+    webViewDes.frame =  CGRectMake(self.description.frame.origin.x,CGRectGetMaxY(self.titleDescription.frame), self.description.frame.size.width, [FMUtils heightForCell:event.descriptionEvent size:17 font:@"Helvetica" width:self.description.frame.size.width]);
     self.description.frame = CGRectMake(self.description.frame.origin.x,CGRectGetMaxY(self.titleDescription.frame), self.description.frame.size.width, [FMUtils heightForCell:event.descriptionEvent size:17 font:@"Helvetica" width:self.description.frame.size.width]);
     self.album1.frame = CGRectMake(self.album1.frame.origin.x,CGRectGetMaxY(self.description.frame) + 10, self.album1.frame.size.width, self.album1.frame.size.height);
     self.album2.frame = CGRectMake(self.album2.frame.origin.x,CGRectGetMaxY(self.description.frame) + 10, self.album2.frame.size.width, self.album2.frame.size.height);

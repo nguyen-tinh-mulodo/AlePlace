@@ -32,6 +32,7 @@
 @property(nonatomic,weak)IBOutlet UIButton *btItemPlace;
 @property(nonatomic,weak)IBOutlet UIButton *btItemHome;
 @property(nonatomic,weak)IBOutlet UIView *viewBg;
+@property(nonatomic,weak)IBOutlet UIWebView *webViewDes;
 -(IBAction)showAle:(id)sender;
 -(IBAction)showTake:(id)sender;
 -(IBAction)showPlace:(id)sender;

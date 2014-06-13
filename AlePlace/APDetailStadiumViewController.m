@@ -46,7 +46,7 @@
 
 @implementation APDetailStadiumViewController
 @synthesize map;
-@synthesize stadium,imageDetail,titleDetail,description,capacity,address,webView,showFull,zoomMax,zoomMin,scrollStadium,mapView;
+@synthesize stadium,imageDetail,titleDetail,description,capacity,address,webView,showFull,zoomMax,zoomMin,scrollStadium,mapView,webviewDes;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -96,11 +96,14 @@
     [self.imageDetail roundCornerShadowAndBorder];
     [self.imageDetail setImageWithURL:[NSURL URLWithString:[stadium.thumb_photoStadium stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]] placeholderImage:nil];
     self.description.text = stadium.descriptionStadium;
+    [self.webviewDes loadHTMLString:stadium.descriptionStadium baseURL:nil];
+    self.webviewDes.frame = CGRectMake(self.description.frame.origin.x,CGRectGetMaxY(self.map.frame)+ 30, self.description.frame.size.width, [FMUtils heightForCell:stadium.descriptionStadium size:17 font:@"Helvetica" width:self.description.frame.size.width]);
+    self.address.text = stadium.address;
     self.description.frame = CGRectMake(self.description.frame.origin.x,CGRectGetMaxY(self.map.frame)+ 20, self.description.frame.size.width, [FMUtils heightForCell:stadium.descriptionStadium size:17 font:@"Helvetica" width:self.description.frame.size.width]);
     self.address.text = stadium.address;
     self.capacity.text = [NSString stringWithFormat:@"%d",stadium.capacity];
     
-    
+    self.description.hidden = YES;
      self.webView.frame = CGRectMake(self.webView.frame.origin.x, CGRectGetMaxY(self.description.frame)+10, self.webView.frame.size.width, self.view.frame.size.height);
     if (stadium.media.count > 0) {
         NSURL *urlforWebView=[NSURL URLWithString:[stadium.media objectAtIndex:0]];
