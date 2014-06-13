@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "APEventTableViewCell.h"
-@interface APHomeViewController : UIViewController
+#import "GADBannerViewDelegate.h"
+@interface APHomeViewController : UIViewController<GADBannerViewDelegate>
 @property (nonatomic,weak)IBOutlet UITableView *tableViewEvent;
 @property (nonatomic,weak)IBOutlet UIImageView *imageViewStart;
 @property (nonatomic,weak)IBOutlet UIImageView *imageViewRound;
