@@ -20,6 +20,7 @@
 #import "FMUtils.h"
 #import "APEventCellTableViewCell.h"
 #import "APHeader.h"
+#import "GADBannerView.h"
 @interface UIView (ARES)
 
 - (void)roundCornerShadowAndBorder;
@@ -49,6 +50,7 @@
     NSMutableArray *listEvents;
     BOOL flagMore;
     APHeader *view;
+    GADBannerView *bannerView;
 }
 @end
 
@@ -102,7 +104,7 @@
     [view addSubview:titleHeader];
      [self.navigationController.navigationBar addSubview:view];
       [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(setTextLable:) name:editTitle object:nil];
-    
+    [self showbannerAdmod];
 }
 
 -(void)callAPIGetEvents{
@@ -282,5 +284,44 @@
 
 -(void)setTextLable:(NSNotification *)notification{
     self.titleHeader.text = [notification.userInfo objectForKey:editTitle] ;
+}
+-(void)showbannerAdmod{
+    if ([kUseAdmod isEqualToString:@"YES"]) {
+        if (bannerView) {
+            [bannerView removeFromSuperview];
+        }
+        bannerView = [[GADBannerView alloc]initWithAdSize:kGADAdSizeSmartBannerPortrait origin:CGPointMake(0, 0)];
+        bannerView.rootViewController = self;
+        bannerView.delegate = self;
+        bannerView.adUnitID = ADMOBS_ID;
+        bannerView.layer.zPosition = 100;
+        [bannerView loadRequest:[GADRequest request]];
+        /*UIView *bannerAdmod = [[UIView alloc]initWithFrame:CGRectMake(0, self.view.frame.size.height - kHeightWhenAdmod, self.view.frame.size.width, kHeightWhenAdmod)];
+         [bannerAdmod addSubview:bannerView];
+         bannerAdmod.layer.zPosition =0;
+         */
+        bannerView.frame = CGRectMake(0, self.view.frame.size.height - kHeightWhenAdmod, self.view.frame.size.width, kHeightWhenAdmod);
+        [self.view addSubview:bannerView];
+        [bannerView setHidden:YES];
+        
+        // turn off scrolling on Ads
+        for (UIWebView *webViewAD in bannerView.subviews) {
+            if ([webViewAD isKindOfClass:[UIWebView class]]) {
+                webViewAD.scrollView.bounces = NO;
+            }
+        }
+        
+        
+        
+    }
+    
+}
+#pragma GADBannerViewDelegate
+- (void)adViewDidReceiveAd:(GADBannerView *)view{
+    
+}
+- (void)adView:(GADBannerView *)view
+didFailToReceiveAdWithError:(GADRequestError *)error{
+    
 }
 @end

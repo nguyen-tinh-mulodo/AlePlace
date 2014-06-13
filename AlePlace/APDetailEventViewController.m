@@ -461,7 +461,7 @@
         //}
         aleViewController.event = [[APEvent alloc] init];
         aleViewController.event = [listEvents objectAtIndex:0];
-        aleViewController.view.frame = CGRectMake(0, aleViewController.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height - tabBarAle.frame.size.height);
+        aleViewController.view.frame = CGRectMake(0, aleViewController.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height - tabBarAle.frame.size.height +10);
         [aleViewController layout];
         //aleViewController.aleScroll.frame = CGRectMake(0, aleViewController.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height - 50);
         [self.view addSubview:aleViewController.view];
@@ -484,7 +484,7 @@
         //if (!takecareViewController) {
             takecareViewController = [[APTakecareViewController alloc] initWithNibName:@"APTakecareViewController" bundle:nil];
         //}
-        takecareViewController.view.frame = CGRectMake(0, takecareViewController.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height - tabBarAle.frame.size.height);
+        takecareViewController.view.frame = CGRectMake(0, takecareViewController.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height - tabBarAle.frame.size.height+10);
         //aleViewController.aleScroll.frame = CGRectMake(0, aleViewController.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height - 50);
         [self.view addSubview:takecareViewController.view];
         [aleViewController.view removeFromSuperview];
@@ -505,7 +505,7 @@
         //if (!placeViewController) {
             placeViewController = [[APPlaceViewController alloc] initWithNibName:@"APPlaceViewController" bundle:nil];
         //}
-        placeViewController.view.frame = CGRectMake(0, placeViewController.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height - tabBarAle.frame.size.height);
+        placeViewController.view.frame = CGRectMake(0, placeViewController.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height - tabBarAle.frame.size.height+10);
         //aleViewController.aleScroll.frame = CGRectMake(0, aleViewController.view.frame.origin.y, self.view.frame.size.width, self.view.frame.size.height - 50);
         [self.view addSubview:placeViewController.view];
         [aleViewController.view removeFromSuperview];
@@ -562,7 +562,7 @@
         // turn off scrolling on Ads
         for (UIWebView *webViewAD in bannerView.subviews) {
             if ([webViewAD isKindOfClass:[UIWebView class]]) {
-                webView.scrollView.bounces = NO;
+                webViewAD.scrollView.bounces = NO;
             }
         }
         
