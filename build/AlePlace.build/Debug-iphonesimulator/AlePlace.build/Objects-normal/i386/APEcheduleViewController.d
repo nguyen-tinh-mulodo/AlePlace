@@ -1,4 +1,4 @@
 dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APEcheduleViewController.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APEcheduleViewController.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/FMConstants.h
+  /Users/user/Downloads/AlePlace-1/AlePlace/APEcheduleViewController.m \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APEcheduleViewController.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/FMConstants.h

@@ -1,5 +1,5 @@
 dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APAlePlaceNetWork.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APAlePlaceNetWork.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPClient.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFURLConnectionOperation.h
+  /Users/user/Downloads/AlePlace-1/AlePlace/APAlePlaceNetWork.m \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APAlePlaceNetWork.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFHTTPClient.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFURLConnectionOperation.h

@@ -1,9 +1,8 @@
-dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCallAPI.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APAlePlaceNetWork.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFHTTPClient.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/AFNetworking/AFURLConnectionOperation.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APEvent.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APParserData.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APStadium.h
+dependencies: /Users/user/Downloads/AlePlace-1/AlePlace/APCallAPI.m \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APCallAPI.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APAlePlaceNetWork.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFHTTPClient.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/AFNetworking/AFURLConnectionOperation.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APEvent.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APParserData.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APStadium.h

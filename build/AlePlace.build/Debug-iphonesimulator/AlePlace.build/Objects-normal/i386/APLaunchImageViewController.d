@@ -1,3 +1,3 @@
 dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APLaunchImageViewController.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APLaunchImageViewController.h
+  /Users/user/Downloads/AlePlace-1/AlePlace/APLaunchImageViewController.m \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APLaunchImageViewController.h

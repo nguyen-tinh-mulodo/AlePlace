@@ -1,4 +1,3 @@
-dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APMyAnnotation.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APMyAnnotation.h \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/MapAnnotation.h
+dependencies: /Users/user/Downloads/AlePlace-1/AlePlace/APMyAnnotation.m \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APMyAnnotation.h \
+  /Users/user/Downloads/AlePlace-1/AlePlace/MapAnnotation.h

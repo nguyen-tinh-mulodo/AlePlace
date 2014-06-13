@@ -1,3 +1,2 @@
-dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCountry.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APCountry.h
+dependencies: /Users/user/Downloads/AlePlace-1/AlePlace/APCountry.m \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APCountry.h

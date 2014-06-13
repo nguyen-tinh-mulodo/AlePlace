@@ -1,3 +1,2 @@
-dependencies: \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APStadium.m \
-  /Volumes/Macintosh\ HD\ 2/Xcode/Project/AlePlace/AlePlace/APStadium.h
+dependencies: /Users/user/Downloads/AlePlace-1/AlePlace/APStadium.m \
+  /Users/user/Downloads/AlePlace-1/AlePlace/APStadium.h
