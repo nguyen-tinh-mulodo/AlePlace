@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "FMControllShowFullImage.h"
-@interface APDetailEventViewController : UIViewController<UIScrollViewDelegate,UITabBarDelegate,FMControllShowFullImageDelegate>
+#import "GADBannerViewDelegate.h"
+@interface APDetailEventViewController : UIViewController<UIScrollViewDelegate,UITabBarDelegate,FMControllShowFullImageDelegate,GADBannerViewDelegate>
 @property(nonatomic,readwrite)NSInteger idEvent;
 @property(nonatomic,weak)IBOutlet UILabel *titleEvent;
 @property(nonatomic,weak)IBOutlet UIScrollView *scrollDetailEvent;

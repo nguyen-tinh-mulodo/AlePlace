@@ -18,6 +18,7 @@
 #import "FMConstants.h"
 #import "APStadiumViewController.h"
 #import "FMControllShowFullImage.h"
+#import "GADBannerView.h"
 @interface UIView (ARES)
 
 - (void)roundCornerShadowAndBorder;
@@ -50,6 +51,7 @@
     NSString *flagShowFull;
     FMControllShowFullImage  *controllShowFullImage;
     APEvent *dataEvent;
+    GADBannerView *bannerView;
 }
 @property (nonatomic,strong)APAleViewController *aleViewController;
 @property (nonatomic,strong)APTakecareViewController *takecareViewController;
@@ -105,6 +107,8 @@
     [[NSNotificationCenter defaultCenter]postNotificationName:editTitle object:self userInfo:@{editTitle: title}];
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(setFlagView:) name:kAleViewController object:nil];
     [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(popViewControllerAnimated) name:ktest object:nil];
+    
+    [self showbannerAdmod];
     
 }
 - (void)setFlagView:(NSNotification *)notification {
@@ -251,6 +255,9 @@
     [album2 roundCornerShadowAndBorder];
     [album3 roundCornerShadowAndBorder];
     album1.userInteractionEnabled = YES;
+    album1.imageView.image = [UIImage imageNamed:@"placeholder.png"];
+    album2.imageView.image = [UIImage imageNamed:@"placeholder.png"];
+    album3.imageView.image = [UIImage imageNamed:@"placeholder.png"];
     album2.tag = 2;
     album2.userInteractionEnabled = YES;
     album3.tag = 3;
@@ -532,5 +539,44 @@
     [self presentViewController:controllShowFullImage animated:YES completion:nil];
 }
 - (void)navigationBarHidden{
+}
+-(void)showbannerAdmod{
+    if ([kUseAdmod isEqualToString:@"YES"]) {
+        if (bannerView) {
+            [bannerView removeFromSuperview];
+        }
+        bannerView = [[GADBannerView alloc]initWithAdSize:kGADAdSizeSmartBannerPortrait origin:CGPointMake(0, 0)];
+        bannerView.rootViewController = self;
+        bannerView.delegate = self;
+        bannerView.adUnitID = ADMOBS_ID;
+        bannerView.layer.zPosition = 100;
+        [bannerView loadRequest:[GADRequest request]];
+        /*UIView *bannerAdmod = [[UIView alloc]initWithFrame:CGRectMake(0, self.view.frame.size.height - kHeightWhenAdmod, self.view.frame.size.width, kHeightWhenAdmod)];
+         [bannerAdmod addSubview:bannerView];
+         bannerAdmod.layer.zPosition =0;
+         */
+        bannerView.frame = CGRectMake(0, self.view.frame.size.height - kHeightWhenAdmod, self.view.frame.size.width, kHeightWhenAdmod);
+        [self.view addSubview:bannerView];
+        [bannerView setHidden:YES];
+        
+        // turn off scrolling on Ads
+        for (UIWebView *webViewAD in bannerView.subviews) {
+            if ([webViewAD isKindOfClass:[UIWebView class]]) {
+                webView.scrollView.bounces = NO;
+            }
+        }
+        
+        
+        
+    }
+    
+}
+#pragma GADBannerViewDelegate
+- (void)adViewDidReceiveAd:(GADBannerView *)view{
+    
+}
+- (void)adView:(GADBannerView *)view
+didFailToReceiveAdWithError:(GADRequestError *)error{
+   
 }
 @end
